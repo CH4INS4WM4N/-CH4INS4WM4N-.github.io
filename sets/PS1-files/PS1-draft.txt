@@ -7,7 +7,7 @@
 			"type": "Legendary Artifact Creature — Assembly-Worker",
 			"collector_number": "514",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/514_Thrice, Factory Heads.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/514_Thrice, Factory Heads.jpg"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Legendary Planeswalker",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/6_Worker Prime, Model Employee.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/6_Worker Prime, Model Employee.jpg"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Legendary Artifact — Vehicle",
 			"collector_number": "455",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/455_Earth-Grinder, Iron Devastator.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/455_Earth-Grinder, Iron Devastator.jpg"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 			"type": "Basic Artifact Land — Factory",
 			"collector_number": "532",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/532_Factory.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/532_Factory.jpg"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "Land",
 			"collector_number": "523",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/523_Clockwork City.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/523_Clockwork City.jpg"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"type": "Artifact Land",
 			"collector_number": "541",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/541_Massive Energy Module.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/541_Massive Energy Module.jpg"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 			"type": "Artifact Land",
 			"collector_number": "537",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/537_Imposing Foundry.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/537_Imposing Foundry.jpg"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"type": "Land",
 			"collector_number": "553",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/553_Skyway Transit.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/553_Skyway Transit.jpg"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 			"type": "Artifact Land — Vehicle",
 			"collector_number": "543",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/543_Mobile Sky Port.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/543_Mobile Sky Port.jpg"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "Artifact Creature — Assembly-Worker Horror",
 			"collector_number": "438",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/438_Assembly Nightmare.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/438_Assembly Nightmare.jpg"
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "446",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/446_Cog Cleaner.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/446_Cog Cleaner.jpg"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "451",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/451_Demolition Mech.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/451_Demolition Mech.jpg"
 			}
 		},
 		{
@@ -127,7 +127,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "441",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/441_Brutalizer Mech.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/441_Brutalizer Mech.jpg"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "432",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/432_Apocalypse Mech.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/432_Apocalypse Mech.jpg"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"type": "Artifact Creature — Horror",
 			"collector_number": "465",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/465_Flesh Imitator.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/465_Flesh Imitator.jpg"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 			"type": "Artifact Creature — Construct",
 			"collector_number": "468",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/468_Generator Mech.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/468_Generator Mech.jpg"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "481",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/481_Lobotomizer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/481_Lobotomizer.jpg"
 			}
 		},
 		{
@@ -177,7 +177,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "506",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/506_Scrapyard Gravecrawler.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/506_Scrapyard Gravecrawler.jpg"
 			}
 		},
 		{
@@ -187,7 +187,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "516",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/516_Viscera Collector.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/516_Viscera Collector.jpg"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "501",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/501_Repurposed Crate Worker.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/501_Repurposed Crate Worker.jpg"
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"type": "Legendary Creature — Human Rogue",
 			"collector_number": "397",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/397_'The Dude'.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/397_'The Dude'.jpg"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 			"type": "Legendary Creature — Elf Cook",
 			"collector_number": "301",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/301_Illan, Dazzling Saucier.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/301_Illan, Dazzling Saucier.jpg"
 			}
 		},
 		{
@@ -227,7 +227,7 @@
 			"type": "Legendary Creature — Dwarf Cook",
 			"collector_number": "212",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/212_Baarbus Flamekin, Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/212_Baarbus Flamekin, Chef.jpg"
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 			"type": "Creature — Hag",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/54_Curse Dealer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/54_Curse Dealer.jpg"
 			}
 		},
 		{
@@ -247,7 +247,7 @@
 			"type": "Creature — Human Cook",
 			"collector_number": "135",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/135_Line Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/135_Line Chef.jpg"
 			}
 		},
 		{
@@ -257,7 +257,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/169_High Elf.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/169_High Elf.jpg"
 			}
 		},
 		{
@@ -267,7 +267,7 @@
 			"type": "Artifact",
 			"collector_number": "179",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/179_Passing Grass.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/179_Passing Grass.jpg"
 			}
 		},
 		{
@@ -277,7 +277,7 @@
 			"type": "Enchantment",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/222_Blazed.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/222_Blazed.jpg"
 			}
 		},
 		{
@@ -287,7 +287,7 @@
 			"type": "Creature — Octopus Cook",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/172_Multi-Tasker Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/172_Multi-Tasker Chef.jpg"
 			}
 		},
 		{
@@ -297,7 +297,7 @@
 			"type": "Creature — Human Peasant",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/235_Burner Brigade.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/235_Burner Brigade.jpg"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"type": "Creature — Elemental Giant",
 			"collector_number": "320",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/320_Loafing Barkskin.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/320_Loafing Barkskin.jpg"
 			}
 		},
 		{
@@ -317,7 +317,7 @@
 			"type": "Creature — Orc Cook",
 			"collector_number": "333",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/333_Monster Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/333_Monster Chef.jpg"
 			}
 		},
 		{
@@ -327,7 +327,7 @@
 			"type": "Artifact",
 			"collector_number": "462",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/462_Favored Pipe.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/462_Favored Pipe.jpg"
 			}
 		},
 		{
@@ -337,7 +337,7 @@
 			"type": "Artifact",
 			"collector_number": "510",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/510_Stash Bag.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/510_Stash Bag.jpg"
 			}
 		},
 		{
@@ -347,7 +347,7 @@
 			"type": "Creature — Human Cook",
 			"collector_number": "387",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/387_Sous-Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/387_Sous-Chef.jpg"
 			}
 		},
 		{
@@ -357,7 +357,7 @@
 			"type": "Creature — Human Cook",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/94_Revel Poisoner.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/94_Revel Poisoner.jpg"
 			}
 		},
 		{
@@ -367,7 +367,7 @@
 			"type": "Creature — Human Rogue",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/141_Reckless Dealer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/141_Reckless Dealer.jpg"
 			}
 		},
 		{
@@ -377,7 +377,7 @@
 			"type": "Creature — Bird Cook",
 			"collector_number": "142",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/142_Rush Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/142_Rush Chef.jpg"
 			}
 		},
 		{
@@ -387,7 +387,7 @@
 			"type": "Creature — Human Cook",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/176_Overly Excited Taste Tester.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/176_Overly Excited Taste Tester.jpg"
 			}
 		},
 		{
@@ -397,7 +397,7 @@
 			"type": "Creature — Human Cook",
 			"collector_number": "185",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/185_Soup Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/185_Soup Chef.jpg"
 			}
 		},
 		{
@@ -407,7 +407,7 @@
 			"type": "Legendary Creature — Horror God",
 			"collector_number": "243",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/243_Cthulu, the Deep One.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/243_Cthulu, the Deep One.jpg"
 			}
 		},
 		{
@@ -417,7 +417,7 @@
 			"type": "Legendary Creature — Skeleton Wizard",
 			"collector_number": "341",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/341_Narmenikan, the Archlich.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/341_Narmenikan, the Archlich.jpg"
 			}
 		},
 		{
@@ -427,7 +427,7 @@
 			"type": "Legendary Creature — Zombie Wizard",
 			"collector_number": "401",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/401_Thrasis, Eldritch Lich.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/401_Thrasis, Eldritch Lich.jpg"
 			}
 		},
 		{
@@ -437,7 +437,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "480",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/480_Lich's Phylactery.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/480_Lich's Phylactery.jpg"
 			}
 		},
 		{
@@ -447,7 +447,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "467",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/467_Gateway to the Beyond.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/467_Gateway to the Beyond.jpg"
 			}
 		},
 		{
@@ -457,7 +457,7 @@
 			"type": "Legendary Enchantment Creature — Horror God",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/3_Ormathrokel, God of the Void.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/3_Ormathrokel, God of the Void.jpg"
 			}
 		},
 		{
@@ -467,7 +467,7 @@
 			"type": "Instant",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/25_Deep One's Lashing.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/25_Deep One's Lashing.jpg"
 			}
 		},
 		{
@@ -477,7 +477,7 @@
 			"type": "Instant",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/28_Eldritch Force.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/28_Eldritch Force.jpg"
 			}
 		},
 		{
@@ -487,7 +487,7 @@
 			"type": "Instant",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/40_Persistent Murmors.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/40_Persistent Murmors.jpg"
 			}
 		},
 		{
@@ -497,7 +497,7 @@
 			"type": "Creature — Demon",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/43_Archdemon of Rites.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/43_Archdemon of Rites.jpg"
 			}
 		},
 		{
@@ -507,7 +507,7 @@
 			"type": "Sorcery",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/62_Eldritch Tutor.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/62_Eldritch Tutor.jpg"
 			}
 		},
 		{
@@ -517,7 +517,7 @@
 			"type": "Instant",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/83_Necrotic Touch.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/83_Necrotic Touch.jpg"
 			}
 		},
 		{
@@ -527,7 +527,7 @@
 			"type": "Instant",
 			"collector_number": "98",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/98_Shed Curses.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/98_Shed Curses.jpg"
 			}
 		},
 		{
@@ -537,7 +537,7 @@
 			"type": "Sorcery",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/85_Noxious Breath.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/85_Noxious Breath.jpg"
 			}
 		},
 		{
@@ -547,7 +547,7 @@
 			"type": "Creature — Horror",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/139_Raging Horror.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/139_Raging Horror.jpg"
 			}
 		},
 		{
@@ -557,7 +557,7 @@
 			"type": "Instant",
 			"collector_number": "144",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/144_Snapfire.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/144_Snapfire.jpg"
 			}
 		},
 		{
@@ -567,7 +567,7 @@
 			"type": "Instant",
 			"collector_number": "245",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/245_Dark Dissipation.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/245_Dark Dissipation.jpg"
 			}
 		},
 		{
@@ -577,7 +577,7 @@
 			"type": "Instant",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/260_Eldritch Lightning.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/260_Eldritch Lightning.jpg"
 			}
 		},
 		{
@@ -587,7 +587,7 @@
 			"type": "Creature — Human Warlock",
 			"collector_number": "334",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/334_Moonlit Occultist.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/334_Moonlit Occultist.jpg"
 			}
 		},
 		{
@@ -597,7 +597,7 @@
 			"type": "Creature — Shade Warlock",
 			"collector_number": "377",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/377_Shadow-Wreathed Lich.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/377_Shadow-Wreathed Lich.jpg"
 			}
 		},
 		{
@@ -607,7 +607,7 @@
 			"type": "Land",
 			"collector_number": "534",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/534_Fungal Wasteland.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/534_Fungal Wasteland.jpg"
 			}
 		},
 		{
@@ -617,7 +617,7 @@
 			"type": "Land",
 			"collector_number": "556",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/556_Spore Filled Swamp.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/556_Spore Filled Swamp.jpg"
 			}
 		},
 		{
@@ -627,7 +627,7 @@
 			"type": "Legendary Land",
 			"collector_number": "557",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/557_The Spore That Shrouds All.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/557_The Spore That Shrouds All.jpg"
 			}
 		},
 		{
@@ -637,7 +637,7 @@
 			"type": "Land",
 			"collector_number": "563",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/563_Undergrowth Marsh.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/563_Undergrowth Marsh.jpg"
 			}
 		},
 		{
@@ -647,7 +647,7 @@
 			"type": "Legendary Creature — Fungus Noble",
 			"collector_number": "274",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/274_Fertamai, Rotten Queen.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/274_Fertamai, Rotten Queen.jpg"
 			}
 		},
 		{
@@ -657,7 +657,7 @@
 			"type": "Legendary Creature — Fungus Horror",
 			"collector_number": "294",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/294_He Who Rots.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/294_He Who Rots.jpg"
 			}
 		},
 		{
@@ -667,7 +667,7 @@
 			"type": "Legendary Creature — Fungus Wizard",
 			"collector_number": "305",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/305_Itnoai, the Cultivator.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/305_Itnoai, the Cultivator.jpg"
 			}
 		},
 		{
@@ -677,7 +677,7 @@
 			"type": "Legendary Creature — Rat Wizard",
 			"collector_number": "337",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/337_Mortal-Slayer, the Deadly.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/337_Mortal-Slayer, the Deadly.jpg"
 			}
 		},
 		{
@@ -687,7 +687,7 @@
 			"type": "Instant",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/68_Fungal Rising.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/68_Fungal Rising.jpg"
 			}
 		},
 		{
@@ -697,7 +697,7 @@
 			"type": "Creature — Insect",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/105_Spore Protector.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/105_Spore Protector.jpg"
 			}
 		},
 		{
@@ -707,7 +707,7 @@
 			"type": "Creature — Fungus Rogue",
 			"collector_number": "106",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/106_Spore Trapper.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/106_Spore Trapper.jpg"
 			}
 		},
 		{
@@ -717,7 +717,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/177_Overtake With Fungus.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/177_Overtake With Fungus.jpg"
 			}
 		},
 		{
@@ -727,7 +727,7 @@
 			"type": "Creature — Fungus Beast",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/174_Nature's Revenge.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/174_Nature's Revenge.jpg"
 			}
 		},
 		{
@@ -737,7 +737,7 @@
 			"type": "1 Creature — Fungus",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/180_Patient Spore.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/180_Patient Spore.jpg"
 			}
 		},
 		{
@@ -747,7 +747,7 @@
 			"type": "Creature — Plant Wolf",
 			"collector_number": "186",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/186_Spore Hound.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/186_Spore Hound.jpg"
 			}
 		},
 		{
@@ -757,7 +757,7 @@
 			"type": "Creature — Fungus",
 			"collector_number": "247",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/247_Decaying Toadstool.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/247_Decaying Toadstool.jpg"
 			}
 		},
 		{
@@ -767,7 +767,7 @@
 			"type": "Instant",
 			"collector_number": "302",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/302_Infinite Decay.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/302_Infinite Decay.jpg"
 			}
 		},
 		{
@@ -777,7 +777,7 @@
 			"type": "Creature — Fungus Insect",
 			"collector_number": "381",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/381_Skittering Toadstool.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/381_Skittering Toadstool.jpg"
 			}
 		},
 		{
@@ -787,7 +787,7 @@
 			"type": "Creature — Fungus Zombie",
 			"collector_number": "366",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/366_Ravenous Corpse.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/366_Ravenous Corpse.jpg"
 			}
 		},
 		{
@@ -797,7 +797,7 @@
 			"type": "Creature — Fungus Zombie",
 			"collector_number": "409",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/409_Undergrowth Minion.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/409_Undergrowth Minion.jpg"
 			}
 		},
 		{
@@ -807,7 +807,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "474",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/474_Heinz' Lamp, Ketch.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/474_Heinz' Lamp, Ketch.jpg"
 			}
 		},
 		{
@@ -817,7 +817,7 @@
 			"type": "Legendary Planeswalker — Heinz",
 			"collector_number": "295",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/295_Heinz, Crazed Arcanist.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/295_Heinz, Crazed Arcanist.jpg"
 			}
 		},
 		{
@@ -827,7 +827,7 @@
 			"type": "Legendary Creature — God",
 			"collector_number": "357",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/357_Persephone, Queen of the Underworld.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/357_Persephone, Queen of the Underworld.jpg"
 			}
 		},
 		{
@@ -837,7 +837,7 @@
 			"type": "Legendary Creature — Human Shaman",
 			"collector_number": "375",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/375_Sefera, the Silent Voice.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/375_Sefera, the Silent Voice.jpg"
 			}
 		},
 		{
@@ -847,7 +847,7 @@
 			"type": "Legendary Creature — Snake Warlock",
 			"collector_number": "376",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/376_Sereth, Sister of Body.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/376_Sereth, Sister of Body.jpg"
 			}
 		},
 		{
@@ -857,7 +857,7 @@
 			"type": "Legendary Creature — Snake Warlock",
 			"collector_number": "414",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/414_Veris, Sister of Soul.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/414_Veris, Sister of Soul.jpg"
 			}
 		},
 		{
@@ -867,7 +867,7 @@
 			"type": "Legendary Planeswalker",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/2_He Who Walks Eternity.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/2_He Who Walks Eternity.jpg"
 			}
 		},
 		{
@@ -877,7 +877,7 @@
 			"type": "Legendary Planeswalker — Odan",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/39_Odan, the Surging Storm.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/39_Odan, the Surging Storm.jpg"
 			}
 		},
 		{
@@ -887,7 +887,7 @@
 			"type": "Sorcery",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/61_Eldritch Touch.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/61_Eldritch Touch.jpg"
 			}
 		},
 		{
@@ -897,7 +897,7 @@
 			"type": "Legendary Planeswalker — Liliana",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/78_Liliana, Betrayer of Gods.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/78_Liliana, Betrayer of Gods.jpg"
 			}
 		},
 		{
@@ -907,7 +907,7 @@
 			"type": "Legendary Planeswalker — Neema",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/86_Nyma, Eldritch Weaver.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/86_Nyma, Eldritch Weaver.jpg"
 			}
 		},
 		{
@@ -917,7 +917,7 @@
 			"type": "Legendary Planeswalker — Rab",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/92_Rab, the Withering Host.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/92_Rab, the Withering Host.jpg"
 			}
 		},
 		{
@@ -927,7 +927,7 @@
 			"type": "Legendary Planeswalker — Vicne",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/117_Vicne, Demon Half-Breed.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/117_Vicne, Demon Half-Breed.jpg"
 			}
 		},
 		{
@@ -937,7 +937,7 @@
 			"type": "Sorcery",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/193_Wildlands Exploration.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/193_Wildlands Exploration.jpg"
 			}
 		},
 		{
@@ -947,7 +947,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "171",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/171_Loyal Mystic.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/171_Loyal Mystic.jpg"
 			}
 		},
 		{
@@ -957,7 +957,7 @@
 			"type": "Legendary Planeswalker — Britel",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/232_Britel, King of Bones.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/232_Britel, King of Bones.jpg"
 			}
 		},
 		{
@@ -967,7 +967,7 @@
 			"type": "Legendary Planeswalker — Varai",
 			"collector_number": "412",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/412_Varai, Attendant of the Night.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/412_Varai, Attendant of the Night.jpg"
 			}
 		},
 		{
@@ -977,7 +977,7 @@
 			"type": "Legendary Planeswalker — Itachi",
 			"collector_number": "304",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/304_Itachi of the Sharingan.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/304_Itachi of the Sharingan.jpg"
 			}
 		},
 		{
@@ -987,7 +987,7 @@
 			"type": "Instant",
 			"collector_number": "317",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/317_Leyline Ritual.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/317_Leyline Ritual.jpg"
 			}
 		},
 		{
@@ -997,7 +997,7 @@
 			"type": "Legendary Creature — Human Knight",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/14_Kingslayer Jaime Lannister.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/14_Kingslayer Jaime Lannister.jpg"
 			}
 		},
 		{
@@ -1007,7 +1007,7 @@
 			"type": "Legendary Creature — Human Knight",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/77_King Avelot, Unchallenged.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/77_King Avelot, Unchallenged.jpg"
 			}
 		},
 		{
@@ -1017,7 +1017,7 @@
 			"type": "Legendary Creature — Human Knight",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/13_King Reynauld, Unmatched.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/13_King Reynauld, Unmatched.jpg"
 			}
 		},
 		{
@@ -1027,7 +1027,7 @@
 			"type": "Legendary Creature — Elf Knight",
 			"collector_number": "325",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/325_Mace, Knight of the Outlands.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/325_Mace, Knight of the Outlands.jpg"
 			}
 		},
 		{
@@ -1037,7 +1037,7 @@
 			"type": "Legendary Creature — Frog Knight",
 			"collector_number": "380",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/380_Sir Baynard, Bold Guardian.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/380_Sir Baynard, Bold Guardian.jpg"
 			}
 		},
 		{
@@ -1047,7 +1047,7 @@
 			"type": "Instant",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/17_Strike Down.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/17_Strike Down.jpg"
 			}
 		},
 		{
@@ -1057,7 +1057,7 @@
 			"type": "Creature — Faerie Knight",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/35_Knight of the Fae.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/35_Knight of the Fae.jpg"
 			}
 		},
 		{
@@ -1067,7 +1067,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/103_Somber Black Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/103_Somber Black Knight.jpg"
 			}
 		},
 		{
@@ -1077,7 +1077,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "123",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/123_Blazing Halberdier.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/123_Blazing Halberdier.jpg"
 			}
 		},
 		{
@@ -1087,7 +1087,7 @@
 			"type": "Creature — Human Druid Knight",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/173_Nature Bound Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/173_Nature Bound Knight.jpg"
 			}
 		},
 		{
@@ -1097,7 +1097,7 @@
 			"type": "Enchantment",
 			"collector_number": "206",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/206_Assault on the Enemy.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/206_Assault on the Enemy.jpg"
 			}
 		},
 		{
@@ -1107,7 +1107,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/219_Berserker of the Ridge.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/219_Berserker of the Ridge.jpg"
 			}
 		},
 		{
@@ -1117,7 +1117,7 @@
 			"type": "Creature — Elf Knight",
 			"collector_number": "227",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/227_Bloodthirsty Errant.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/227_Bloodthirsty Errant.jpg"
 			}
 		},
 		{
@@ -1127,7 +1127,7 @@
 			"type": "Legendary Creature — Human Knight",
 			"collector_number": "321",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/321_Lord Tolrn of Old Keep.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/321_Lord Tolrn of Old Keep.jpg"
 			}
 		},
 		{
@@ -1137,7 +1137,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "393",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/393_Swift Guardian.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/393_Swift Guardian.jpg"
 			}
 		},
 		{
@@ -1147,7 +1147,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "329",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/329_Master of the Battlefield.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/329_Master of the Battlefield.jpg"
 			}
 		},
 		{
@@ -1157,7 +1157,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "361",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/361_Prismatic Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/361_Prismatic Knight.jpg"
 			}
 		},
 		{
@@ -1167,7 +1167,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "343",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/343_Night-Veiled Valkyrie.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/343_Night-Veiled Valkyrie.jpg"
 			}
 		},
 		{
@@ -1177,7 +1177,7 @@
 			"type": "Creature — Dwarf Knight",
 			"collector_number": "418",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/418_Wildlands Protector.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/418_Wildlands Protector.jpg"
 			}
 		},
 		{
@@ -1187,7 +1187,7 @@
 			"type": "Enchantment",
 			"collector_number": "415",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/415_War of Attrition.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/415_War of Attrition.jpg"
 			}
 		},
 		{
@@ -1197,7 +1197,7 @@
 			"type": "Legendary Creature — Elf Shaman",
 			"collector_number": "315",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/315_Lelaine, Voice of the Broken.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/315_Lelaine, Voice of the Broken.jpg"
 			}
 		},
 		{
@@ -1207,7 +1207,7 @@
 			"type": "Creature — Centaur Dryad",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/256_Dryad of the Alliance.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/256_Dryad of the Alliance.jpg"
 			}
 		},
 		{
@@ -1217,7 +1217,7 @@
 			"type": "Creature — Zombie Cleric",
 			"collector_number": "356",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/356_Pastor of the Dead.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/356_Pastor of the Dead.jpg"
 			}
 		},
 		{
@@ -1227,7 +1227,7 @@
 			"type": "Legendary Creature — Goat God",
 			"collector_number": "211",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/211_Baah, Who Demands Sacrifice.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/211_Baah, Who Demands Sacrifice.jpg"
 			}
 		},
 		{
@@ -1237,7 +1237,7 @@
 			"type": "Instant",
 			"collector_number": "410",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/410_Unnatural Order.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/410_Unnatural Order.jpg"
 			}
 		},
 		{
@@ -1247,7 +1247,7 @@
 			"type": "Artifact",
 			"collector_number": "477",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/477_Kinship Rift.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/477_Kinship Rift.jpg"
 			}
 		},
 		{
@@ -1257,7 +1257,7 @@
 			"type": "Legendary Land",
 			"collector_number": "547",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/547_Parin's Post.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/547_Parin's Post.jpg"
 			}
 		},
 		{
@@ -1267,7 +1267,7 @@
 			"type": "Legendary Land",
 			"collector_number": "549",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/549_Queen's Court.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/549_Queen's Court.jpg"
 			}
 		},
 		{
@@ -1277,7 +1277,7 @@
 			"type": "Legendary Creature — Phyrexian Assassin",
 			"collector_number": "328",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/328_Marchesa, the Glistening Rose.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/328_Marchesa, the Glistening Rose.jpg"
 			}
 		},
 		{
@@ -1287,7 +1287,7 @@
 			"type": "Instant",
 			"collector_number": "278",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/278_Forbidden Rites.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/278_Forbidden Rites.jpg"
 			}
 		},
 		{
@@ -1297,7 +1297,7 @@
 			"type": "Legendary Creature — Angel Assassin",
 			"collector_number": "322",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/322_Lordslayer Sael, the Merciless.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/322_Lordslayer Sael, the Merciless.jpg"
 			}
 		},
 		{
@@ -1307,7 +1307,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "496",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/496_Queen's Mox.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/496_Queen's Mox.jpg"
 			}
 		},
 		{
@@ -1317,7 +1317,7 @@
 			"type": "Tribal Artifact — Assassin Equipment",
 			"collector_number": "435",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/435_Assassin's Dagger.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/435_Assassin's Dagger.jpg"
 			}
 		},
 		{
@@ -1327,7 +1327,7 @@
 			"type": "Artifact",
 			"collector_number": "488",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/488_Orb of Darkness.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/488_Orb of Darkness.jpg"
 			}
 		},
 		{
@@ -1337,7 +1337,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "423",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/423_Wresacs, the Unwavering.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/423_Wresacs, the Unwavering.jpg"
 			}
 		},
 		{
@@ -1347,7 +1347,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "351",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/351_N'sark, the Brutalizer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/351_N'sark, the Brutalizer.jpg"
 			}
 		},
 		{
@@ -1357,7 +1357,7 @@
 			"type": "Legendary Creature — Angel Assassin",
 			"collector_number": "316",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/316_Lethanar, the Incinerator.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/316_Lethanar, the Incinerator.jpg"
 			}
 		},
 		{
@@ -1370,11 +1370,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/249_Denji, Devil Hearted_back.jpg"
+					"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/249_Denji, Devil Hearted_back.jpg"
 				}
 			},
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/249_Denji, Devil Hearted_front.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/249_Denji, Devil Hearted_front.jpg"
 			}
 		},
 		{
@@ -1384,7 +1384,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/90_Parin, Habitual Killer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/90_Parin, Habitual Killer.jpg"
 			}
 		},
 		{
@@ -1394,7 +1394,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/87_Ofan, Nobleslayer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/87_Ofan, Nobleslayer.jpg"
 			}
 		},
 		{
@@ -1404,7 +1404,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/148_Terathan, the Bleeding Edge.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/148_Terathan, the Bleeding Edge.jpg"
 			}
 		},
 		{
@@ -1414,7 +1414,7 @@
 			"type": "Instant",
 			"collector_number": "225",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/225_Blood Fireball.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/225_Blood Fireball.jpg"
 			}
 		},
 		{
@@ -1424,7 +1424,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "362",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/362_Quei-Sen, Venomous Gift.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/362_Quei-Sen, Venomous Gift.jpg"
 			}
 		},
 		{
@@ -1434,7 +1434,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "306",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/306_Jasai, Queen's Thorn.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/306_Jasai, Queen's Thorn.jpg"
 			}
 		},
 		{
@@ -1444,7 +1444,7 @@
 			"type": "Instant",
 			"collector_number": "292",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/292_Grave Scrying.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/292_Grave Scrying.jpg"
 			}
 		},
 		{
@@ -1454,7 +1454,7 @@
 			"type": "Legendary Creature — Vampire Assassin",
 			"collector_number": "336",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/336_Morasta Calitrex, Moonlit Thief.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/336_Morasta Calitrex, Moonlit Thief.jpg"
 			}
 		},
 		{
@@ -1464,7 +1464,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "238",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/238_Ceri, Burning Confluence.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/238_Ceri, Burning Confluence.jpg"
 			}
 		},
 		{
@@ -1474,7 +1474,7 @@
 			"type": "Instant",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/15_Plowshares to Sword.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/15_Plowshares to Sword.jpg"
 			}
 		},
 		{
@@ -1484,7 +1484,7 @@
 			"type": "Legendary Creature — Elemental Spirit",
 			"collector_number": "386",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/386_Soul of the Dying Earth.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/386_Soul of the Dying Earth.jpg"
 			}
 		},
 		{
@@ -1494,7 +1494,7 @@
 			"type": "Legendary Creature — Faerie Wizard",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/199_Aoife the Wry.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/199_Aoife the Wry.jpg"
 			}
 		},
 		{
@@ -1504,7 +1504,7 @@
 			"type": "Instant",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/38_Obfuscate.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/38_Obfuscate.jpg"
 			}
 		},
 		{
@@ -1514,7 +1514,7 @@
 			"type": "Instant",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/42_Trip.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/42_Trip.jpg"
 			}
 		},
 		{
@@ -1524,7 +1524,7 @@
 			"type": "Instant",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/241_Collective Ritual.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/241_Collective Ritual.jpg"
 			}
 		},
 		{
@@ -1534,7 +1534,7 @@
 			"type": "Legendary Creature — Skeleton Wizard",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/58_Ein, the Envoker.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/58_Ein, the Envoker.jpg"
 			}
 		},
 		{
@@ -1544,7 +1544,7 @@
 			"type": "Instant",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/131_Guarantee.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/131_Guarantee.jpg"
 			}
 		},
 		{
@@ -1554,7 +1554,7 @@
 			"type": "Legendary 6 Creature — Human",
 			"collector_number": "300",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/300_I-VI, First Through Sixth.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/300_I-VI, First Through Sixth.jpg"
 			}
 		},
 		{
@@ -1564,7 +1564,7 @@
 			"type": "Legendary Creature — Human Pirate",
 			"collector_number": "220",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/220_Blaade Vast, Soul Thief.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/220_Blaade Vast, Soul Thief.jpg"
 			}
 		},
 		{
@@ -1574,7 +1574,7 @@
 			"type": "Legendary Creature — Leprehchaun Artificer",
 			"collector_number": "370",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/370_Rubius Sapwood, Shipwright.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/370_Rubius Sapwood, Shipwright.jpg"
 			}
 		},
 		{
@@ -1584,7 +1584,7 @@
 			"type": "Legendary Creature — Shapeshifter",
 			"collector_number": "237",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/237_Calypso, Tattered Shifter.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/237_Calypso, Tattered Shifter.jpg"
 			}
 		},
 		{
@@ -1594,7 +1594,7 @@
 			"type": "Legendary Creature — Human Pirate",
 			"collector_number": "379",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/379_Silver-Beard Vax Caper.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/379_Silver-Beard Vax Caper.jpg"
 			}
 		},
 		{
@@ -1604,7 +1604,7 @@
 			"type": "Legendary Creature — Human Warrior",
 			"collector_number": "271",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/271_Felix Han, the Warrior.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/271_Felix Han, the Warrior.jpg"
 			}
 		},
 		{
@@ -1614,7 +1614,7 @@
 			"type": "Legendary Creature — Avatar Warrior",
 			"collector_number": "217",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/217_Battlefield.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/217_Battlefield.jpg"
 			}
 		},
 		{
@@ -1624,7 +1624,7 @@
 			"type": "Legendary Creature — Shapeshifter",
 			"collector_number": "335",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/335_Moonwhisper, Shape Searching.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/335_Moonwhisper, Shape Searching.jpg"
 			}
 		},
 		{
@@ -1634,7 +1634,7 @@
 			"type": "Legendary Creature — Kobold",
 			"collector_number": "288",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/288_Gnaw, Alone.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/288_Gnaw, Alone.jpg"
 			}
 		},
 		{
@@ -1644,7 +1644,7 @@
 			"type": "Legendary Creature — Shapeshifter Pirate",
 			"collector_number": "236",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/236_Calypso, Golden Bough Captain.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/236_Calypso, Golden Bough Captain.jpg"
 			}
 		},
 		{
@@ -1654,7 +1654,7 @@
 			"type": "Legendary Creature — Shapeshifter Druid",
 			"collector_number": "339",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/339_Naeris Galenodel, First Mate.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/339_Naeris Galenodel, First Mate.jpg"
 			}
 		},
 		{
@@ -1664,7 +1664,7 @@
 			"type": "Legendary Creature — Human Pirate Assassin",
 			"collector_number": "350",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/350_Nox Nefarous, the Fog.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/350_Nox Nefarous, the Fog.jpg"
 			}
 		},
 		{
@@ -1674,7 +1674,7 @@
 			"type": "Legendary Creature — Human Pirate",
 			"collector_number": "289",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/289_Golden-Eye Axe Carter.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/289_Golden-Eye Axe Carter.jpg"
 			}
 		},
 		{
@@ -1684,7 +1684,7 @@
 			"type": "Legendary Creature — Human Pirate",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/266_Evelyn Lavish of the Lavish Pirates.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/266_Evelyn Lavish of the Lavish Pirates.jpg"
 			}
 		},
 		{
@@ -1694,7 +1694,7 @@
 			"type": "Tribal Enchantment — Knight",
 			"collector_number": "313",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/313_A Knight's Watch.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/313_A Knight's Watch.jpg"
 			}
 		},
 		{
@@ -1704,7 +1704,7 @@
 			"type": "Legendary Planeswalker — Alani",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/197_Alani, the Swiftfoot.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/197_Alani, the Swiftfoot.jpg"
 			}
 		},
 		{
@@ -1714,7 +1714,7 @@
 			"type": "Legendary Creature — Human Knight",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/201_Artus, Lightning Rider.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/201_Artus, Lightning Rider.jpg"
 			}
 		},
 		{
@@ -1724,7 +1724,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "205",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/205_Assassin's Slash.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/205_Assassin's Slash.jpg"
 			}
 		},
 		{
@@ -1734,7 +1734,7 @@
 			"type": "Tribal Artifact — Assassin Treasure",
 			"collector_number": "436",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/436_Assassin's Warning.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/436_Assassin's Warning.jpg"
 			}
 		},
 		{
@@ -1744,7 +1744,7 @@
 			"type": "Instant",
 			"collector_number": "207",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/207_Astonishing Persistence.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/207_Astonishing Persistence.jpg"
 			}
 		},
 		{
@@ -1754,7 +1754,7 @@
 			"type": "Sorcery",
 			"collector_number": "208",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/208_Atop the Bodies.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/208_Atop the Bodies.jpg"
 			}
 		},
 		{
@@ -1764,7 +1764,7 @@
 			"type": "Creature — Avatar",
 			"collector_number": "209",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/209_Avatar of Rot.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/209_Avatar of Rot.jpg"
 			}
 		},
 		{
@@ -1774,7 +1774,7 @@
 			"type": "Creature — Horror Avatar",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/210_Avatar of Weirding.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/210_Avatar of Weirding.jpg"
 			}
 		},
 		{
@@ -1784,7 +1784,7 @@
 			"type": "Legendary Creature — Zombie Dragon",
 			"collector_number": "214",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/214_Baldusax, Eternally Loyal.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/214_Baldusax, Eternally Loyal.jpg"
 			}
 		},
 		{
@@ -1794,7 +1794,7 @@
 			"type": "Legendary Creature — Dragon Knight",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/216_Barvros, Dominator of Peaks.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/216_Barvros, Dominator of Peaks.jpg"
 			}
 		},
 		{
@@ -1804,7 +1804,7 @@
 			"type": "Creature — Human Cleric Knight",
 			"collector_number": "218",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/218_Battlefield Healer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/218_Battlefield Healer.jpg"
 			}
 		},
 		{
@@ -1814,7 +1814,7 @@
 			"type": "Tribal Instant — Knight",
 			"collector_number": "221",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/221_Blade Flash.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/221_Blade Flash.jpg"
 			}
 		},
 		{
@@ -1824,7 +1824,7 @@
 			"type": "Instant",
 			"collector_number": "224",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/224_Blazing Ritual.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/224_Blazing Ritual.jpg"
 			}
 		},
 		{
@@ -1834,7 +1834,7 @@
 			"type": "Land",
 			"collector_number": "522",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/522_Blessed Fountainbed.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/522_Blessed Fountainbed.jpg"
 			}
 		},
 		{
@@ -1844,7 +1844,7 @@
 			"type": "Instant",
 			"collector_number": "226",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/226_Bloodfire Blast.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/226_Bloodfire Blast.jpg"
 			}
 		},
 		{
@@ -1854,7 +1854,7 @@
 			"type": "Instant",
 			"collector_number": "228",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/228_Bloody Ritual.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/228_Bloody Ritual.jpg"
 			}
 		},
 		{
@@ -1864,7 +1864,7 @@
 			"type": "Instant",
 			"collector_number": "230",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/230_Break Down.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/230_Break Down.jpg"
 			}
 		},
 		{
@@ -1874,7 +1874,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "233",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/233_Brun, the Blazing.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/233_Brun, the Blazing.jpg"
 			}
 		},
 		{
@@ -1884,7 +1884,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "234",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/234_Brutalizer Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/234_Brutalizer Knight.jpg"
 			}
 		},
 		{
@@ -1894,7 +1894,7 @@
 			"type": "Land",
 			"collector_number": "524",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/524_Clockwork Spires.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/524_Clockwork Spires.jpg"
 			}
 		},
 		{
@@ -1904,7 +1904,7 @@
 			"type": "Land",
 			"collector_number": "525",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/525_Cloudbreak Clock Tower.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/525_Cloudbreak Clock Tower.jpg"
 			}
 		},
 		{
@@ -1914,7 +1914,7 @@
 			"type": "Sorcery",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/242_Consumed By Nature.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/242_Consumed By Nature.jpg"
 			}
 		},
 		{
@@ -1924,7 +1924,7 @@
 			"type": "Land",
 			"collector_number": "526",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/526_Cottage Kitchen.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/526_Cottage Kitchen.jpg"
 			}
 		},
 		{
@@ -1934,7 +1934,7 @@
 			"type": "Land",
 			"collector_number": "527",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/527_Crude Metal Factory.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/527_Crude Metal Factory.jpg"
 			}
 		},
 		{
@@ -1944,7 +1944,7 @@
 			"type": "Legendary Creature — Human Rogue",
 			"collector_number": "244",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/244_Dalahad, Who Lives in Filth.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/244_Dalahad, Who Lives in Filth.jpg"
 			}
 		},
 		{
@@ -1954,7 +1954,7 @@
 			"type": "Legendary Creature — Horror Assassin",
 			"collector_number": "246",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/246_Dathe'er, the Blood Mist.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/246_Dathe'er, the Blood Mist.jpg"
 			}
 		},
 		{
@@ -1964,7 +1964,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/248_Deflector Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/248_Deflector Knight.jpg"
 			}
 		},
 		{
@@ -1974,7 +1974,7 @@
 			"type": "Sorcery",
 			"collector_number": "250",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/250_Descent into the Impossible.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/250_Descent into the Impossible.jpg"
 			}
 		},
 		{
@@ -1984,7 +1984,7 @@
 			"type": "Instant",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/253_Dominate the Powerful.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/253_Dominate the Powerful.jpg"
 			}
 		},
 		{
@@ -1994,7 +1994,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/254_Dominator Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/254_Dominator Knight.jpg"
 			}
 		},
 		{
@@ -2004,7 +2004,7 @@
 			"type": "Creature — Horror Wizard",
 			"collector_number": "255",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/255_Draped Horror.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/255_Draped Horror.jpg"
 			}
 		},
 		{
@@ -2014,7 +2014,7 @@
 			"type": "Land",
 			"collector_number": "528",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/528_Dreamscape Range.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/528_Dreamscape Range.jpg"
 			}
 		},
 		{
@@ -2024,7 +2024,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "453",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/453_Drop of the Rose.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/453_Drop of the Rose.jpg"
 			}
 		},
 		{
@@ -2034,7 +2034,7 @@
 			"type": "Legendary Planeswalker — Eki",
 			"collector_number": "257",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/257_Eki, Faceless Shifter.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/257_Eki, Faceless Shifter.jpg"
 			}
 		},
 		{
@@ -2044,7 +2044,7 @@
 			"type": "Legendary Creature — Shapeshifter",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/258_Ekika, the Multifaceted.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/258_Ekika, the Multifaceted.jpg"
 			}
 		},
 		{
@@ -2054,7 +2054,7 @@
 			"type": "Sorcery",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/259_Eldritch Awakening.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/259_Eldritch Awakening.jpg"
 			}
 		},
 		{
@@ -2064,7 +2064,7 @@
 			"type": "Enchantment",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/261_Eldritch Rites.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/261_Eldritch Rites.jpg"
 			}
 		},
 		{
@@ -2074,7 +2074,7 @@
 			"type": "Instant",
 			"collector_number": "428",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/428_Eldritch Ritual.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/428_Eldritch Ritual.jpg"
 			}
 		},
 		{
@@ -2084,7 +2084,7 @@
 			"type": "Legendary Planeswalker — Eliana",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/262_Eliana, Dusk's Executor.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/262_Eliana, Dusk's Executor.jpg"
 			}
 		},
 		{
@@ -2094,7 +2094,7 @@
 			"type": "Creature — Horror Knight",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/264_Eradicator Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/264_Eradicator Knight.jpg"
 			}
 		},
 		{
@@ -2104,7 +2104,7 @@
 			"type": "Legendary Enchantment Creature — Horror God",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/265_Estromarex, He Who Dreams.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/265_Estromarex, He Who Dreams.jpg"
 			}
 		},
 		{
@@ -2114,7 +2114,7 @@
 			"type": "Tribal Instant — Knight",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/267_Face Evil.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/267_Face Evil.jpg"
 			}
 		},
 		{
@@ -2124,7 +2124,7 @@
 			"type": "Land — Desert",
 			"collector_number": "533",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/533_Factory in the Dunes.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/533_Factory in the Dunes.jpg"
 			}
 		},
 		{
@@ -2134,7 +2134,7 @@
 			"type": "Legendary Planeswalker — Faeten",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/159_Faeten, Who Brings Autumn.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/159_Faeten, Who Brings Autumn.jpg"
 			}
 		},
 		{
@@ -2144,7 +2144,7 @@
 			"type": "Instant",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/268_Fae's Disassembly.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/268_Fae's Disassembly.jpg"
 			}
 		},
 		{
@@ -2154,7 +2154,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "272",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/272_Fen, the Culling Blade.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/272_Fen, the Culling Blade.jpg"
 			}
 		},
 		{
@@ -2164,7 +2164,7 @@
 			"type": "Legendary Creature — Fungus Horror",
 			"collector_number": "273",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/273_Fent, Born In Rot.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/273_Fent, Born In Rot.jpg"
 			}
 		},
 		{
@@ -2174,7 +2174,7 @@
 			"type": "Sorcery",
 			"collector_number": "275",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/275_Fight for Survival.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/275_Fight for Survival.jpg"
 			}
 		},
 		{
@@ -2184,7 +2184,7 @@
 			"type": "Enchantment",
 			"collector_number": "276",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/276_Flash of Volatility.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/276_Flash of Volatility.jpg"
 			}
 		},
 		{
@@ -2194,7 +2194,7 @@
 			"type": "Creature — Orc Cook",
 			"collector_number": "277",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/277_Flippant Bakers.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/277_Flippant Bakers.jpg"
 			}
 		},
 		{
@@ -2204,7 +2204,7 @@
 			"type": "Sorcery",
 			"collector_number": "279",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/279_Forgotten Night.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/279_Forgotten Night.jpg"
 			}
 		},
 		{
@@ -2214,7 +2214,7 @@
 			"type": "Creature — Beast Cook",
 			"collector_number": "280",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/280_Foul Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/280_Foul Chef.jpg"
 			}
 		},
 		{
@@ -2224,7 +2224,7 @@
 			"type": "Sorcery",
 			"collector_number": "281",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/281_Foul Meal.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/281_Foul Meal.jpg"
 			}
 		},
 		{
@@ -2234,7 +2234,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "466",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/466_Foundry Defense War Mech.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/466_Foundry Defense War Mech.jpg"
 			}
 		},
 		{
@@ -2244,7 +2244,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "282",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/282_Frostburn Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/282_Frostburn Knight.jpg"
 			}
 		},
 		{
@@ -2254,7 +2254,7 @@
 			"type": "Creature — Fungus Beast",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/163_Fungal Raptor.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/163_Fungal Raptor.jpg"
 			}
 		},
 		{
@@ -2264,7 +2264,7 @@
 			"type": "Sorcery",
 			"collector_number": "164",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/164_Fury of Spores.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/164_Fury of Spores.jpg"
 			}
 		},
 		{
@@ -2274,7 +2274,7 @@
 			"type": "Legendary Planeswalker — Gaichu",
 			"collector_number": "283",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/283_Gaichu, Swarm Incarnate.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/283_Gaichu, Swarm Incarnate.jpg"
 			}
 		},
 		{
@@ -2284,7 +2284,7 @@
 			"type": "Legendary Creature — Giant Knight",
 			"collector_number": "285",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/285_Gervan, Who Touches Clouds.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/285_Gervan, Who Touches Clouds.jpg"
 			}
 		},
 		{
@@ -2294,7 +2294,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "286",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/286_Gevar, the Swift Slash.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/286_Gevar, the Swift Slash.jpg"
 			}
 		},
 		{
@@ -2304,7 +2304,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "469",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/469_Glistening Mox.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/469_Glistening Mox.jpg"
 			}
 		},
 		{
@@ -2314,7 +2314,7 @@
 			"type": "Creature — Fungus Skeleton",
 			"collector_number": "287",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/287_Gnarled Corpse.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/287_Gnarled Corpse.jpg"
 			}
 		},
 		{
@@ -2324,7 +2324,7 @@
 			"type": "Legendary Creature — Human Cook",
 			"collector_number": "290",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/290_Gordon, the Master Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/290_Gordon, the Master Chef.jpg"
 			}
 		},
 		{
@@ -2334,7 +2334,7 @@
 			"type": "Artifact",
 			"collector_number": "472",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/472_Growing Powerstone.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/472_Growing Powerstone.jpg"
 			}
 		},
 		{
@@ -2344,7 +2344,7 @@
 			"type": "Legendary Creature — Zombie Wizard",
 			"collector_number": "293",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/293_Harendar, Many-Tomed.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/293_Harendar, Many-Tomed.jpg"
 			}
 		},
 		{
@@ -2354,7 +2354,7 @@
 			"type": "Creature — Insect",
 			"collector_number": "168",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/168_Haze Maker.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/168_Haze Maker.jpg"
 			}
 		},
 		{
@@ -2364,7 +2364,7 @@
 			"type": "Land",
 			"collector_number": "535",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/535_Hazy Mire.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/535_Hazy Mire.jpg"
 			}
 		},
 		{
@@ -2374,7 +2374,7 @@
 			"type": "Legendary Creature — Skeleton Wizard",
 			"collector_number": "296",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/296_Heloret, Returned from the Deep.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/296_Heloret, Returned from the Deep.jpg"
 			}
 		},
 		{
@@ -2384,7 +2384,7 @@
 			"type": "Legendary Creature — Sand Assassin",
 			"collector_number": "297",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/297_Herses, Blazing Sand.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/297_Herses, Blazing Sand.jpg"
 			}
 		},
 		{
@@ -2394,7 +2394,7 @@
 			"type": "Legendary Land",
 			"collector_number": "536",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/536_Hoffstead, Community Effort.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/536_Hoffstead, Community Effort.jpg"
 			}
 		},
 		{
@@ -2404,7 +2404,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "298",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/298_Horde of Cavaliers.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/298_Horde of Cavaliers.jpg"
 			}
 		},
 		{
@@ -2414,7 +2414,7 @@
 			"type": "Creature — Orc Knight",
 			"collector_number": "299",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/299_Hunter of the Wilds.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/299_Hunter of the Wilds.jpg"
 			}
 		},
 		{
@@ -2424,7 +2424,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "476",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/476_Implanted Personality.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/476_Implanted Personality.jpg"
 			}
 		},
 		{
@@ -2434,7 +2434,7 @@
 			"type": "Land",
 			"collector_number": "538",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/538_Impromptu Factory.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/538_Impromptu Factory.jpg"
 			}
 		},
 		{
@@ -2444,7 +2444,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "307",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/307_Kaes, the Cowled.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/307_Kaes, the Cowled.jpg"
 			}
 		},
 		{
@@ -2454,7 +2454,7 @@
 			"type": "Legendary Planeswalker — Karaway",
 			"collector_number": "308",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/308_Karaway Greenwing.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/308_Karaway Greenwing.jpg"
 			}
 		},
 		{
@@ -2464,7 +2464,7 @@
 			"type": "Legendary Planeswalker — Katel",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/170_Katel, Huntress of the Tangle.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/170_Katel, Huntress of the Tangle.jpg"
 			}
 		},
 		{
@@ -2474,7 +2474,7 @@
 			"type": "Legendary Planeswalker — Keita",
 			"collector_number": "309",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/309_Keita, Nature's Voice.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/309_Keita, Nature's Voice.jpg"
 			}
 		},
 		{
@@ -2484,7 +2484,7 @@
 			"type": "Instant",
 			"collector_number": "310",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/310_Kick Out.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/310_Kick Out.jpg"
 			}
 		},
 		{
@@ -2494,7 +2494,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "311",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/311_Knight Surveyor.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/311_Knight Surveyor.jpg"
 			}
 		},
 		{
@@ -2504,7 +2504,7 @@
 			"type": "Tribal Instant — Knight",
 			"collector_number": "312",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/312_Knight's Duty.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/312_Knight's Duty.jpg"
 			}
 		},
 		{
@@ -2514,7 +2514,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "478",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/478_Landfill Worker.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/478_Landfill Worker.jpg"
 			}
 		},
 		{
@@ -2524,7 +2524,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "479",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/479_Landscape Terraformer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/479_Landscape Terraformer.jpg"
 			}
 		},
 		{
@@ -2534,7 +2534,7 @@
 			"type": "Creature — Ogre Cook",
 			"collector_number": "314",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/314_Lazy Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/314_Lazy Chef.jpg"
 			}
 		},
 		{
@@ -2544,7 +2544,7 @@
 			"type": "Creature — Spirit Knight",
 			"collector_number": "318",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/318_Life Honored Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/318_Life Honored Knight.jpg"
 			}
 		},
 		{
@@ -2554,7 +2554,7 @@
 			"type": "Instant",
 			"collector_number": "319",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/319_Line Crash.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/319_Line Crash.jpg"
 			}
 		},
 		{
@@ -2564,7 +2564,7 @@
 			"type": "Land",
 			"collector_number": "539",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/539_Lonely Abode.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/539_Lonely Abode.jpg"
 			}
 		},
 		{
@@ -2574,7 +2574,7 @@
 			"type": "Legendary Creature — Fungus Noble",
 			"collector_number": "323",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/323_Lorelet, Flower of Rot.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/323_Lorelet, Flower of Rot.jpg"
 			}
 		},
 		{
@@ -2584,7 +2584,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "324",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/324_Loryan, God of Contagion.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/324_Loryan, God of Contagion.jpg"
 			}
 		},
 		{
@@ -2594,7 +2594,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "326",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/326_Mage Slayer Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/326_Mage Slayer Knight.jpg"
 			}
 		},
 		{
@@ -2604,7 +2604,7 @@
 			"type": "Legendary Creature — Fungus Noble",
 			"collector_number": "327",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/327_Marafor, Undergrowth Queen.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/327_Marafor, Undergrowth Queen.jpg"
 			}
 		},
 		{
@@ -2614,7 +2614,7 @@
 			"type": "Legendary Creature — Dragon Cook",
 			"collector_number": "330",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/330_Masters of the Roast.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/330_Masters of the Roast.jpg"
 			}
 		},
 		{
@@ -2624,7 +2624,7 @@
 			"type": "Artifact",
 			"collector_number": "483",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/483_Mech Powerstone Module.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/483_Mech Powerstone Module.jpg"
 			}
 		},
 		{
@@ -2634,7 +2634,7 @@
 			"type": "Creature — Human Warlock",
 			"collector_number": "331",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/331_Midnight Worshipper.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/331_Midnight Worshipper.jpg"
 			}
 		},
 		{
@@ -2644,7 +2644,7 @@
 			"type": "Land",
 			"collector_number": "542",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/542_Mines of Abandon.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/542_Mines of Abandon.jpg"
 			}
 		},
 		{
@@ -2654,7 +2654,7 @@
 			"type": "Creature — Shade Wizard",
 			"collector_number": "332",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/332_Misted Wizard.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/332_Misted Wizard.jpg"
 			}
 		},
 		{
@@ -2664,7 +2664,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "484",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/484_Mobile Crew.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/484_Mobile Crew.jpg"
 			}
 		},
 		{
@@ -2674,7 +2674,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "485",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/485_Mobilizer Thopter.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/485_Mobilizer Thopter.jpg"
 			}
 		},
 		{
@@ -2684,7 +2684,7 @@
 			"type": "Legendary Creature — Human Cook",
 			"collector_number": "338",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/338_Mother Midday Meal.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/338_Mother Midday Meal.jpg"
 			}
 		},
 		{
@@ -2697,11 +2697,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/340_Nameless Spore_back.jpg"
+					"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/340_Nameless Spore_back.jpg"
 				}
 			},
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/340_Nameless Spore_front.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/340_Nameless Spore_front.jpg"
 			}
 		},
 		{
@@ -2711,7 +2711,7 @@
 			"type": "Creature — Zombie Wizard",
 			"collector_number": "342",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/342_Newborn Lich.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/342_Newborn Lich.jpg"
 			}
 		},
 		{
@@ -2721,7 +2721,7 @@
 			"type": "Land",
 			"collector_number": "545",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/545_Nightmared Marsh.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/545_Nightmared Marsh.jpg"
 			}
 		},
 		{
@@ -2731,7 +2731,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "345",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/345_Noble Guardian.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/345_Noble Guardian.jpg"
 			}
 		},
 		{
@@ -2741,7 +2741,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "486",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/486_Observer of Species.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/486_Observer of Species.jpg"
 			}
 		},
 		{
@@ -2751,7 +2751,7 @@
 			"type": "Legendary Planeswalker — Oko",
 			"collector_number": "352",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/352_Oko, Vain Trickster.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/352_Oko, Vain Trickster.jpg"
 			}
 		},
 		{
@@ -2761,7 +2761,7 @@
 			"type": "Legendary Artifact Creature — God",
 			"collector_number": "487",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/487_Once, Imposing Overseer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/487_Once, Imposing Overseer.jpg"
 			}
 		},
 		{
@@ -2771,7 +2771,7 @@
 			"type": "Legendary Planeswalker — Orabi",
 			"collector_number": "353",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/353_Orabi of the Depths.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/353_Orabi of the Depths.jpg"
 			}
 		},
 		{
@@ -2781,7 +2781,7 @@
 			"type": "Legendary Creature — Gnome Carrier",
 			"collector_number": "354",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/354_Orfym, Exotic Dealer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/354_Orfym, Exotic Dealer.jpg"
 			}
 		},
 		{
@@ -2791,7 +2791,7 @@
 			"type": "Sorcery",
 			"collector_number": "178",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/178_Overtaken by Spores.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/178_Overtaken by Spores.jpg"
 			}
 		},
 		{
@@ -2801,7 +2801,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "430",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/430_Parin's Fury.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/430_Parin's Fury.jpg"
 			}
 		},
 		{
@@ -2811,7 +2811,7 @@
 			"type": "Instant",
 			"collector_number": "429",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/429_Pathfinder Bolts.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/429_Pathfinder Bolts.jpg"
 			}
 		},
 		{
@@ -2821,7 +2821,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "491",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/491_Perpetual Marcher.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/491_Perpetual Marcher.jpg"
 			}
 		},
 		{
@@ -2831,7 +2831,7 @@
 			"type": "Legendary Planeswalker — Plague-Snout",
 			"collector_number": "358",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/358_Plague-Snout, Cloud of Death.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/358_Plague-Snout, Cloud of Death.jpg"
 			}
 		},
 		{
@@ -2841,7 +2841,7 @@
 			"type": "Land",
 			"collector_number": "548",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/548_Populated Barren.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/548_Populated Barren.jpg"
 			}
 		},
 		{
@@ -2851,7 +2851,7 @@
 			"type": "Sorcery",
 			"collector_number": "359",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/359_Power of the Old Ones.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/359_Power of the Old Ones.jpg"
 			}
 		},
 		{
@@ -2861,7 +2861,7 @@
 			"type": "Artifact",
 			"collector_number": "492",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/492_Powerstone Explosive.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/492_Powerstone Explosive.jpg"
 			}
 		},
 		{
@@ -2871,7 +2871,7 @@
 			"type": "Instant",
 			"collector_number": "360",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/360_Price of Ambition.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/360_Price of Ambition.jpg"
 			}
 		},
 		{
@@ -2881,7 +2881,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "493",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/493_Prisoner Mech.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/493_Prisoner Mech.jpg"
 			}
 		},
 		{
@@ -2891,7 +2891,7 @@
 			"type": "Legendary Artifact — Vehicle God",
 			"collector_number": "494",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/494_Production Line Masterpiece, 97th.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/494_Production Line Masterpiece, 97th.jpg"
 			}
 		},
 		{
@@ -2901,7 +2901,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "495",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/495_Prototype Collector.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/495_Prototype Collector.jpg"
 			}
 		},
 		{
@@ -2911,7 +2911,7 @@
 			"type": "Instant",
 			"collector_number": "363",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/363_Quick-Play Bolts.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/363_Quick-Play Bolts.jpg"
 			}
 		},
 		{
@@ -2921,7 +2921,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "364",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/364_Rampaging Lancer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/364_Rampaging Lancer.jpg"
 			}
 		},
 		{
@@ -2931,7 +2931,7 @@
 			"type": "Legendary Creature — Human Cook",
 			"collector_number": "365",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/365_Ramsey, Huntsman Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/365_Ramsey, Huntsman Chef.jpg"
 			}
 		},
 		{
@@ -2941,7 +2941,7 @@
 			"type": "Instant",
 			"collector_number": "367",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/367_Ravenous Hunger.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/367_Ravenous Hunger.jpg"
 			}
 		},
 		{
@@ -2951,7 +2951,7 @@
 			"type": "Creature — Fungus",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/181_Ravenous Spores.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/181_Ravenous Spores.jpg"
 			}
 		},
 		{
@@ -2961,7 +2961,7 @@
 			"type": "Artifact",
 			"collector_number": "498",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/498_Rebuild Station.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/498_Rebuild Station.jpg"
 			}
 		},
 		{
@@ -2971,7 +2971,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "499",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/499_Recycler Mech.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/499_Recycler Mech.jpg"
 			}
 		},
 		{
@@ -2981,7 +2981,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "500",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/500_Reproduction Worker.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/500_Reproduction Worker.jpg"
 			}
 		},
 		{
@@ -2991,7 +2991,7 @@
 			"type": "Land",
 			"collector_number": "551",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/551_Repurposed Shell.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/551_Repurposed Shell.jpg"
 			}
 		},
 		{
@@ -3001,7 +3001,7 @@
 			"type": "Legendary Creature — Djinn Assassin",
 			"collector_number": "368",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/368_Rethia, Caller of Wisps.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/368_Rethia, Caller of Wisps.jpg"
 			}
 		},
 		{
@@ -3011,7 +3011,7 @@
 			"type": "Legendary Planeswalker — Roric",
 			"collector_number": "369",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/369_Roric, Plagued by Pests.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/369_Roric, Plagued by Pests.jpg"
 			}
 		},
 		{
@@ -3021,7 +3021,7 @@
 			"type": "Creature — Fungus Berserker",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/182_Rotten Berserker.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/182_Rotten Berserker.jpg"
 			}
 		},
 		{
@@ -3031,7 +3031,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "502",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/502_Rotwood Deforester.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/502_Rotwood Deforester.jpg"
 			}
 		},
 		{
@@ -3041,7 +3041,7 @@
 			"type": "Legendary Planeswalker — Saa Elda",
 			"collector_number": "371",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/371_Saa Elda, Who Swims Blind.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/371_Saa Elda, Who Swims Blind.jpg"
 			}
 		},
 		{
@@ -3051,7 +3051,7 @@
 			"type": "Legendary Planeswalker — Sakora",
 			"collector_number": "372",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/372_Sakora, War's Alpha.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/372_Sakora, War's Alpha.jpg"
 			}
 		},
 		{
@@ -3061,7 +3061,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "505",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/505_Scavenger Mech.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/505_Scavenger Mech.jpg"
 			}
 		},
 		{
@@ -3071,7 +3071,7 @@
 			"type": "Sorcery",
 			"collector_number": "373",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/373_Scour Dark Tomes.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/373_Scour Dark Tomes.jpg"
 			}
 		},
 		{
@@ -3081,7 +3081,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "507",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/507_Scrapyard Warlord.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/507_Scrapyard Warlord.jpg"
 			}
 		},
 		{
@@ -3091,7 +3091,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "508",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/508_Scrapyard Worker.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/508_Scrapyard Worker.jpg"
 			}
 		},
 		{
@@ -3101,7 +3101,7 @@
 			"type": "Enchantment",
 			"collector_number": "374",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/374_Secondary Provisions.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/374_Secondary Provisions.jpg"
 			}
 		},
 		{
@@ -3111,7 +3111,7 @@
 			"type": "Land",
 			"collector_number": "552",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/552_Self-Producing City.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/552_Self-Producing City.jpg"
 			}
 		},
 		{
@@ -3121,7 +3121,7 @@
 			"type": "Instant",
 			"collector_number": "378",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/378_Shattered Rain.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/378_Shattered Rain.jpg"
 			}
 		},
 		{
@@ -3131,7 +3131,7 @@
 			"type": "Artifact",
 			"collector_number": "509",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/509_Shrine to the Beyond.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/509_Shrine to the Beyond.jpg"
 			}
 		},
 		{
@@ -3141,7 +3141,7 @@
 			"type": "Sorcery",
 			"collector_number": "382",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/382_Slaughter Brawl.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/382_Slaughter Brawl.jpg"
 			}
 		},
 		{
@@ -3151,7 +3151,7 @@
 			"type": "Legendary Planeswalker — Slyvash",
 			"collector_number": "383",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/383_Slyvash, Keen Trickster.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/383_Slyvash, Keen Trickster.jpg"
 			}
 		},
 		{
@@ -3161,7 +3161,7 @@
 			"type": "Instant",
 			"collector_number": "384",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/384_Snareshadow Steal.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/384_Snareshadow Steal.jpg"
 			}
 		},
 		{
@@ -3171,7 +3171,7 @@
 			"type": "Land",
 			"collector_number": "555",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/555_Solemn Clocktower.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/555_Solemn Clocktower.jpg"
 			}
 		},
 		{
@@ -3181,7 +3181,7 @@
 			"type": "Instant",
 			"collector_number": "385",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/385_Songs of Madness.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/385_Songs of Madness.jpg"
 			}
 		},
 		{
@@ -3191,7 +3191,7 @@
 			"type": "Instant",
 			"collector_number": "388",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/388_Special Meal.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/388_Special Meal.jpg"
 			}
 		},
 		{
@@ -3201,7 +3201,7 @@
 			"type": "Creature — Zombie Warlock",
 			"collector_number": "389",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/389_Spirit Lich.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/389_Spirit Lich.jpg"
 			}
 		},
 		{
@@ -3211,7 +3211,7 @@
 			"type": "Creature — Orc Cook",
 			"collector_number": "390",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/390_Spiteful Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/390_Spiteful Chef.jpg"
 			}
 		},
 		{
@@ -3221,7 +3221,7 @@
 			"type": "Artifact Creature — Dragon",
 			"collector_number": "512",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/512_Steam Powered Guardian.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/512_Steam Powered Guardian.jpg"
 			}
 		},
 		{
@@ -3231,7 +3231,7 @@
 			"type": "Artifact Land",
 			"collector_number": "558",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/558_Steamwork Foundry.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/558_Steamwork Foundry.jpg"
 			}
 		},
 		{
@@ -3241,7 +3241,7 @@
 			"type": "Land",
 			"collector_number": "560",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/560_Stronghold Marrowfield.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/560_Stronghold Marrowfield.jpg"
 			}
 		},
 		{
@@ -3251,7 +3251,7 @@
 			"type": "Instant",
 			"collector_number": "391",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/391_Submit to Eternities.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/391_Submit to Eternities.jpg"
 			}
 		},
 		{
@@ -3261,7 +3261,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "513",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/513_Surveyor of Estates.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/513_Surveyor of Estates.jpg"
 			}
 		},
 		{
@@ -3271,7 +3271,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "392",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/392_Survivor's Guilt.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/392_Survivor's Guilt.jpg"
 			}
 		},
 		{
@@ -3281,7 +3281,7 @@
 			"type": "Legendary Creature 8 — Fungus Dragon",
 			"collector_number": "394",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/394_Talavor, Undergrowth's Maw.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/394_Talavor, Undergrowth's Maw.jpg"
 			}
 		},
 		{
@@ -3291,7 +3291,7 @@
 			"type": "Legendary Creature — Human Knight",
 			"collector_number": "395",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/395_Tavot, Dark Omen.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/395_Tavot, Dark Omen.jpg"
 			}
 		},
 		{
@@ -3301,7 +3301,7 @@
 			"type": "Legendary Creature — Fungus Noble",
 			"collector_number": "396",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/396_Thaina, Queen of Decay.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/396_Thaina, Queen of Decay.jpg"
 			}
 		},
 		{
@@ -3311,7 +3311,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "471",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/471_The Graveyard Shift.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/471_The Graveyard Shift.jpg"
 			}
 		},
 		{
@@ -3321,7 +3321,7 @@
 			"type": "Legendary Planeswalker — Owl",
 			"collector_number": "355",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/355_The Owl of Night's Watch.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/355_The Owl of Night's Watch.jpg"
 			}
 		},
 		{
@@ -3331,7 +3331,7 @@
 			"type": "Legendary Planeswalker — Thira",
 			"collector_number": "398",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/398_Thira, the Deadly Sting.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/398_Thira, the Deadly Sting.jpg"
 			}
 		},
 		{
@@ -3341,7 +3341,7 @@
 			"type": "Legendary Creature — Fungus Horror",
 			"collector_number": "399",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/399_Thornetai, Decaying Colossus.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/399_Thornetai, Decaying Colossus.jpg"
 			}
 		},
 		{
@@ -3351,7 +3351,7 @@
 			"type": "Creature — Fungus Beast",
 			"collector_number": "402",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/402_Toadstool Berserker.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/402_Toadstool Berserker.jpg"
 			}
 		},
 		{
@@ -3361,7 +3361,7 @@
 			"type": "Land",
 			"collector_number": "561",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/561_Towering Kingdom.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/561_Towering Kingdom.jpg"
 			}
 		},
 		{
@@ -3371,7 +3371,7 @@
 			"type": "Land",
 			"collector_number": "562",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/562_Trading Route Landmark.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/562_Trading Route Landmark.jpg"
 			}
 		},
 		{
@@ -3381,7 +3381,7 @@
 			"type": "Creature — Fungus",
 			"collector_number": "188",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/188_Train of Spores.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/188_Train of Spores.jpg"
 			}
 		},
 		{
@@ -3391,7 +3391,7 @@
 			"type": "Legendary Enchantment Creature — Fungus God",
 			"collector_number": "403",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/403_Traxita, God of the Rotten.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/403_Traxita, God of the Rotten.jpg"
 			}
 		},
 		{
@@ -3401,7 +3401,7 @@
 			"type": "Legendary Artifact — Vehicle",
 			"collector_number": "515",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/515_Twice, Lifeless Reproduction.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/515_Twice, Lifeless Reproduction.jpg"
 			}
 		},
 		{
@@ -3411,7 +3411,7 @@
 			"type": "Creature — Elf Knight",
 			"collector_number": "404",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/404_Twilight Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/404_Twilight Knight.jpg"
 			}
 		},
 		{
@@ -3421,7 +3421,7 @@
 			"type": "Legendary Creature — Fungus Noble",
 			"collector_number": "405",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/405_Twin Blades of the Queen.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/405_Twin Blades of the Queen.jpg"
 			}
 		},
 		{
@@ -3431,7 +3431,7 @@
 			"type": "Legendary Creature — Orc Cook",
 			"collector_number": "407",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/407_Ulak, 'Master' Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/407_Ulak, 'Master' Chef.jpg"
 			}
 		},
 		{
@@ -3441,7 +3441,7 @@
 			"type": "Instant",
 			"collector_number": "408",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/408_Ultimate Rites.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/408_Ultimate Rites.jpg"
 			}
 		},
 		{
@@ -3451,7 +3451,7 @@
 			"type": "Creature — Fungus Berserker",
 			"collector_number": "189",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/189_Undergrowth Hunter.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/189_Undergrowth Hunter.jpg"
 			}
 		},
 		{
@@ -3461,7 +3461,7 @@
 			"type": "Creature — Fungus Warrior",
 			"collector_number": "190",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/190_Undergrowth Scout.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/190_Undergrowth Scout.jpg"
 			}
 		},
 		{
@@ -3471,7 +3471,7 @@
 			"type": "Instant",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/150_Unnatural Blast.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/150_Unnatural Blast.jpg"
 			}
 		},
 		{
@@ -3481,7 +3481,7 @@
 			"type": "Legendary Planeswalker — Urakni",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/115_Urakni, Midnight Occultist.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/115_Urakni, Midnight Occultist.jpg"
 			}
 		},
 		{
@@ -3491,7 +3491,7 @@
 			"type": "Legendary Enchantment Creature — God",
 			"collector_number": "411",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/411_Vacannabis, God of Festivity.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/411_Vacannabis, God of Festivity.jpg"
 			}
 		},
 		{
@@ -3501,7 +3501,7 @@
 			"type": "Legendary Planeswalker — Vaeis",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/191_Vaies, Mother of Leylines.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/191_Vaies, Mother of Leylines.jpg"
 			}
 		},
 		{
@@ -3511,7 +3511,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "413",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/413_Varin, the Slayer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/413_Varin, the Slayer.jpg"
 			}
 		},
 		{
@@ -3521,7 +3521,7 @@
 			"type": "Land",
 			"collector_number": "564",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/564_Verdant Hamlet.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/564_Verdant Hamlet.jpg"
 			}
 		},
 		{
@@ -3531,7 +3531,7 @@
 			"type": "Land",
 			"collector_number": "565",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/565_Voltaic City.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/565_Voltaic City.jpg"
 			}
 		},
 		{
@@ -3541,7 +3541,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "517",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/517_Warrantee Tester.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/517_Warrantee Tester.jpg"
 			}
 		},
 		{
@@ -3551,7 +3551,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "518",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/518_Watchpost.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/518_Watchpost.jpg"
 			}
 		},
 		{
@@ -3561,7 +3561,7 @@
 			"type": "Artifact",
 			"collector_number": "416",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/416_Waxen Goods.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/416_Waxen Goods.jpg"
 			}
 		},
 		{
@@ -3571,7 +3571,7 @@
 			"type": "Creature — Zombie Dragon",
 			"collector_number": "419",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/419_Wings of Decay.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/419_Wings of Decay.jpg"
 			}
 		},
 		{
@@ -3581,7 +3581,7 @@
 			"type": "Creature — Orc Warrior",
 			"collector_number": "420",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/420_Withdrawn Warrior.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/420_Withdrawn Warrior.jpg"
 			}
 		},
 		{
@@ -3591,7 +3591,7 @@
 			"type": "Instant",
 			"collector_number": "421",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/421_Withstand Peril.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/421_Withstand Peril.jpg"
 			}
 		},
 		{
@@ -3601,7 +3601,7 @@
 			"type": "Artifact",
 			"collector_number": "519",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/519_Worker's Orientation.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/519_Worker's Orientation.jpg"
 			}
 		},
 		{
@@ -3611,7 +3611,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "520",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/520_Worker's Union.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/520_Worker's Union.jpg"
 			}
 		},
 		{
@@ -3621,7 +3621,7 @@
 			"type": "Creature — Human Cook",
 			"collector_number": "422",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/422_Workforce Trio.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/422_Workforce Trio.jpg"
 			}
 		},
 		{
@@ -3631,7 +3631,7 @@
 			"type": "Artifact Land",
 			"collector_number": "566",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/566_Workshop of Innovation.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/566_Workshop of Innovation.jpg"
 			}
 		},
 		{
@@ -3641,7 +3641,7 @@
 			"type": "Legendary Creature — Human Warrior",
 			"collector_number": "424",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/424_Xaersis, Queen of Calamity.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/424_Xaersis, Queen of Calamity.jpg"
 			}
 		},
 		{
@@ -3651,7 +3651,7 @@
 			"type": "Legendary Creature — Phyrexian Assassin",
 			"collector_number": "425",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/425_Xeras, Brutal Crusader.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/425_Xeras, Brutal Crusader.jpg"
 			}
 		},
 		{
@@ -3661,7 +3661,7 @@
 			"type": "Legendary Creature — Spirit Assassin",
 			"collector_number": "426",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/426_Yevaath, Culling Blade.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/426_Yevaath, Culling Blade.jpg"
 			}
 		},
 		{
@@ -3671,7 +3671,7 @@
 			"type": "Legendary 3reature — Shapeshifter Assassin",
 			"collector_number": "427",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/427_Zethair, the Impersonator.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/427_Zethair, the Impersonator.jpg"
 			}
 		},
 		{
@@ -3681,7 +3681,7 @@
 			"type": "Legendary Creature — Vampire Wizard",
 			"collector_number": "119",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/119_Zivana, Crimson Weaver.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/119_Zivana, Crimson Weaver.jpg"
 			}
 		},
 		{
@@ -3691,7 +3691,7 @@
 			"type": "Sorcery",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/7_Abhorrent Slaughter.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/7_Abhorrent Slaughter.jpg"
 			}
 		},
 		{
@@ -3701,7 +3701,7 @@
 			"type": "Instant",
 			"collector_number": "194",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/194_Absolute Incineration.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/194_Absolute Incineration.jpg"
 			}
 		},
 		{
@@ -3711,7 +3711,7 @@
 			"type": "Sorcery",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/21_Abyssal Tutor.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/21_Abyssal Tutor.jpg"
 			}
 		},
 		{
@@ -3721,7 +3721,7 @@
 			"type": "Legendary Creature — Harpy Assassin",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/195_Adri, the Tattered.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/195_Adri, the Tattered.jpg"
 			}
 		},
 		{
@@ -3731,7 +3731,7 @@
 			"type": "Creature — Fungus Rogue",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/151_Adventurous Spore.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/151_Adventurous Spore.jpg"
 			}
 		},
 		{
@@ -3741,7 +3741,7 @@
 			"type": "Legendary Creature — Dwarf Druid",
 			"collector_number": "196",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/196_Afnar, the Green Thumb.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/196_Afnar, the Green Thumb.jpg"
 			}
 		},
 		{
@@ -3751,7 +3751,7 @@
 			"type": "Legendary Creature — Human Artificer",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/120_Ailos Marik, Hopeful Trainee.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/120_Ailos Marik, Hopeful Trainee.jpg"
 			}
 		},
 		{
@@ -3761,7 +3761,7 @@
 			"type": "Legendary Creature — Human Knight",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/198_Alond, Brilliant Hero.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/198_Alond, Brilliant Hero.jpg"
 			}
 		},
 		{
@@ -3771,7 +3771,7 @@
 			"type": "Artifact Creature — Minion",
 			"collector_number": "431",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/431_Alternate CEO Model.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/431_Alternate CEO Model.jpg"
 			}
 		},
 		{
@@ -3781,7 +3781,7 @@
 			"type": "Creature — Angel Knight",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/8_Angel of Resurrection.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/8_Angel of Resurrection.jpg"
 			}
 		},
 		{
@@ -3791,7 +3791,7 @@
 			"type": "Creature — Horror Avatar",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/1_Arbiter of the Old Ones.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/1_Arbiter of the Old Ones.jpg"
 			}
 		},
 		{
@@ -3801,7 +3801,7 @@
 			"type": "Instant",
 			"collector_number": "200",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/200_Arcane Remnants.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/200_Arcane Remnants.jpg"
 			}
 		},
 		{
@@ -3811,7 +3811,7 @@
 			"type": "Creature — Human Knight Wizard",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/22_Arcane Warlord.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/22_Arcane Warlord.jpg"
 			}
 		},
 		{
@@ -3821,7 +3821,7 @@
 			"type": "Legendary Creature — Goblin Knight",
 			"collector_number": "121",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/121_Arquel, the Noble.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/121_Arquel, the Noble.jpg"
 			}
 		},
 		{
@@ -3831,7 +3831,7 @@
 			"type": "Legendary Artifact — Equipment",
 			"collector_number": "434",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/434_Ashcatcher, the Spark.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/434_Ashcatcher, the Spark.jpg"
 			}
 		},
 		{
@@ -3841,7 +3841,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/44_Assassin's Bounty.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/44_Assassin's Bounty.jpg"
 			}
 		},
 		{
@@ -3851,7 +3851,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/45_Assassin's Duel.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/45_Assassin's Duel.jpg"
 			}
 		},
 		{
@@ -3861,7 +3861,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/202_Assassin's Infiltration.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/202_Assassin's Infiltration.jpg"
 			}
 		},
 		{
@@ -3871,7 +3871,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "122",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/122_Assassin's Performance.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/122_Assassin's Performance.jpg"
 			}
 		},
 		{
@@ -3881,7 +3881,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "203",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/203_Assassin's Recruitment.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/203_Assassin's Recruitment.jpg"
 			}
 		},
 		{
@@ -3891,7 +3891,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/46_Assassin's Regicide.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/46_Assassin's Regicide.jpg"
 			}
 		},
 		{
@@ -3901,7 +3901,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/204_Assassin's Scouting.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/204_Assassin's Scouting.jpg"
 			}
 		},
 		{
@@ -3911,7 +3911,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/47_Assassin's Slaying.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/47_Assassin's Slaying.jpg"
 			}
 		},
 		{
@@ -3921,7 +3921,7 @@
 			"type": "Artifact",
 			"collector_number": "437",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/437_Assembly Line.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/437_Assembly Line.jpg"
 			}
 		},
 		{
@@ -3931,7 +3931,7 @@
 			"type": "Legendary Creature — Skeleton Demon",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/48_Axaminu, Eldritch Reaper.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/48_Axaminu, Eldritch Reaper.jpg"
 			}
 		},
 		{
@@ -3941,7 +3941,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/213_Bag Man.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/213_Bag Man.jpg"
 			}
 		},
 		{
@@ -3951,7 +3951,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/152_Become One.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/152_Become One.jpg"
 			}
 		},
 		{
@@ -3961,7 +3961,7 @@
 			"type": "Creature — Halfling Cook",
 			"collector_number": "223",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/223_Blazed Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/223_Blazed Chef.jpg"
 			}
 		},
 		{
@@ -3971,7 +3971,7 @@
 			"type": "Creature — Human Warlock",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/49_Blood Money Cultivator.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/49_Blood Money Cultivator.jpg"
 			}
 		},
 		{
@@ -3981,7 +3981,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "124",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/124_Blood Red Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/124_Blood Red Knight.jpg"
 			}
 		},
 		{
@@ -3991,7 +3991,7 @@
 			"type": "Instant",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/50_Blood Ruin.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/50_Blood Ruin.jpg"
 			}
 		},
 		{
@@ -4001,7 +4001,7 @@
 			"type": "Instant",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/51_Blood Stitching.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/51_Blood Stitching.jpg"
 			}
 		},
 		{
@@ -4011,7 +4011,7 @@
 			"type": "Legendary Creature — Ogre Cook",
 			"collector_number": "229",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/229_Bogok, Clumsy Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/229_Bogok, Clumsy Chef.jpg"
 			}
 		},
 		{
@@ -4021,7 +4021,7 @@
 			"type": "Instant",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/125_Bolts of Disdain.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/125_Bolts of Disdain.jpg"
 			}
 		},
 		{
@@ -4031,7 +4031,7 @@
 			"type": "Legendary Creature — Dwarf Citizen Cook",
 			"collector_number": "153",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/153_Boronk, Kindly Barkeep.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/153_Boronk, Kindly Barkeep.jpg"
 			}
 		},
 		{
@@ -4041,7 +4041,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/9_Brilliant White Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/9_Brilliant White Knight.jpg"
 			}
 		},
 		{
@@ -4051,7 +4051,7 @@
 			"type": "Creature — Orc Cook",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/239_Chef Conspirator.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/239_Chef Conspirator.jpg"
 			}
 		},
 		{
@@ -4061,7 +4061,7 @@
 			"type": "Tribal Instant — Cook",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/240_Chef's Party.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/240_Chef's Party.jpg"
 			}
 		},
 		{
@@ -4071,7 +4071,7 @@
 			"type": "Artifact Creature — Dragon",
 			"collector_number": "443",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/443_Clockwork Devastator.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/443_Clockwork Devastator.jpg"
 			}
 		},
 		{
@@ -4081,7 +4081,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "444",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/444_Clockwork Hulk.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/444_Clockwork Hulk.jpg"
 			}
 		},
 		{
@@ -4091,7 +4091,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "445",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/445_Clockwork Watcher.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/445_Clockwork Watcher.jpg"
 			}
 		},
 		{
@@ -4101,7 +4101,7 @@
 			"type": "Creature — Fungus Beast",
 			"collector_number": "154",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/154_Colossal Shroom Beast.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/154_Colossal Shroom Beast.jpg"
 			}
 		},
 		{
@@ -4111,7 +4111,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/10_Commanding Leader.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/10_Commanding Leader.jpg"
 			}
 		},
 		{
@@ -4121,7 +4121,7 @@
 			"type": "Instant",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/52_Consign to Memory.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/52_Consign to Memory.jpg"
 			}
 		},
 		{
@@ -4131,7 +4131,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "447",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/447_Constructor Mech.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/447_Constructor Mech.jpg"
 			}
 		},
 		{
@@ -4141,7 +4141,7 @@
 			"type": "Creature — Orc Cook",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/127_Crazed Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/127_Crazed Chef.jpg"
 			}
 		},
 		{
@@ -4151,7 +4151,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "449",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/449_Cross Factory Transit.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/449_Cross Factory Transit.jpg"
 			}
 		},
 		{
@@ -4161,7 +4161,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/53_Crusader of Hoards.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/53_Crusader of Hoards.jpg"
 			}
 		},
 		{
@@ -4171,7 +4171,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/23_Crusader of Knowledge.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/23_Crusader of Knowledge.jpg"
 			}
 		},
 		{
@@ -4181,7 +4181,7 @@
 			"type": "Instant",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/155_Cultivation of Spores.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/155_Cultivation of Spores.jpg"
 			}
 		},
 		{
@@ -4191,7 +4191,7 @@
 			"type": "Creature — Fungus Beast",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/156_Curious Toadstool Behemoth.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/156_Curious Toadstool Behemoth.jpg"
 			}
 		},
 		{
@@ -4201,7 +4201,7 @@
 			"type": "Legendary Planeswalker — Dabi",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/55_Dabi, Endeavor's Shadow.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/55_Dabi, Endeavor's Shadow.jpg"
 			}
 		},
 		{
@@ -4211,7 +4211,7 @@
 			"type": "Legendary Creature — Fungus Dragon",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/157_Daitorei, the Rotting Alpha.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/157_Daitorei, the Rotting Alpha.jpg"
 			}
 		},
 		{
@@ -4221,7 +4221,7 @@
 			"type": "Legendary Creature — Human Cook",
 			"collector_number": "158",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/158_David, Gleeful Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/158_David, Gleeful Chef.jpg"
 			}
 		},
 		{
@@ -4231,7 +4231,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/24_Deep Blue Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/24_Deep Blue Knight.jpg"
 			}
 		},
 		{
@@ -4241,7 +4241,7 @@
 			"type": "Sorcery",
 			"collector_number": "128",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/128_Deep One's Fury.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/128_Deep One's Fury.jpg"
 			}
 		},
 		{
@@ -4251,7 +4251,7 @@
 			"type": "Instant",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/26_Deep One's Rage.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/26_Deep One's Rage.jpg"
 			}
 		},
 		{
@@ -4261,7 +4261,7 @@
 			"type": "Artifact",
 			"collector_number": "450",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/450_Dematerializer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/450_Dematerializer.jpg"
 			}
 		},
 		{
@@ -4271,7 +4271,7 @@
 			"type": "Enchantment",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/251_Dinner Rush.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/251_Dinner Rush.jpg"
 			}
 		},
 		{
@@ -4281,7 +4281,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "452",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/452_Disassembler.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/452_Disassembler.jpg"
 			}
 		},
 		{
@@ -4291,7 +4291,7 @@
 			"type": "Sorcery",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/56_Drain the Earth.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/56_Drain the Earth.jpg"
 			}
 		},
 		{
@@ -4301,7 +4301,7 @@
 			"type": "Instant",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/57_Dredge the Rotten.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/57_Dredge the Rotten.jpg"
 			}
 		},
 		{
@@ -4311,7 +4311,7 @@
 			"type": "Artifact Creature — Minion",
 			"collector_number": "454",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/454_Dune Expeditioner.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/454_Dune Expeditioner.jpg"
 			}
 		},
 		{
@@ -4321,7 +4321,7 @@
 			"type": "Artifact — Food",
 			"collector_number": "129",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/129_Edible Gift.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/129_Edible Gift.jpg"
 			}
 		},
 		{
@@ -4331,7 +4331,7 @@
 			"type": "Instant",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/27_Eldritch Dismissal.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/27_Eldritch Dismissal.jpg"
 			}
 		},
 		{
@@ -4341,7 +4341,7 @@
 			"type": "Instant",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/59_Eldritch Procession.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/59_Eldritch Procession.jpg"
 			}
 		},
 		{
@@ -4351,7 +4351,7 @@
 			"type": "Instant",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/29_Eldritch Protection.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/29_Eldritch Protection.jpg"
 			}
 		},
 		{
@@ -4361,7 +4361,7 @@
 			"type": "Sorcery",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/60_Eldritch Return.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/60_Eldritch Return.jpg"
 			}
 		},
 		{
@@ -4371,7 +4371,7 @@
 			"type": "Legendary Creature — Dwarf Cook",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/263_Emeren, Resourceful Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/263_Emeren, Resourceful Chef.jpg"
 			}
 		},
 		{
@@ -4381,7 +4381,7 @@
 			"type": "Artifact Creature — Assembly-Worker Horror",
 			"collector_number": "456",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/456_Emotionless Dread.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/456_Emotionless Dread.jpg"
 			}
 		},
 		{
@@ -4391,7 +4391,7 @@
 			"type": "Artifact",
 			"collector_number": "457",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/457_Endless Machinery.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/457_Endless Machinery.jpg"
 			}
 		},
 		{
@@ -4401,7 +4401,7 @@
 			"type": "Artifact",
 			"collector_number": "458",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/458_Energy Array.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/458_Energy Array.jpg"
 			}
 		},
 		{
@@ -4411,7 +4411,7 @@
 			"type": "Artifact Creature — Wurm",
 			"collector_number": "459",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/459_Energy Consuming Wurm.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/459_Energy Consuming Wurm.jpg"
 			}
 		},
 		{
@@ -4421,7 +4421,7 @@
 			"type": "Legendary Creature — Demon",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/63_Exandrethal, Lord of the Night.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/63_Exandrethal, Lord of the Night.jpg"
 			}
 		},
 		{
@@ -4431,7 +4431,7 @@
 			"type": "Creature — Vampire Wizard",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/64_Exiled Vampire.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/64_Exiled Vampire.jpg"
 			}
 		},
 		{
@@ -4441,7 +4441,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "460",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/460_Factory in the Sky.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/460_Factory in the Sky.jpg"
 			}
 		},
 		{
@@ -4451,7 +4451,7 @@
 			"type": "Artifact Creature — Assembly-Worker",
 			"collector_number": "461",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/461_Factory Scrap Guard.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/461_Factory Scrap Guard.jpg"
 			}
 		},
 		{
@@ -4461,7 +4461,7 @@
 			"type": "Sorcery",
 			"collector_number": "269",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/269_Feast for Friends.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/269_Feast for Friends.jpg"
 			}
 		},
 		{
@@ -4471,7 +4471,7 @@
 			"type": "Sorcery",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/11_Finally Wed.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/11_Finally Wed.jpg"
 			}
 		},
 		{
@@ -4481,7 +4481,7 @@
 			"type": "Artifact Creature — Minion",
 			"collector_number": "463",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/463_Flamespreader Minion.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/463_Flamespreader Minion.jpg"
 			}
 		},
 		{
@@ -4491,7 +4491,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "464",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/464_Fleet Factory.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/464_Fleet Factory.jpg"
 			}
 		},
 		{
@@ -4501,7 +4501,7 @@
 			"type": "Instant",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/130_Fleeting Shadow.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/130_Fleeting Shadow.jpg"
 			}
 		},
 		{
@@ -4511,7 +4511,7 @@
 			"type": "Legendary Planeswalker — Fleur",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/65_Fleur, Scarlet Dancer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/65_Fleur, Scarlet Dancer.jpg"
 			}
 		},
 		{
@@ -4521,7 +4521,7 @@
 			"type": "Creature — Plant Soldier",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/160_Flowering Footmen.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/160_Flowering Footmen.jpg"
 			}
 		},
 		{
@@ -4531,7 +4531,7 @@
 			"type": "Legendary Creature — Fungus Wizard",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/161_Foragus, Spore Shepherd.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/161_Foragus, Spore Shepherd.jpg"
 			}
 		},
 		{
@@ -4541,7 +4541,7 @@
 			"type": "Legendary Creature — Rat Shaman",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/66_Forever-Walker, the Undying.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/66_Forever-Walker, the Undying.jpg"
 			}
 		},
 		{
@@ -4551,7 +4551,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/31_Frost Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/31_Frost Knight.jpg"
 			}
 		},
 		{
@@ -4561,7 +4561,7 @@
 			"type": "Sorcery",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/67_Fungal Control.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/67_Fungal Control.jpg"
 			}
 		},
 		{
@@ -4571,7 +4571,7 @@
 			"type": "Enchantment",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/162_Fungal Oasis.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/162_Fungal Oasis.jpg"
 			}
 		},
 		{
@@ -4581,7 +4581,7 @@
 			"type": "Creature — Fungus Zombie",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/69_Fungi Scouts.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/69_Fungi Scouts.jpg"
 			}
 		},
 		{
@@ -4591,7 +4591,7 @@
 			"type": "Legendary Creature — Human Knight",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/70_Gautier, the Chainer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/70_Gautier, the Chainer.jpg"
 			}
 		},
 		{
@@ -4601,7 +4601,7 @@
 			"type": "Legendary Creature — Human Barbarian",
 			"collector_number": "284",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/284_Genshi Otsuki, Bandit King.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/284_Genshi Otsuki, Bandit King.jpg"
 			}
 		},
 		{
@@ -4611,7 +4611,7 @@
 			"type": "Creature — Human Cook",
 			"collector_number": "165",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/165_Gluttonous Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/165_Gluttonous Chef.jpg"
 			}
 		},
 		{
@@ -4621,7 +4621,7 @@
 			"type": "Legendary Creature — Orc Citizen",
 			"collector_number": "291",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/291_Grarg and Rarg, Brothers.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/291_Grarg and Rarg, Brothers.jpg"
 			}
 		},
 		{
@@ -4631,7 +4631,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/71_Grasp of Rot.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/71_Grasp of Rot.jpg"
 			}
 		},
 		{
@@ -4641,7 +4641,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/32_Grasp Through Planes.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/32_Grasp Through Planes.jpg"
 			}
 		},
 		{
@@ -4651,7 +4651,7 @@
 			"type": "Creature — Plant Cook",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/166_Green-Thumbed Chef.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/166_Green-Thumbed Chef.jpg"
 			}
 		},
 		{
@@ -4661,7 +4661,7 @@
 			"type": "Creature — Elemental Knight",
 			"collector_number": "167",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/167_Guardian of Nature.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/167_Guardian of Nature.jpg"
 			}
 		},
 		{
@@ -4671,7 +4671,7 @@
 			"type": "Instant",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/132_Handful of Deathfire.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/132_Handful of Deathfire.jpg"
 			}
 		},
 		{
@@ -4681,7 +4681,7 @@
 			"type": "Tribal Instant — Assassin",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/72_Hired Company.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/72_Hired Company.jpg"
 			}
 		},
 		{
@@ -4691,7 +4691,7 @@
 			"type": "Enchantment",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/12_Honored Dual.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/12_Honored Dual.jpg"
 			}
 		},
 		{
@@ -4701,7 +4701,7 @@
 			"type": "Legendary Artifact — Vehicle Avatar",
 			"collector_number": "475",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/475_House of the Rising Sun.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/475_House of the Rising Sun.jpg"
 			}
 		},
 		{
@@ -4711,7 +4711,7 @@
 			"type": "Legendary Planeswalker — Ileus",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/74_Ileus, Cruel Overseer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/74_Ileus, Cruel Overseer.jpg"
 			}
 		},
 		{
@@ -4721,7 +4721,7 @@
 			"type": "Sorcery",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/75_Intense Persuasion.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/75_Intense Persuasion.jpg"
 			}
 		},
 		{
@@ -4731,7 +4731,7 @@
 			"type": "Legendary Creature — Human Assassin",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/76_Ivan Tesre, Grim Barber.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/76_Ivan Tesre, Grim Barber.jpg"
 			}
 		},
 		{
@@ -4741,7 +4741,7 @@
 			"type": "Legendary Planeswalker — Jace",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/33_Jace, Reader of Lost Thoughts.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/33_Jace, Reader of Lost Thoughts.jpg"
 			}
 		},
 		{
@@ -4751,7 +4751,7 @@
 			"type": "Legendary Planeswalker — Jace",
 			"collector_number": "34",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/34_Jace, Wielder of Memories.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/34_Jace, Wielder of Memories.jpg"
 			}
 		},
 		{
@@ -4761,7 +4761,7 @@
 			"type": "Legendary Creature — Human Warrior",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/133_Lars Lavish of the Lavish Pirates.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/133_Lars Lavish of the Lavish Pirates.jpg"
 			}
 		},
 		{
@@ -4771,7 +4771,7 @@
 			"type": "Legendary Planeswalker — Liliana",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/79_Liliana, Lazotep Tyrant.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/79_Liliana, Lazotep Tyrant.jpg"
 			}
 		},
 		{
@@ -4781,7 +4781,7 @@
 			"type": "Creature — Shade Warrior",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/80_Loyal Piercer.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/80_Loyal Piercer.jpg"
 			}
 		},
 		{
@@ -4791,7 +4791,7 @@
 			"type": "Instant",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/37_Mass Dissipation Ritual.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/37_Mass Dissipation Ritual.jpg"
 			}
 		},
 		{
@@ -4801,7 +4801,7 @@
 			"type": "Instant",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/81_Morbid Tutor.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/81_Morbid Tutor.jpg"
 			}
 		},
 		{
@@ -4811,7 +4811,7 @@
 			"type": "Instant",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/82_Mourner's Tutor.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/82_Mourner's Tutor.jpg"
 			}
 		},
 		{
@@ -4821,7 +4821,7 @@
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "344",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/344_Noble Green Benjamin Omnieye.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/344_Noble Green Benjamin Omnieye.jpg"
 			}
 		},
 		{
@@ -4831,7 +4831,7 @@
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "346",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/346_Noble Papa Pyrus.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/346_Noble Papa Pyrus.jpg"
 			}
 		},
 		{
@@ -4841,7 +4841,7 @@
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "347",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/347_Noble Prin Tera.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/347_Noble Prin Tera.jpg"
 			}
 		},
 		{
@@ -4851,7 +4851,7 @@
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "348",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/348_Noble Signer Maximus.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/348_Noble Signer Maximus.jpg"
 			}
 		},
 		{
@@ -4861,7 +4861,7 @@
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "349",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/349_Noble Spender Feel-Good.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/349_Noble Spender Feel-Good.jpg"
 			}
 		},
 		{
@@ -4871,7 +4871,7 @@
 			"type": "Legendary Planeswalker — Noxen",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/84_Noxen, Shadow Walker.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/84_Noxen, Shadow Walker.jpg"
 			}
 		},
 		{
@@ -4881,7 +4881,7 @@
 			"type": "Creature — Goblin Cook",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/175_Oblivious Cook.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/175_Oblivious Cook.jpg"
 			}
 		},
 		{
@@ -4891,7 +4891,7 @@
 			"type": "Instant",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/88_Old One's Tutor.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/88_Old One's Tutor.jpg"
 			}
 		},
 		{
@@ -4901,7 +4901,7 @@
 			"type": "Instant",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/89_Overwhelming Decay.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/89_Overwhelming Decay.jpg"
 			}
 		},
 		{
@@ -4911,7 +4911,7 @@
 			"type": "Legendary Land",
 			"collector_number": "546",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/546_Paradise Island, Island of Wealth.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/546_Paradise Island, Island of Wealth.jpg"
 			}
 		},
 		{
@@ -4921,7 +4921,7 @@
 			"type": "Sorcery",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/136_Paradise Lost.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/136_Paradise Lost.jpg"
 			}
 		},
 		{
@@ -4931,7 +4931,7 @@
 			"type": "Instant",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/91_Price of Bravery.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/91_Price of Bravery.jpg"
 			}
 		},
 		{
@@ -4941,7 +4941,7 @@
 			"type": "Instant",
 			"collector_number": "137",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/137_Quick Deal.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/137_Quick Deal.jpg"
 			}
 		},
 		{
@@ -4951,7 +4951,7 @@
 			"type": "Creature — Elemental Knight",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/138_Raging Flame Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/138_Raging Flame Knight.jpg"
 			}
 		},
 		{
@@ -4961,7 +4961,7 @@
 			"type": "Creature — Human Rogue",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/93_Recursive Jailbird.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/93_Recursive Jailbird.jpg"
 			}
 		},
 		{
@@ -4971,7 +4971,7 @@
 			"type": "Sorcery",
 			"collector_number": "95",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/95_Rise from the Depths.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/95_Rise from the Depths.jpg"
 			}
 		},
 		{
@@ -4981,7 +4981,7 @@
 			"type": "Instant",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/4_Robotic Consultation.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/4_Robotic Consultation.jpg"
 			}
 		},
 		{
@@ -4991,7 +4991,7 @@
 			"type": "Legendary Planeswalker — Rulnya",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/41_Rulnya, Arcane Genius.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/41_Rulnya, Arcane Genius.jpg"
 			}
 		},
 		{
@@ -5001,7 +5001,7 @@
 			"type": "Instant",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/96_Save From Eternity.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/96_Save From Eternity.jpg"
 			}
 		},
 		{
@@ -5011,7 +5011,7 @@
 			"type": "Instant",
 			"collector_number": "97",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/97_Shatter Apart.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/97_Shatter Apart.jpg"
 			}
 		},
 		{
@@ -5021,7 +5021,7 @@
 			"type": "Legendary Creature — Phyrexian Praetor",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/99_Sheoldred, Compleat.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/99_Sheoldred, Compleat.jpg"
 			}
 		},
 		{
@@ -5031,7 +5031,7 @@
 			"type": "Enchantment",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/100_Sheoldred's Whisper.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/100_Sheoldred's Whisper.jpg"
 			}
 		},
 		{
@@ -5041,7 +5041,7 @@
 			"type": "Legendary Planeswalker — Sikoss",
 			"collector_number": "101",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/101_Sikoss, Clan Mourner.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/101_Sikoss, Clan Mourner.jpg"
 			}
 		},
 		{
@@ -5051,7 +5051,7 @@
 			"type": "Creature — Orc Knight",
 			"collector_number": "102",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/102_Slaughter Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/102_Slaughter Knight.jpg"
 			}
 		},
 		{
@@ -5061,7 +5061,7 @@
 			"type": "Enchantment",
 			"collector_number": "184",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/184_Slow Roast.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/184_Slow Roast.jpg"
 			}
 		},
 		{
@@ -5071,7 +5071,7 @@
 			"type": "Legendary Planeswalker — Sorin",
 			"collector_number": "104",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/104_Sorin, Bloodthirsty Adversary.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/104_Sorin, Bloodthirsty Adversary.jpg"
 			}
 		},
 		{
@@ -5081,7 +5081,7 @@
 			"type": "Instant",
 			"collector_number": "145",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/145_Spark Weaving.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/145_Spark Weaving.jpg"
 			}
 		},
 		{
@@ -5091,7 +5091,7 @@
 			"type": "Instant",
 			"collector_number": "146",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/146_Spender's Trap.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/146_Spender's Trap.jpg"
 			}
 		},
 		{
@@ -5101,7 +5101,7 @@
 			"type": "Instant",
 			"collector_number": "107",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/107_Spread Spores.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/107_Spread Spores.jpg"
 			}
 		},
 		{
@@ -5111,7 +5111,7 @@
 			"type": "Creature — Human Barbarian",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/147_Stoner Warlord.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/147_Stoner Warlord.jpg"
 			}
 		},
 		{
@@ -5121,7 +5121,7 @@
 			"type": "Sorcery",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/187_Study the War Plan.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/187_Study the War Plan.jpg"
 			}
 		},
 		{
@@ -5131,7 +5131,7 @@
 			"type": "Creature — Vampire Cook",
 			"collector_number": "108",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/108_Surveyor of Meats.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/108_Surveyor of Meats.jpg"
 			}
 		},
 		{
@@ -5141,7 +5141,7 @@
 			"type": "Instant",
 			"collector_number": "109",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/109_Swarm Lash.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/109_Swarm Lash.jpg"
 			}
 		},
 		{
@@ -5151,7 +5151,7 @@
 			"type": "Legendary Creature — Rat Rogue",
 			"collector_number": "110",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/110_Tavern-Tail, Adept Gambler.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/110_Tavern-Tail, Adept Gambler.jpg"
 			}
 		},
 		{
@@ -5161,7 +5161,7 @@
 			"type": "Legendary Artifact — Vehicle",
 			"collector_number": "470",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/470_The Golden Bough.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/470_The Golden Bough.jpg"
 			}
 		},
 		{
@@ -5171,7 +5171,7 @@
 			"type": "Legendary Creature — Human Bandit",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/18_Thrae Imbros, the Barrier.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/18_Thrae Imbros, the Barrier.jpg"
 			}
 		},
 		{
@@ -5181,7 +5181,7 @@
 			"type": "Legendary Planeswalker — Torial",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/111_Torial, Ascended Lich.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/111_Torial, Ascended Lich.jpg"
 			}
 		},
 		{
@@ -5191,7 +5191,7 @@
 			"type": "Creature — Fungus Horror",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/112_Underdark Scrambler.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/112_Underdark Scrambler.jpg"
 			}
 		},
 		{
@@ -5201,7 +5201,7 @@
 			"type": "Creature — Fungus Horror",
 			"collector_number": "113",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/113_Undergrowth Mongrel.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/113_Undergrowth Mongrel.jpg"
 			}
 		},
 		{
@@ -5211,7 +5211,7 @@
 			"type": "Creature — Fungus Survivor",
 			"collector_number": "114",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/114_Unflinching Spore.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/114_Unflinching Spore.jpg"
 			}
 		},
 		{
@@ -5221,7 +5221,7 @@
 			"type": "Enchantment",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/20_Unite Together.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/20_Unite Together.jpg"
 			}
 		},
 		{
@@ -5231,7 +5231,7 @@
 			"type": "Legendary Creature — Shade Assassin",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/116_Uratha, Deadly Mist.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/116_Uratha, Deadly Mist.jpg"
 			}
 		},
 		{
@@ -5241,7 +5241,7 @@
 			"type": "Creature — Human Knight",
 			"collector_number": "192",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/192_Viridescent Green Knight.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/192_Viridescent Green Knight.jpg"
 			}
 		},
 		{
@@ -5251,7 +5251,7 @@
 			"type": "Sorcery",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/5_Walk Among Life.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/5_Walk Among Life.jpg"
 			}
 		},
 		{
@@ -5261,7 +5261,7 @@
 			"type": "Creature — Fungus Shaman",
 			"collector_number": "118",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/118_Watcher of Wastes.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/118_Watcher of Wastes.jpg"
 			}
 		},
 		{
@@ -5271,7 +5271,7 @@
 			"type": "Legendary Land",
 			"collector_number": "521",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/521_Alvesvale, Harbor Kingdom.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/521_Alvesvale, Harbor Kingdom.jpg"
 			}
 		},
 		{
@@ -5281,7 +5281,7 @@
 			"type": "Artifact",
 			"collector_number": "433",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/433_Arrowheads of Will.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/433_Arrowheads of Will.jpg"
 			}
 		},
 		{
@@ -5291,7 +5291,7 @@
 			"type": "Sorcery",
 			"collector_number": "215",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/215_Bandit King's Defeat.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/215_Bandit King's Defeat.jpg"
 			}
 		},
 		{
@@ -5301,7 +5301,7 @@
 			"type": "Legendary Creature — Shapeshifter Pirate",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/126_Boobius, 'Master' Disguise.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/126_Boobius, 'Master' Disguise.jpg"
 			}
 		},
 		{
@@ -5311,7 +5311,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "440",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/440_Borank's Ring.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/440_Borank's Ring.jpg"
 			}
 		},
 		{
@@ -5321,7 +5321,7 @@
 			"type": "Legendary Creature — Avatar",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/231_Break Stuff.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/231_Break Stuff.jpg"
 			}
 		},
 		{
@@ -5331,7 +5331,7 @@
 			"type": "Artifact",
 			"collector_number": "442",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/442_Caravan Portal.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/442_Caravan Portal.jpg"
 			}
 		},
 		{
@@ -5341,7 +5341,7 @@
 			"type": "Instant",
 			"collector_number": "252",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/252_Distraction!.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/252_Distraction!.jpg"
 			}
 		},
 		{
@@ -5351,7 +5351,7 @@
 			"type": "Sorcery",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/30_Entrance!.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/30_Entrance!.jpg"
 			}
 		},
 		{
@@ -5361,7 +5361,7 @@
 			"type": "Legendary Land — Slate",
 			"collector_number": "529",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/529_Ere, City of Slate.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/529_Ere, City of Slate.jpg"
 			}
 		},
 		{
@@ -5371,7 +5371,7 @@
 			"type": "Legendary Land — Slate",
 			"collector_number": "530",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/530_Erena, the Slate Capital.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/530_Erena, the Slate Capital.jpg"
 			}
 		},
 		{
@@ -5381,7 +5381,7 @@
 			"type": "Legendary Land — Slate",
 			"collector_number": "531",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/531_Erenarva, the Slate Isles.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/531_Erenarva, the Slate Isles.jpg"
 			}
 		},
 		{
@@ -5391,7 +5391,7 @@
 			"type": "Legendary Creature — Avatar",
 			"collector_number": "270",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/270_Feel Good Inc..jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/270_Feel Good Inc..jpg"
 			}
 		},
 		{
@@ -5401,7 +5401,7 @@
 			"type": "Artifact",
 			"collector_number": "473",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/473_Half-Pipe!.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/473_Half-Pipe!.jpg"
 			}
 		},
 		{
@@ -5411,7 +5411,7 @@
 			"type": "Instant",
 			"collector_number": "303",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/303_Interrogation!.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/303_Interrogation!.jpg"
 			}
 		},
 		{
@@ -5421,7 +5421,7 @@
 			"type": "Creature — Leprechaun Rogue",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/134_Lepregang.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/134_Lepregang.jpg"
 			}
 		},
 		{
@@ -5431,7 +5431,7 @@
 			"type": "Legendary Creature — Avatar",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/36_Lose! Lose! Lose!.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/36_Lose! Lose! Lose!.jpg"
 			}
 		},
 		{
@@ -5441,7 +5441,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "482",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/482_Many Stolen Keys.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/482_Many Stolen Keys.jpg"
 			}
 		},
 		{
@@ -5451,7 +5451,7 @@
 			"type": "Legendary Land — Slate",
 			"collector_number": "544",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/544_Narva, the Slate City.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/544_Narva, the Slate City.jpg"
 			}
 		},
 		{
@@ -5461,7 +5461,7 @@
 			"type": "Tribal Artifact — Demon",
 			"collector_number": "489",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/489_Parin's Contracts.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/489_Parin's Contracts.jpg"
 			}
 		},
 		{
@@ -5471,7 +5471,7 @@
 			"type": "Artifact",
 			"collector_number": "490",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/490_Parin's Storage.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/490_Parin's Storage.jpg"
 			}
 		},
 		{
@@ -5481,7 +5481,7 @@
 			"type": "Artifact",
 			"collector_number": "497",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/497_Railed!.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/497_Railed!.jpg"
 			}
 		},
 		{
@@ -5491,7 +5491,7 @@
 			"type": "Instant",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/140_Ransacked!.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/140_Ransacked!.jpg"
 			}
 		},
 		{
@@ -5501,7 +5501,7 @@
 			"type": "Legendary Land — Slate",
 			"collector_number": "550",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/550_Renarva, Bastion of Slate.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/550_Renarva, Bastion of Slate.jpg"
 			}
 		},
 		{
@@ -5511,7 +5511,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "503",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/503_Rubius' Lucky Coin.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/503_Rubius' Lucky Coin.jpg"
 			}
 		},
 		{
@@ -5521,7 +5521,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "504",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/504_Rubius' Trinket.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/504_Rubius' Trinket.jpg"
 			}
 		},
 		{
@@ -5531,7 +5531,7 @@
 			"type": "Artifact",
 			"collector_number": "511",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/511_Statuette of Will.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/511_Statuette of Will.jpg"
 			}
 		},
 		{
@@ -5541,7 +5541,7 @@
 			"type": "Legendary Land",
 			"collector_number": "559",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/559_Stonehaven, the Foundation.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/559_Stonehaven, the Foundation.jpg"
 			}
 		},
 		{
@@ -5551,7 +5551,7 @@
 			"type": "Instant",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/16_Stop!.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/16_Stop!.jpg"
 			}
 		},
 		{
@@ -5561,7 +5561,7 @@
 			"type": "Legendary Artifact — Vehicle",
 			"collector_number": "439",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/439_The Blade Moses.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/439_The Blade Moses.jpg"
 			}
 		},
 		{
@@ -5571,7 +5571,7 @@
 			"type": "Legendary Artifact — Vehicle",
 			"collector_number": "448",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/448_The Crashing Artery.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/448_The Crashing Artery.jpg"
 			}
 		},
 		{
@@ -5581,7 +5581,7 @@
 			"type": "Legendary Land",
 			"collector_number": "540",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/540_The Mallorn Wood.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/540_The Mallorn Wood.jpg"
 			}
 		},
 		{
@@ -5591,7 +5591,7 @@
 			"type": "Sorcery",
 			"collector_number": "143",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/143_The Sacking of Hoffstead.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/143_The Sacking of Hoffstead.jpg"
 			}
 		},
 		{
@@ -5601,7 +5601,7 @@
 			"type": "Legendary Creature — Sepent God",
 			"collector_number": "183",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/183_The Serpents Who Wound Time.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/183_The Serpents Who Wound Time.jpg"
 			}
 		},
 		{
@@ -5611,7 +5611,7 @@
 			"type": "Legendary Land — Slate",
 			"collector_number": "554",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/554_The Slate Temple.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/554_The Slate Temple.jpg"
 			}
 		},
 		{
@@ -5621,7 +5621,7 @@
 			"type": "Legendary Creature — Avatar Human",
 			"collector_number": "400",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/400_Thrae and Jail Socks.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/400_Thrae and Jail Socks.jpg"
 			}
 		},
 		{
@@ -5631,7 +5631,7 @@
 			"type": "Sorcery",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/149_Tragedy!.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/149_Tragedy!.jpg"
 			}
 		},
 		{
@@ -5641,7 +5641,7 @@
 			"type": "Instant",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/19_Tragic Backstory.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/19_Tragic Backstory.jpg"
 			}
 		},
 		{
@@ -5651,7 +5651,7 @@
 			"type": "Sorcery",
 			"collector_number": "417",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/417_Why Not.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/417_Why Not.jpg"
 			}
 		},
 		{
@@ -5661,7 +5661,7 @@
 			"type": "Legendary Creature — God",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/73_Hod, the Tragic.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/73_Hod, the Tragic.jpg"
 			}
 		},
 		{
@@ -5671,7 +5671,7 @@
 			"type": "Legendary Creature — God",
 			"collector_number": "406",
 			"image_uris": {
-				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/406_Tyr, the Justice.jpg"
+				"en": "https://CH4INS4WM4N.github.io/sets/PS1-files/img/406_Tyr, the Justice.jpg"
 			}
 		},
 	]
