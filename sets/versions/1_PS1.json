@@ -1,7 +1,7 @@
 ﻿{
     "name": "Pack Set 1",
     "formats": "",
-    "trimmed": "y",
+    "trimmed": "n",
     "image_type": "jpg",
     "draft_structure": "play booster",
     "cards": [
@@ -10223,6 +10223,5 @@
             "artist": "Unknown Artist",
             "notes": ""
         }
-    ],
-    "version": 1
+    ]
 }

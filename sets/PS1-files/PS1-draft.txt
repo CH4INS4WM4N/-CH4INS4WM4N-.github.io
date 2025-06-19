@@ -1,0 +1,6812 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Thrice, Factory Heads",
+			"rarity": "mythic",
+			"mana_cost": "{14}{C}",
+			"type": "Legendary Artifact Creature — Assembly-Worker",
+			"collector_number": "514",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/514_Thrice, Factory Heads.jpg"
+			}
+		},
+		{
+			"name": "Worker Prime, Model Employee",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Legendary Planeswalker",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/6_Worker Prime, Model Employee.jpg"
+			}
+		},
+		{
+			"name": "Earth-Grinder, Iron Devastator",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "455",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/455_Earth-Grinder, Iron Devastator.jpg"
+			}
+		},
+		{
+			"name": "Factory",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Artifact Land — Factory",
+			"collector_number": "532",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/532_Factory.jpg"
+			}
+		},
+		{
+			"name": "Clockwork City",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "523",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/523_Clockwork City.jpg"
+			}
+		},
+		{
+			"name": "Massive Energy Module",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Artifact Land",
+			"collector_number": "541",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/541_Massive Energy Module.jpg"
+			}
+		},
+		{
+			"name": "Imposing Foundry",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Land",
+			"collector_number": "537",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/537_Imposing Foundry.jpg"
+			}
+		},
+		{
+			"name": "Skyway Transit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "553",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/553_Skyway Transit.jpg"
+			}
+		},
+		{
+			"name": "Mobile Sky Port",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Land — Vehicle",
+			"collector_number": "543",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/543_Mobile Sky Port.jpg"
+			}
+		},
+		{
+			"name": "Assembly Nightmare",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker Horror",
+			"collector_number": "438",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/438_Assembly Nightmare.jpg"
+			}
+		},
+		{
+			"name": "Cog Cleaner",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "446",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/446_Cog Cleaner.jpg"
+			}
+		},
+		{
+			"name": "Demolition Mech",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "451",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/451_Demolition Mech.jpg"
+			}
+		},
+		{
+			"name": "Brutalizer Mech",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "441",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/441_Brutalizer Mech.jpg"
+			}
+		},
+		{
+			"name": "Apocalypse Mech",
+			"rarity": "rare",
+			"mana_cost": "{7}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "432",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/432_Apocalypse Mech.jpg"
+			}
+		},
+		{
+			"name": "Flesh Imitator",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Horror",
+			"collector_number": "465",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/465_Flesh Imitator.jpg"
+			}
+		},
+		{
+			"name": "Generator Mech",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "468",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/468_Generator Mech.jpg"
+			}
+		},
+		{
+			"name": "Lobotomizer",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "481",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/481_Lobotomizer.jpg"
+			}
+		},
+		{
+			"name": "Scrapyard Gravecrawler",
+			"rarity": "rare",
+			"mana_cost": "{C}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "506",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/506_Scrapyard Gravecrawler.jpg"
+			}
+		},
+		{
+			"name": "Viscera Collector",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "516",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/516_Viscera Collector.jpg"
+			}
+		},
+		{
+			"name": "Repurposed Crate Worker",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "501",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/501_Repurposed Crate Worker.jpg"
+			}
+		},
+		{
+			"name": "'The Dude'",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{R}{G}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "397",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/397_'The Dude'.jpg"
+			}
+		},
+		{
+			"name": "Illan, Dazzling Saucier",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}{G}",
+			"type": "Legendary Creature — Elf Cook",
+			"collector_number": "301",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/301_Illan, Dazzling Saucier.jpg"
+			}
+		},
+		{
+			"name": "Baarbus Flamekin, Chef",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{R}{G}",
+			"type": "Legendary Creature — Dwarf Cook",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/212_Baarbus Flamekin, Chef.jpg"
+			}
+		},
+		{
+			"name": "Curse Dealer",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Hag",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/54_Curse Dealer.jpg"
+			}
+		},
+		{
+			"name": "Line Chef",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Cook",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/135_Line Chef.jpg"
+			}
+		},
+		{
+			"name": "High Elf",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/169_High Elf.jpg"
+			}
+		},
+		{
+			"name": "Passing Grass",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Artifact",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/179_Passing Grass.jpg"
+			}
+		},
+		{
+			"name": "Blazed",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/222_Blazed.jpg"
+			}
+		},
+		{
+			"name": "Multi-Tasker Chef",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Octopus Cook",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/172_Multi-Tasker Chef.jpg"
+			}
+		},
+		{
+			"name": "Burner Brigade",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Human Peasant",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/235_Burner Brigade.jpg"
+			}
+		},
+		{
+			"name": "Loafing Barkskin",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}{G}",
+			"type": "Creature — Elemental Giant",
+			"collector_number": "320",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/320_Loafing Barkskin.jpg"
+			}
+		},
+		{
+			"name": "Monster Chef",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Orc Cook",
+			"collector_number": "333",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/333_Monster Chef.jpg"
+			}
+		},
+		{
+			"name": "Favored Pipe",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "462",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/462_Favored Pipe.jpg"
+			}
+		},
+		{
+			"name": "Stash Bag",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "510",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/510_Stash Bag.jpg"
+			}
+		},
+		{
+			"name": "Sous-Chef",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Human Cook",
+			"collector_number": "387",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/387_Sous-Chef.jpg"
+			}
+		},
+		{
+			"name": "Revel Poisoner",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Cook",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/94_Revel Poisoner.jpg"
+			}
+		},
+		{
+			"name": "Reckless Dealer",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/141_Reckless Dealer.jpg"
+			}
+		},
+		{
+			"name": "Rush Chef",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Bird Cook",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/142_Rush Chef.jpg"
+			}
+		},
+		{
+			"name": "Overly Excited Taste Tester",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Cook",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/176_Overly Excited Taste Tester.jpg"
+			}
+		},
+		{
+			"name": "Soup Chef",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Human Cook",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/185_Soup Chef.jpg"
+			}
+		},
+		{
+			"name": "Cthulu, the Deep One",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Horror God",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/243_Cthulu, the Deep One.jpg"
+			}
+		},
+		{
+			"name": "Narmenikan, the Archlich",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{B}{R}",
+			"type": "Legendary Creature — Skeleton Wizard",
+			"collector_number": "341",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/341_Narmenikan, the Archlich.jpg"
+			}
+		},
+		{
+			"name": "Thrasis, Eldritch Lich",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Legendary Creature — Zombie Wizard",
+			"collector_number": "401",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/401_Thrasis, Eldritch Lich.jpg"
+			}
+		},
+		{
+			"name": "Lich's Phylactery",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact",
+			"collector_number": "480",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/480_Lich's Phylactery.jpg"
+			}
+		},
+		{
+			"name": "Gateway to the Beyond",
+			"rarity": "mythic",
+			"mana_cost": "{9}",
+			"type": "Legendary Artifact",
+			"collector_number": "467",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/467_Gateway to the Beyond.jpg"
+			}
+		},
+		{
+			"name": "Ormathrokel, God of the Void",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Legendary Enchantment Creature — Horror God",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/3_Ormathrokel, God of the Void.jpg"
+			}
+		},
+		{
+			"name": "Deep One's Lashing",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/25_Deep One's Lashing.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Force",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/28_Eldritch Force.jpg"
+			}
+		},
+		{
+			"name": "Persistent Murmors",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/40_Persistent Murmors.jpg"
+			}
+		},
+		{
+			"name": "Archdemon of Rites",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/43_Archdemon of Rites.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Tutor",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/62_Eldritch Tutor.jpg"
+			}
+		},
+		{
+			"name": "Necrotic Touch",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/83_Necrotic Touch.jpg"
+			}
+		},
+		{
+			"name": "Shed Curses",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/98_Shed Curses.jpg"
+			}
+		},
+		{
+			"name": "Noxious Breath",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/85_Noxious Breath.jpg"
+			}
+		},
+		{
+			"name": "Raging Horror",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Horror",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/139_Raging Horror.jpg"
+			}
+		},
+		{
+			"name": "Snapfire",
+			"rarity": "common",
+			"mana_cost": "{R}{R}{R}",
+			"type": "Instant",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/144_Snapfire.jpg"
+			}
+		},
+		{
+			"name": "Dark Dissipation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Instant",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/245_Dark Dissipation.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Lightning",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/260_Eldritch Lightning.jpg"
+			}
+		},
+		{
+			"name": "Moonlit Occultist",
+			"rarity": "common",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "334",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/334_Moonlit Occultist.jpg"
+			}
+		},
+		{
+			"name": "Shadow-Wreathed Lich",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Shade Warlock",
+			"collector_number": "377",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/377_Shadow-Wreathed Lich.jpg"
+			}
+		},
+		{
+			"name": "Fungal Wasteland",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "534",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/534_Fungal Wasteland.jpg"
+			}
+		},
+		{
+			"name": "Spore Filled Swamp",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "556",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/556_Spore Filled Swamp.jpg"
+			}
+		},
+		{
+			"name": "The Spore That Shrouds All",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "557",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/557_The Spore That Shrouds All.jpg"
+			}
+		},
+		{
+			"name": "Undergrowth Marsh",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "563",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/563_Undergrowth Marsh.jpg"
+			}
+		},
+		{
+			"name": "Fertamai, Rotten Queen",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Fungus Noble",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/274_Fertamai, Rotten Queen.jpg"
+			}
+		},
+		{
+			"name": "He Who Rots",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}{G}",
+			"type": "Legendary Creature — Fungus Horror",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/294_He Who Rots.jpg"
+			}
+		},
+		{
+			"name": "Itnoai, the Cultivator",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Fungus Wizard",
+			"collector_number": "305",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/305_Itnoai, the Cultivator.jpg"
+			}
+		},
+		{
+			"name": "Mortal-Slayer, the Deadly",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}{G}",
+			"type": "Legendary Creature — Rat Wizard",
+			"collector_number": "337",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/337_Mortal-Slayer, the Deadly.jpg"
+			}
+		},
+		{
+			"name": "Fungal Rising",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/68_Fungal Rising.jpg"
+			}
+		},
+		{
+			"name": "Spore Protector",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Insect",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/105_Spore Protector.jpg"
+			}
+		},
+		{
+			"name": "Spore Trapper",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Fungus Rogue",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/106_Spore Trapper.jpg"
+			}
+		},
+		{
+			"name": "Overtake With Fungus",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/177_Overtake With Fungus.jpg"
+			}
+		},
+		{
+			"name": "Nature's Revenge",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Fungus Beast",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/174_Nature's Revenge.jpg"
+			}
+		},
+		{
+			"name": "Patient Spore",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "1 Creature — Fungus",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/180_Patient Spore.jpg"
+			}
+		},
+		{
+			"name": "Spore Hound",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Plant Wolf",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/186_Spore Hound.jpg"
+			}
+		},
+		{
+			"name": "Decaying Toadstool",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Fungus",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/247_Decaying Toadstool.jpg"
+			}
+		},
+		{
+			"name": "Infinite Decay",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Instant",
+			"collector_number": "302",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/302_Infinite Decay.jpg"
+			}
+		},
+		{
+			"name": "Skittering Toadstool",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Fungus Insect",
+			"collector_number": "381",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/381_Skittering Toadstool.jpg"
+			}
+		},
+		{
+			"name": "Ravenous Corpse",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Fungus Zombie",
+			"collector_number": "366",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/366_Ravenous Corpse.jpg"
+			}
+		},
+		{
+			"name": "Undergrowth Minion",
+			"rarity": "common",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Fungus Zombie",
+			"collector_number": "409",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/409_Undergrowth Minion.jpg"
+			}
+		},
+		{
+			"name": "Heinz' Lamp, Ketch",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Legendary Artifact",
+			"collector_number": "474",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/474_Heinz' Lamp, Ketch.jpg"
+			}
+		},
+		{
+			"name": "Heinz, Crazed Arcanist",
+			"rarity": "mythic",
+			"mana_cost": "{U}{U}{B}{B}",
+			"type": "Legendary Planeswalker — Heinz",
+			"collector_number": "295",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/295_Heinz, Crazed Arcanist.jpg"
+			}
+		},
+		{
+			"name": "Persephone, Queen of the Underworld",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — God",
+			"collector_number": "357",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/357_Persephone, Queen of the Underworld.jpg"
+			}
+		},
+		{
+			"name": "Sefera, the Silent Voice",
+			"rarity": "mythic",
+			"mana_cost": "{B}{G}{U}",
+			"type": "Legendary Creature — Human Shaman",
+			"collector_number": "375",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/375_Sefera, the Silent Voice.jpg"
+			}
+		},
+		{
+			"name": "Sereth, Sister of Body",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Snake Warlock",
+			"collector_number": "376",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/376_Sereth, Sister of Body.jpg"
+			}
+		},
+		{
+			"name": "Veris, Sister of Soul",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Snake Warlock",
+			"collector_number": "414",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/414_Veris, Sister of Soul.jpg"
+			}
+		},
+		{
+			"name": "He Who Walks Eternity",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Planeswalker",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/2_He Who Walks Eternity.jpg"
+			}
+		},
+		{
+			"name": "Odan, the Surging Storm",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{U}",
+			"type": "Legendary Planeswalker — Odan",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/39_Odan, the Surging Storm.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Touch",
+			"rarity": "common",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/61_Eldritch Touch.jpg"
+			}
+		},
+		{
+			"name": "Liliana, Betrayer of Gods",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Planeswalker — Liliana",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/78_Liliana, Betrayer of Gods.jpg"
+			}
+		},
+		{
+			"name": "Nyma, Eldritch Weaver",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Planeswalker — Neema",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/86_Nyma, Eldritch Weaver.jpg"
+			}
+		},
+		{
+			"name": "Rab, the Withering Host",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Planeswalker — Rab",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/92_Rab, the Withering Host.jpg"
+			}
+		},
+		{
+			"name": "Vicne, Demon Half-Breed",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Planeswalker — Vicne",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/117_Vicne, Demon Half-Breed.jpg"
+			}
+		},
+		{
+			"name": "Wildlands Exploration",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/193_Wildlands Exploration.jpg"
+			}
+		},
+		{
+			"name": "Loyal Mystic",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/171_Loyal Mystic.jpg"
+			}
+		},
+		{
+			"name": "Britel, King of Bones",
+			"rarity": "mythic",
+			"mana_cost": "{8}{B}{G}",
+			"type": "Legendary Planeswalker — Britel",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/232_Britel, King of Bones.jpg"
+			}
+		},
+		{
+			"name": "Varai, Attendant of the Night",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Planeswalker — Varai",
+			"collector_number": "412",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/412_Varai, Attendant of the Night.jpg"
+			}
+		},
+		{
+			"name": "Itachi of the Sharingan",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Planeswalker — Itachi",
+			"collector_number": "304",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/304_Itachi of the Sharingan.jpg"
+			}
+		},
+		{
+			"name": "Leyline Ritual",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Instant",
+			"collector_number": "317",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/317_Leyline Ritual.jpg"
+			}
+		},
+		{
+			"name": "Kingslayer Jaime Lannister",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/14_Kingslayer Jaime Lannister.jpg"
+			}
+		},
+		{
+			"name": "King Avelot, Unchallenged",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/77_King Avelot, Unchallenged.jpg"
+			}
+		},
+		{
+			"name": "King Reynauld, Unmatched",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/13_King Reynauld, Unmatched.jpg"
+			}
+		},
+		{
+			"name": "Mace, Knight of the Outlands",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Legendary Creature — Elf Knight",
+			"collector_number": "325",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/325_Mace, Knight of the Outlands.jpg"
+			}
+		},
+		{
+			"name": "Sir Baynard, Bold Guardian",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Frog Knight",
+			"collector_number": "380",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/380_Sir Baynard, Bold Guardian.jpg"
+			}
+		},
+		{
+			"name": "Strike Down",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/17_Strike Down.jpg"
+			}
+		},
+		{
+			"name": "Knight of the Fae",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Faerie Knight",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/35_Knight of the Fae.jpg"
+			}
+		},
+		{
+			"name": "Somber Black Knight",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Human Knight",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/103_Somber Black Knight.jpg"
+			}
+		},
+		{
+			"name": "Blazing Halberdier",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Knight",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/123_Blazing Halberdier.jpg"
+			}
+		},
+		{
+			"name": "Nature Bound Knight",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Druid Knight",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/173_Nature Bound Knight.jpg"
+			}
+		},
+		{
+			"name": "Assault on the Enemy",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/206_Assault on the Enemy.jpg"
+			}
+		},
+		{
+			"name": "Berserker of the Ridge",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Human Knight",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/219_Berserker of the Ridge.jpg"
+			}
+		},
+		{
+			"name": "Bloodthirsty Errant",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Elf Knight",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/227_Bloodthirsty Errant.jpg"
+			}
+		},
+		{
+			"name": "Lord Tolrn of Old Keep",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}{W}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "321",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/321_Lord Tolrn of Old Keep.jpg"
+			}
+		},
+		{
+			"name": "Swift Guardian",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Human Knight",
+			"collector_number": "393",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/393_Swift Guardian.jpg"
+			}
+		},
+		{
+			"name": "Master of the Battlefield",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "329",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/329_Master of the Battlefield.jpg"
+			}
+		},
+		{
+			"name": "Prismatic Knight",
+			"rarity": "mythic",
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"type": "Creature — Human Knight",
+			"collector_number": "361",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/361_Prismatic Knight.jpg"
+			}
+		},
+		{
+			"name": "Night-Veiled Valkyrie",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Human Knight",
+			"collector_number": "343",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/343_Night-Veiled Valkyrie.jpg"
+			}
+		},
+		{
+			"name": "Wildlands Protector",
+			"rarity": "common",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Dwarf Knight",
+			"collector_number": "418",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/418_Wildlands Protector.jpg"
+			}
+		},
+		{
+			"name": "War of Attrition",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Enchantment",
+			"collector_number": "415",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/415_War of Attrition.jpg"
+			}
+		},
+		{
+			"name": "Lelaine, Voice of the Broken",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Elf Shaman",
+			"collector_number": "315",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/315_Lelaine, Voice of the Broken.jpg"
+			}
+		},
+		{
+			"name": "Dryad of the Alliance",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Centaur Dryad",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/256_Dryad of the Alliance.jpg"
+			}
+		},
+		{
+			"name": "Pastor of the Dead",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Zombie Cleric",
+			"collector_number": "356",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/356_Pastor of the Dead.jpg"
+			}
+		},
+		{
+			"name": "Baah, Who Demands Sacrifice",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{B}{G}",
+			"type": "Legendary Creature — Goat God",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/211_Baah, Who Demands Sacrifice.jpg"
+			}
+		},
+		{
+			"name": "Unnatural Order",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Instant",
+			"collector_number": "410",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/410_Unnatural Order.jpg"
+			}
+		},
+		{
+			"name": "Kinship Rift",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "477",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/477_Kinship Rift.jpg"
+			}
+		},
+		{
+			"name": "Parin's Post",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "547",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/547_Parin's Post.jpg"
+			}
+		},
+		{
+			"name": "Queen's Court",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "549",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/549_Queen's Court.jpg"
+			}
+		},
+		{
+			"name": "Marchesa, the Glistening Rose",
+			"rarity": "mythic",
+			"mana_cost": "{W}{U}{B}{R}",
+			"type": "Legendary Creature — Phyrexian Assassin",
+			"collector_number": "328",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/328_Marchesa, the Glistening Rose.jpg"
+			}
+		},
+		{
+			"name": "Forbidden Rites",
+			"rarity": "common",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/278_Forbidden Rites.jpg"
+			}
+		},
+		{
+			"name": "Lordslayer Sael, the Merciless",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Creature — Angel Assassin",
+			"collector_number": "322",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/322_Lordslayer Sael, the Merciless.jpg"
+			}
+		},
+		{
+			"name": "Queen's Mox",
+			"rarity": "mythic",
+			"mana_cost": "{0}",
+			"type": "Legendary Artifact",
+			"collector_number": "496",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/496_Queen's Mox.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Dagger",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Tribal Artifact — Assassin Equipment",
+			"collector_number": "435",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/435_Assassin's Dagger.jpg"
+			}
+		},
+		{
+			"name": "Orb of Darkness",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "488",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/488_Orb of Darkness.jpg"
+			}
+		},
+		{
+			"name": "Wresacs, the Unwavering",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "423",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/423_Wresacs, the Unwavering.jpg"
+			}
+		},
+		{
+			"name": "N'sark, the Brutalizer",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "351",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/351_N'sark, the Brutalizer.jpg"
+			}
+		},
+		{
+			"name": "Lethanar, the Incinerator",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Angel Assassin",
+			"collector_number": "316",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/316_Lethanar, the Incinerator.jpg"
+			}
+		},
+		{
+			"name": "Denji, Devil Hearted",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Human Hybrid",
+			"collector_number": "249",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/249_Denji, Devil Hearted_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/249_Denji, Devil Hearted_front.jpg"
+			}
+		},
+		{
+			"name": "Parin, Habitual Killer",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/90_Parin, Habitual Killer.jpg"
+			}
+		},
+		{
+			"name": "Ofan, Nobleslayer",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/87_Ofan, Nobleslayer.jpg"
+			}
+		},
+		{
+			"name": "Terathan, the Bleeding Edge",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/148_Terathan, the Bleeding Edge.jpg"
+			}
+		},
+		{
+			"name": "Blood Fireball",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/225_Blood Fireball.jpg"
+			}
+		},
+		{
+			"name": "Quei-Sen, Venomous Gift",
+			"rarity": "common",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "362",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/362_Quei-Sen, Venomous Gift.jpg"
+			}
+		},
+		{
+			"name": "Jasai, Queen's Thorn",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "306",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/306_Jasai, Queen's Thorn.jpg"
+			}
+		},
+		{
+			"name": "Grave Scrying",
+			"rarity": "common",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "292",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/292_Grave Scrying.jpg"
+			}
+		},
+		{
+			"name": "Morasta Calitrex, Moonlit Thief",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Vampire Assassin",
+			"collector_number": "336",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/336_Morasta Calitrex, Moonlit Thief.jpg"
+			}
+		},
+		{
+			"name": "Ceri, Burning Confluence",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/238_Ceri, Burning Confluence.jpg"
+			}
+		},
+		{
+			"name": "Plowshares to Sword",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/15_Plowshares to Sword.jpg"
+			}
+		},
+		{
+			"name": "Soul of the Dying Earth",
+			"rarity": "mythic",
+			"mana_cost": "{2/C}{B}{R}{G}{W}",
+			"type": "Legendary Creature — Elemental Spirit",
+			"collector_number": "386",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/386_Soul of the Dying Earth.jpg"
+			}
+		},
+		{
+			"name": "Aoife the Wry",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{B}",
+			"type": "Legendary Creature — Faerie Wizard",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/199_Aoife the Wry.jpg"
+			}
+		},
+		{
+			"name": "Obfuscate",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/38_Obfuscate.jpg"
+			}
+		},
+		{
+			"name": "Trip",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/42_Trip.jpg"
+			}
+		},
+		{
+			"name": "Collective Ritual",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Instant",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/241_Collective Ritual.jpg"
+			}
+		},
+		{
+			"name": "Ein, the Envoker",
+			"rarity": "rare",
+			"mana_cost": "{2}{B/P}{B}",
+			"type": "Legendary Creature — Skeleton Wizard",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/58_Ein, the Envoker.jpg"
+			}
+		},
+		{
+			"name": "Guarantee",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/131_Guarantee.jpg"
+			}
+		},
+		{
+			"name": "I-VI, First Through Sixth",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}{U}",
+			"type": "Legendary 6 Creature — Human",
+			"collector_number": "300",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/300_I-VI, First Through Sixth.jpg"
+			}
+		},
+		{
+			"name": "Blaade Vast, Soul Thief",
+			"rarity": "mythic",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Legendary Creature — Human Pirate",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/220_Blaade Vast, Soul Thief.jpg"
+			}
+		},
+		{
+			"name": "Rubius Sapwood, Shipwright",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Leprehchaun Artificer",
+			"collector_number": "370",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/370_Rubius Sapwood, Shipwright.jpg"
+			}
+		},
+		{
+			"name": "Calypso, Tattered Shifter",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/237_Calypso, Tattered Shifter.jpg"
+			}
+		},
+		{
+			"name": "Silver-Beard Vax Caper",
+			"rarity": "mythic",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Legendary Creature — Human Pirate",
+			"collector_number": "379",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/379_Silver-Beard Vax Caper.jpg"
+			}
+		},
+		{
+			"name": "Felix Han, the Warrior",
+			"rarity": "mythic",
+			"mana_cost": "{G}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/271_Felix Han, the Warrior.jpg"
+			}
+		},
+		{
+			"name": "Battlefield",
+			"rarity": "mythic",
+			"mana_cost": "{R}{R}{W}{W}",
+			"type": "Legendary Creature — Avatar Warrior",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/217_Battlefield.jpg"
+			}
+		},
+		{
+			"name": "Moonwhisper, Shape Searching",
+			"rarity": "mythic",
+			"mana_cost": "{G}{U}{R}",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "335",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/335_Moonwhisper, Shape Searching.jpg"
+			}
+		},
+		{
+			"name": "Gnaw, Alone",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}{R}",
+			"type": "Legendary Creature — Kobold",
+			"collector_number": "288",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/288_Gnaw, Alone.jpg"
+			}
+		},
+		{
+			"name": "Calypso, Golden Bough Captain",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Legendary Creature — Shapeshifter Pirate",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/236_Calypso, Golden Bough Captain.jpg"
+			}
+		},
+		{
+			"name": "Naeris Galenodel, First Mate",
+			"rarity": "mythic",
+			"mana_cost": "{R}{G}{W}",
+			"type": "Legendary Creature — Shapeshifter Druid",
+			"collector_number": "339",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/339_Naeris Galenodel, First Mate.jpg"
+			}
+		},
+		{
+			"name": "Nox Nefarous, the Fog",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}{U}",
+			"type": "Legendary Creature — Human Pirate Assassin",
+			"collector_number": "350",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/350_Nox Nefarous, the Fog.jpg"
+			}
+		},
+		{
+			"name": "Golden-Eye Axe Carter",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}{R}",
+			"type": "Legendary Creature — Human Pirate",
+			"collector_number": "289",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/289_Golden-Eye Axe Carter.jpg"
+			}
+		},
+		{
+			"name": "Evelyn Lavish of the Lavish Pirates",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}{B}",
+			"type": "Legendary Creature — Human Pirate",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/266_Evelyn Lavish of the Lavish Pirates.jpg"
+			}
+		},
+		{
+			"name": "A Knight's Watch",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Tribal Enchantment — Knight",
+			"collector_number": "313",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/313_A Knight's Watch.jpg"
+			}
+		},
+		{
+			"name": "Alani, the Swiftfoot",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Planeswalker — Alani",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/197_Alani, the Swiftfoot.jpg"
+			}
+		},
+		{
+			"name": "Artus, Lightning Rider",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}{W}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/201_Artus, Lightning Rider.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Slash",
+			"rarity": "common",
+			"mana_cost": "{B}{R}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/205_Assassin's Slash.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Warning",
+			"rarity": "mythic",
+			"mana_cost": "{0}",
+			"type": "Tribal Artifact — Assassin Treasure",
+			"collector_number": "436",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/436_Assassin's Warning.jpg"
+			}
+		},
+		{
+			"name": "Astonishing Persistence",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Instant",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/207_Astonishing Persistence.jpg"
+			}
+		},
+		{
+			"name": "Atop the Bodies",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/208_Atop the Bodies.jpg"
+			}
+		},
+		{
+			"name": "Avatar of Rot",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}{G}{G}",
+			"type": "Creature — Avatar",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/209_Avatar of Rot.jpg"
+			}
+		},
+		{
+			"name": "Avatar of Weirding",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{R}{R}",
+			"type": "Creature — Horror Avatar",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/210_Avatar of Weirding.jpg"
+			}
+		},
+		{
+			"name": "Baldusax, Eternally Loyal",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}{G}",
+			"type": "Legendary Creature — Zombie Dragon",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/214_Baldusax, Eternally Loyal.jpg"
+			}
+		},
+		{
+			"name": "Barvros, Dominator of Peaks",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{R}{G}",
+			"type": "Legendary Creature — Dragon Knight",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/216_Barvros, Dominator of Peaks.jpg"
+			}
+		},
+		{
+			"name": "Battlefield Healer",
+			"rarity": "common",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Human Cleric Knight",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/218_Battlefield Healer.jpg"
+			}
+		},
+		{
+			"name": "Blade Flash",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Tribal Instant — Knight",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/221_Blade Flash.jpg"
+			}
+		},
+		{
+			"name": "Blazing Ritual",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}",
+			"type": "Instant",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/224_Blazing Ritual.jpg"
+			}
+		},
+		{
+			"name": "Blessed Fountainbed",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "522",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/522_Blessed Fountainbed.jpg"
+			}
+		},
+		{
+			"name": "Bloodfire Blast",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/226_Bloodfire Blast.jpg"
+			}
+		},
+		{
+			"name": "Bloody Ritual",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/228_Bloody Ritual.jpg"
+			}
+		},
+		{
+			"name": "Break Down",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Instant",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/230_Break Down.jpg"
+			}
+		},
+		{
+			"name": "Brun, the Blazing",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/233_Brun, the Blazing.jpg"
+			}
+		},
+		{
+			"name": "Brutalizer Knight",
+			"rarity": "common",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Human Knight",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/234_Brutalizer Knight.jpg"
+			}
+		},
+		{
+			"name": "Clockwork Spires",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "524",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/524_Clockwork Spires.jpg"
+			}
+		},
+		{
+			"name": "Cloudbreak Clock Tower",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "525",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/525_Cloudbreak Clock Tower.jpg"
+			}
+		},
+		{
+			"name": "Consumed By Nature",
+			"rarity": "common",
+			"mana_cost": "{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/242_Consumed By Nature.jpg"
+			}
+		},
+		{
+			"name": "Cottage Kitchen",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "526",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/526_Cottage Kitchen.jpg"
+			}
+		},
+		{
+			"name": "Crude Metal Factory",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "527",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/527_Crude Metal Factory.jpg"
+			}
+		},
+		{
+			"name": "Dalahad, Who Lives in Filth",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/244_Dalahad, Who Lives in Filth.jpg"
+			}
+		},
+		{
+			"name": "Dathe'er, the Blood Mist",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Horror Assassin",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/246_Dathe'er, the Blood Mist.jpg"
+			}
+		},
+		{
+			"name": "Deflector Knight",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Human Knight",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/248_Deflector Knight.jpg"
+			}
+		},
+		{
+			"name": "Descent into the Impossible",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/250_Descent into the Impossible.jpg"
+			}
+		},
+		{
+			"name": "Dominate the Powerful",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Instant",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/253_Dominate the Powerful.jpg"
+			}
+		},
+		{
+			"name": "Dominator Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Human Knight",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/254_Dominator Knight.jpg"
+			}
+		},
+		{
+			"name": "Draped Horror",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Horror Wizard",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/255_Draped Horror.jpg"
+			}
+		},
+		{
+			"name": "Dreamscape Range",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "528",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/528_Dreamscape Range.jpg"
+			}
+		},
+		{
+			"name": "Drop of the Rose",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact",
+			"collector_number": "453",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/453_Drop of the Rose.jpg"
+			}
+		},
+		{
+			"name": "Eki, Faceless Shifter",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Planeswalker — Eki",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/257_Eki, Faceless Shifter.jpg"
+			}
+		},
+		{
+			"name": "Ekika, the Multifaceted",
+			"rarity": "mythic",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Legendary Creature — Shapeshifter",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/258_Ekika, the Multifaceted.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Awakening",
+			"rarity": "mythic",
+			"mana_cost": "{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/259_Eldritch Awakening.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Rites",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/261_Eldritch Rites.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Ritual",
+			"rarity": "uncommon",
+			"mana_cost": "{B/R}",
+			"type": "Instant",
+			"collector_number": "428",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/428_Eldritch Ritual.jpg"
+			}
+		},
+		{
+			"name": "Eliana, Dusk's Executor",
+			"rarity": "mythic",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Planeswalker — Eliana",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/262_Eliana, Dusk's Executor.jpg"
+			}
+		},
+		{
+			"name": "Eradicator Knight",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}{B}",
+			"type": "Creature — Horror Knight",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/264_Eradicator Knight.jpg"
+			}
+		},
+		{
+			"name": "Estromarex, He Who Dreams",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{B}{R}",
+			"type": "Legendary Enchantment Creature — Horror God",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/265_Estromarex, He Who Dreams.jpg"
+			}
+		},
+		{
+			"name": "Face Evil",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}{W}",
+			"type": "Tribal Instant — Knight",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/267_Face Evil.jpg"
+			}
+		},
+		{
+			"name": "Factory in the Dunes",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land — Desert",
+			"collector_number": "533",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/533_Factory in the Dunes.jpg"
+			}
+		},
+		{
+			"name": "Faeten, Who Brings Autumn",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Planeswalker — Faeten",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/159_Faeten, Who Brings Autumn.jpg"
+			}
+		},
+		{
+			"name": "Fae's Disassembly",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{B}{B}",
+			"type": "Instant",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/268_Fae's Disassembly.jpg"
+			}
+		},
+		{
+			"name": "Fen, the Culling Blade",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/272_Fen, the Culling Blade.jpg"
+			}
+		},
+		{
+			"name": "Fent, Born In Rot",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Fungus Horror",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/273_Fent, Born In Rot.jpg"
+			}
+		},
+		{
+			"name": "Fight for Survival",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/275_Fight for Survival.jpg"
+			}
+		},
+		{
+			"name": "Flash of Volatility",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Enchantment",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/276_Flash of Volatility.jpg"
+			}
+		},
+		{
+			"name": "Flippant Bakers",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Orc Cook",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/277_Flippant Bakers.jpg"
+			}
+		},
+		{
+			"name": "Forgotten Night",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/279_Forgotten Night.jpg"
+			}
+		},
+		{
+			"name": "Foul Chef",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Beast Cook",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/280_Foul Chef.jpg"
+			}
+		},
+		{
+			"name": "Foul Meal",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/281_Foul Meal.jpg"
+			}
+		},
+		{
+			"name": "Foundry Defense War Mech",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "466",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/466_Foundry Defense War Mech.jpg"
+			}
+		},
+		{
+			"name": "Frostburn Knight",
+			"rarity": "common",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Knight",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/282_Frostburn Knight.jpg"
+			}
+		},
+		{
+			"name": "Fungal Raptor",
+			"rarity": "common",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Fungus Beast",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/163_Fungal Raptor.jpg"
+			}
+		},
+		{
+			"name": "Fury of Spores",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/164_Fury of Spores.jpg"
+			}
+		},
+		{
+			"name": "Gaichu, Swarm Incarnate",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Planeswalker — Gaichu",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/283_Gaichu, Swarm Incarnate.jpg"
+			}
+		},
+		{
+			"name": "Gervan, Who Touches Clouds",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}{G}{G}",
+			"type": "Legendary Creature — Giant Knight",
+			"collector_number": "285",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/285_Gervan, Who Touches Clouds.jpg"
+			}
+		},
+		{
+			"name": "Gevar, the Swift Slash",
+			"rarity": "mythic",
+			"mana_cost": "{R}{W}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "286",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/286_Gevar, the Swift Slash.jpg"
+			}
+		},
+		{
+			"name": "Glistening Mox",
+			"rarity": "mythic",
+			"mana_cost": "{0}",
+			"type": "Legendary Artifact",
+			"collector_number": "469",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/469_Glistening Mox.jpg"
+			}
+		},
+		{
+			"name": "Gnarled Corpse",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Fungus Skeleton",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/287_Gnarled Corpse.jpg"
+			}
+		},
+		{
+			"name": "Gordon, the Master Chef",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{R}{G}",
+			"type": "Legendary Creature — Human Cook",
+			"collector_number": "290",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/290_Gordon, the Master Chef.jpg"
+			}
+		},
+		{
+			"name": "Growing Powerstone",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "472",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/472_Growing Powerstone.jpg"
+			}
+		},
+		{
+			"name": "Harendar, Many-Tomed",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Legendary Creature — Zombie Wizard",
+			"collector_number": "293",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/293_Harendar, Many-Tomed.jpg"
+			}
+		},
+		{
+			"name": "Haze Maker",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Insect",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/168_Haze Maker.jpg"
+			}
+		},
+		{
+			"name": "Hazy Mire",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "535",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/535_Hazy Mire.jpg"
+			}
+		},
+		{
+			"name": "Heloret, Returned from the Deep",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Skeleton Wizard",
+			"collector_number": "296",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/296_Heloret, Returned from the Deep.jpg"
+			}
+		},
+		{
+			"name": "Herses, Blazing Sand",
+			"rarity": "mythic",
+			"mana_cost": "{R}{W}{B}",
+			"type": "Legendary Creature — Sand Assassin",
+			"collector_number": "297",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/297_Herses, Blazing Sand.jpg"
+			}
+		},
+		{
+			"name": "Hoffstead, Community Effort",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "536",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/536_Hoffstead, Community Effort.jpg"
+			}
+		},
+		{
+			"name": "Horde of Cavaliers",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "298",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/298_Horde of Cavaliers.jpg"
+			}
+		},
+		{
+			"name": "Hunter of the Wilds",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Orc Knight",
+			"collector_number": "299",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/299_Hunter of the Wilds.jpg"
+			}
+		},
+		{
+			"name": "Implanted Personality",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "476",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/476_Implanted Personality.jpg"
+			}
+		},
+		{
+			"name": "Impromptu Factory",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "538",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/538_Impromptu Factory.jpg"
+			}
+		},
+		{
+			"name": "Kaes, the Cowled",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "307",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/307_Kaes, the Cowled.jpg"
+			}
+		},
+		{
+			"name": "Karaway Greenwing",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Legendary Planeswalker — Karaway",
+			"collector_number": "308",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/308_Karaway Greenwing.jpg"
+			}
+		},
+		{
+			"name": "Katel, Huntress of the Tangle",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Planeswalker — Katel",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/170_Katel, Huntress of the Tangle.jpg"
+			}
+		},
+		{
+			"name": "Keita, Nature's Voice",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Planeswalker — Keita",
+			"collector_number": "309",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/309_Keita, Nature's Voice.jpg"
+			}
+		},
+		{
+			"name": "Kick Out",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Instant",
+			"collector_number": "310",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/310_Kick Out.jpg"
+			}
+		},
+		{
+			"name": "Knight Surveyor",
+			"rarity": "common",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "311",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/311_Knight Surveyor.jpg"
+			}
+		},
+		{
+			"name": "Knight's Duty",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Tribal Instant — Knight",
+			"collector_number": "312",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/312_Knight's Duty.jpg"
+			}
+		},
+		{
+			"name": "Landfill Worker",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "478",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/478_Landfill Worker.jpg"
+			}
+		},
+		{
+			"name": "Landscape Terraformer",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "479",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/479_Landscape Terraformer.jpg"
+			}
+		},
+		{
+			"name": "Lazy Chef",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Ogre Cook",
+			"collector_number": "314",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/314_Lazy Chef.jpg"
+			}
+		},
+		{
+			"name": "Life Honored Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Creature — Spirit Knight",
+			"collector_number": "318",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/318_Life Honored Knight.jpg"
+			}
+		},
+		{
+			"name": "Line Crash",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Instant",
+			"collector_number": "319",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/319_Line Crash.jpg"
+			}
+		},
+		{
+			"name": "Lonely Abode",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "539",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/539_Lonely Abode.jpg"
+			}
+		},
+		{
+			"name": "Lorelet, Flower of Rot",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Legendary Creature — Fungus Noble",
+			"collector_number": "323",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/323_Lorelet, Flower of Rot.jpg"
+			}
+		},
+		{
+			"name": "Loryan, God of Contagion",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{G}{U}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "324",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/324_Loryan, God of Contagion.jpg"
+			}
+		},
+		{
+			"name": "Mage Slayer Knight",
+			"rarity": "common",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Human Knight",
+			"collector_number": "326",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/326_Mage Slayer Knight.jpg"
+			}
+		},
+		{
+			"name": "Marafor, Undergrowth Queen",
+			"rarity": "mythic",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Fungus Noble",
+			"collector_number": "327",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/327_Marafor, Undergrowth Queen.jpg"
+			}
+		},
+		{
+			"name": "Masters of the Roast",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{R}{G}",
+			"type": "Legendary Creature — Dragon Cook",
+			"collector_number": "330",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/330_Masters of the Roast.jpg"
+			}
+		},
+		{
+			"name": "Mech Powerstone Module",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "483",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/483_Mech Powerstone Module.jpg"
+			}
+		},
+		{
+			"name": "Midnight Worshipper",
+			"rarity": "common",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "331",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/331_Midnight Worshipper.jpg"
+			}
+		},
+		{
+			"name": "Mines of Abandon",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "542",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/542_Mines of Abandon.jpg"
+			}
+		},
+		{
+			"name": "Misted Wizard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Shade Wizard",
+			"collector_number": "332",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/332_Misted Wizard.jpg"
+			}
+		},
+		{
+			"name": "Mobile Crew",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "484",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/484_Mobile Crew.jpg"
+			}
+		},
+		{
+			"name": "Mobilizer Thopter",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "485",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/485_Mobilizer Thopter.jpg"
+			}
+		},
+		{
+			"name": "Mother Midday Meal",
+			"rarity": "mythic",
+			"mana_cost": "{6}{B}{R}{G}",
+			"type": "Legendary Creature — Human Cook",
+			"collector_number": "338",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/338_Mother Midday Meal.jpg"
+			}
+		},
+		{
+			"name": "Nameless Spore",
+			"rarity": "mythic",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Plant",
+			"collector_number": "340",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/340_Nameless Spore_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/340_Nameless Spore_front.jpg"
+			}
+		},
+		{
+			"name": "Newborn Lich",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Creature — Zombie Wizard",
+			"collector_number": "342",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/342_Newborn Lich.jpg"
+			}
+		},
+		{
+			"name": "Nightmared Marsh",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "545",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/545_Nightmared Marsh.jpg"
+			}
+		},
+		{
+			"name": "Noble Guardian",
+			"rarity": "common",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Human Knight",
+			"collector_number": "345",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/345_Noble Guardian.jpg"
+			}
+		},
+		{
+			"name": "Observer of Species",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "486",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/486_Observer of Species.jpg"
+			}
+		},
+		{
+			"name": "Oko, Vain Trickster",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Planeswalker — Oko",
+			"collector_number": "352",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/352_Oko, Vain Trickster.jpg"
+			}
+		},
+		{
+			"name": "Once, Imposing Overseer",
+			"rarity": "mythic",
+			"mana_cost": "{7}",
+			"type": "Legendary Artifact Creature — God",
+			"collector_number": "487",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/487_Once, Imposing Overseer.jpg"
+			}
+		},
+		{
+			"name": "Orabi of the Depths",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Legendary Planeswalker — Orabi",
+			"collector_number": "353",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/353_Orabi of the Depths.jpg"
+			}
+		},
+		{
+			"name": "Orfym, Exotic Dealer",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Gnome Carrier",
+			"collector_number": "354",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/354_Orfym, Exotic Dealer.jpg"
+			}
+		},
+		{
+			"name": "Overtaken by Spores",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/178_Overtaken by Spores.jpg"
+			}
+		},
+		{
+			"name": "Parin's Fury",
+			"rarity": "rare",
+			"mana_cost": "{1}{B/R}{B}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "430",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/430_Parin's Fury.jpg"
+			}
+		},
+		{
+			"name": "Pathfinder Bolts",
+			"rarity": "common",
+			"mana_cost": "{2}{U/R}",
+			"type": "Instant",
+			"collector_number": "429",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/429_Pathfinder Bolts.jpg"
+			}
+		},
+		{
+			"name": "Perpetual Marcher",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "491",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/491_Perpetual Marcher.jpg"
+			}
+		},
+		{
+			"name": "Plague-Snout, Cloud of Death",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Planeswalker — Plague-Snout",
+			"collector_number": "358",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/358_Plague-Snout, Cloud of Death.jpg"
+			}
+		},
+		{
+			"name": "Populated Barren",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "548",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/548_Populated Barren.jpg"
+			}
+		},
+		{
+			"name": "Power of the Old Ones",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "359",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/359_Power of the Old Ones.jpg"
+			}
+		},
+		{
+			"name": "Powerstone Explosive",
+			"rarity": "mythic",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "492",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/492_Powerstone Explosive.jpg"
+			}
+		},
+		{
+			"name": "Price of Ambition",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{U}{B}{R}",
+			"type": "Instant",
+			"collector_number": "360",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/360_Price of Ambition.jpg"
+			}
+		},
+		{
+			"name": "Prisoner Mech",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "493",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/493_Prisoner Mech.jpg"
+			}
+		},
+		{
+			"name": "Production Line Masterpiece, 97th",
+			"rarity": "mythic",
+			"mana_cost": "{6}",
+			"type": "Legendary Artifact — Vehicle God",
+			"collector_number": "494",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/494_Production Line Masterpiece, 97th.jpg"
+			}
+		},
+		{
+			"name": "Prototype Collector",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "495",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/495_Prototype Collector.jpg"
+			}
+		},
+		{
+			"name": "Quick-Play Bolts",
+			"rarity": "common",
+			"mana_cost": "{U}{R}",
+			"type": "Instant",
+			"collector_number": "363",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/363_Quick-Play Bolts.jpg"
+			}
+		},
+		{
+			"name": "Rampaging Lancer",
+			"rarity": "common",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "364",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/364_Rampaging Lancer.jpg"
+			}
+		},
+		{
+			"name": "Ramsey, Huntsman Chef",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Human Cook",
+			"collector_number": "365",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/365_Ramsey, Huntsman Chef.jpg"
+			}
+		},
+		{
+			"name": "Ravenous Hunger",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "367",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/367_Ravenous Hunger.jpg"
+			}
+		},
+		{
+			"name": "Ravenous Spores",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Fungus",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/181_Ravenous Spores.jpg"
+			}
+		},
+		{
+			"name": "Rebuild Station",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "498",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/498_Rebuild Station.jpg"
+			}
+		},
+		{
+			"name": "Recycler Mech",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{C}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "499",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/499_Recycler Mech.jpg"
+			}
+		},
+		{
+			"name": "Reproduction Worker",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "500",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/500_Reproduction Worker.jpg"
+			}
+		},
+		{
+			"name": "Repurposed Shell",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "551",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/551_Repurposed Shell.jpg"
+			}
+		},
+		{
+			"name": "Rethia, Caller of Wisps",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}{B}",
+			"type": "Legendary Creature — Djinn Assassin",
+			"collector_number": "368",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/368_Rethia, Caller of Wisps.jpg"
+			}
+		},
+		{
+			"name": "Roric, Plagued by Pests",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Planeswalker — Roric",
+			"collector_number": "369",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/369_Roric, Plagued by Pests.jpg"
+			}
+		},
+		{
+			"name": "Rotten Berserker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Fungus Berserker",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/182_Rotten Berserker.jpg"
+			}
+		},
+		{
+			"name": "Rotwood Deforester",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "502",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/502_Rotwood Deforester.jpg"
+			}
+		},
+		{
+			"name": "Saa Elda, Who Swims Blind",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}{B}",
+			"type": "Legendary Planeswalker — Saa Elda",
+			"collector_number": "371",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/371_Saa Elda, Who Swims Blind.jpg"
+			}
+		},
+		{
+			"name": "Sakora, War's Alpha",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Planeswalker — Sakora",
+			"collector_number": "372",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/372_Sakora, War's Alpha.jpg"
+			}
+		},
+		{
+			"name": "Scavenger Mech",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "505",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/505_Scavenger Mech.jpg"
+			}
+		},
+		{
+			"name": "Scour Dark Tomes",
+			"rarity": "common",
+			"mana_cost": "{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "373",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/373_Scour Dark Tomes.jpg"
+			}
+		},
+		{
+			"name": "Scrapyard Warlord",
+			"rarity": "mythic",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "507",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/507_Scrapyard Warlord.jpg"
+			}
+		},
+		{
+			"name": "Scrapyard Worker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "508",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/508_Scrapyard Worker.jpg"
+			}
+		},
+		{
+			"name": "Secondary Provisions",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "374",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/374_Secondary Provisions.jpg"
+			}
+		},
+		{
+			"name": "Self-Producing City",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "552",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/552_Self-Producing City.jpg"
+			}
+		},
+		{
+			"name": "Shattered Rain",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Instant",
+			"collector_number": "378",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/378_Shattered Rain.jpg"
+			}
+		},
+		{
+			"name": "Shrine to the Beyond",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "509",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/509_Shrine to the Beyond.jpg"
+			}
+		},
+		{
+			"name": "Slaughter Brawl",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "382",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/382_Slaughter Brawl.jpg"
+			}
+		},
+		{
+			"name": "Slyvash, Keen Trickster",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Planeswalker — Slyvash",
+			"collector_number": "383",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/383_Slyvash, Keen Trickster.jpg"
+			}
+		},
+		{
+			"name": "Snareshadow Steal",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "384",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/384_Snareshadow Steal.jpg"
+			}
+		},
+		{
+			"name": "Solemn Clocktower",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "555",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/555_Solemn Clocktower.jpg"
+			}
+		},
+		{
+			"name": "Songs of Madness",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Instant",
+			"collector_number": "385",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/385_Songs of Madness.jpg"
+			}
+		},
+		{
+			"name": "Special Meal",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Instant",
+			"collector_number": "388",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/388_Special Meal.jpg"
+			}
+		},
+		{
+			"name": "Spirit Lich",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Zombie Warlock",
+			"collector_number": "389",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/389_Spirit Lich.jpg"
+			}
+		},
+		{
+			"name": "Spiteful Chef",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Orc Cook",
+			"collector_number": "390",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/390_Spiteful Chef.jpg"
+			}
+		},
+		{
+			"name": "Steam Powered Guardian",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Dragon",
+			"collector_number": "512",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/512_Steam Powered Guardian.jpg"
+			}
+		},
+		{
+			"name": "Steamwork Foundry",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Land",
+			"collector_number": "558",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/558_Steamwork Foundry.jpg"
+			}
+		},
+		{
+			"name": "Stronghold Marrowfield",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "560",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/560_Stronghold Marrowfield.jpg"
+			}
+		},
+		{
+			"name": "Submit to Eternities",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "391",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/391_Submit to Eternities.jpg"
+			}
+		},
+		{
+			"name": "Surveyor of Estates",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "513",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/513_Surveyor of Estates.jpg"
+			}
+		},
+		{
+			"name": "Survivor's Guilt",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "392",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/392_Survivor's Guilt.jpg"
+			}
+		},
+		{
+			"name": "Talavor, Undergrowth's Maw",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{B}{G}",
+			"type": "Legendary Creature 8 — Fungus Dragon",
+			"collector_number": "394",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/394_Talavor, Undergrowth's Maw.jpg"
+			}
+		},
+		{
+			"name": "Tavot, Dark Omen",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "395",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/395_Tavot, Dark Omen.jpg"
+			}
+		},
+		{
+			"name": "Thaina, Queen of Decay",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Fungus Noble",
+			"collector_number": "396",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/396_Thaina, Queen of Decay.jpg"
+			}
+		},
+		{
+			"name": "The Graveyard Shift",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "471",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/471_The Graveyard Shift.jpg"
+			}
+		},
+		{
+			"name": "The Owl of Night's Watch",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Planeswalker — Owl",
+			"collector_number": "355",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/355_The Owl of Night's Watch.jpg"
+			}
+		},
+		{
+			"name": "Thira, the Deadly Sting",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Planeswalker — Thira",
+			"collector_number": "398",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/398_Thira, the Deadly Sting.jpg"
+			}
+		},
+		{
+			"name": "Thornetai, Decaying Colossus",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}{G}{G}",
+			"type": "Legendary Creature — Fungus Horror",
+			"collector_number": "399",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/399_Thornetai, Decaying Colossus.jpg"
+			}
+		},
+		{
+			"name": "Toadstool Berserker",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}{G}",
+			"type": "Creature — Fungus Beast",
+			"collector_number": "402",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/402_Toadstool Berserker.jpg"
+			}
+		},
+		{
+			"name": "Towering Kingdom",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "561",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/561_Towering Kingdom.jpg"
+			}
+		},
+		{
+			"name": "Trading Route Landmark",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "562",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/562_Trading Route Landmark.jpg"
+			}
+		},
+		{
+			"name": "Train of Spores",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Fungus",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/188_Train of Spores.jpg"
+			}
+		},
+		{
+			"name": "Traxita, God of the Rotten",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Enchantment Creature — Fungus God",
+			"collector_number": "403",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/403_Traxita, God of the Rotten.jpg"
+			}
+		},
+		{
+			"name": "Twice, Lifeless Reproduction",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "515",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/515_Twice, Lifeless Reproduction.jpg"
+			}
+		},
+		{
+			"name": "Twilight Knight",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Elf Knight",
+			"collector_number": "404",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/404_Twilight Knight.jpg"
+			}
+		},
+		{
+			"name": "Twin Blades of the Queen",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Fungus Noble",
+			"collector_number": "405",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/405_Twin Blades of the Queen.jpg"
+			}
+		},
+		{
+			"name": "Ulak, 'Master' Chef",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}{G}",
+			"type": "Legendary Creature — Orc Cook",
+			"collector_number": "407",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/407_Ulak, 'Master' Chef.jpg"
+			}
+		},
+		{
+			"name": "Ultimate Rites",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{B}{R}",
+			"type": "Instant",
+			"collector_number": "408",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/408_Ultimate Rites.jpg"
+			}
+		},
+		{
+			"name": "Undergrowth Hunter",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Fungus Berserker",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/189_Undergrowth Hunter.jpg"
+			}
+		},
+		{
+			"name": "Undergrowth Scout",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus Warrior",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/190_Undergrowth Scout.jpg"
+			}
+		},
+		{
+			"name": "Unnatural Blast",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/150_Unnatural Blast.jpg"
+			}
+		},
+		{
+			"name": "Urakni, Midnight Occultist",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}",
+			"type": "Legendary Planeswalker — Urakni",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/115_Urakni, Midnight Occultist.jpg"
+			}
+		},
+		{
+			"name": "Vacannabis, God of Festivity",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{R}{G}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "411",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/411_Vacannabis, God of Festivity.jpg"
+			}
+		},
+		{
+			"name": "Vaies, Mother of Leylines",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Planeswalker — Vaeis",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/191_Vaies, Mother of Leylines.jpg"
+			}
+		},
+		{
+			"name": "Varin, the Slayer",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "413",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/413_Varin, the Slayer.jpg"
+			}
+		},
+		{
+			"name": "Verdant Hamlet",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "564",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/564_Verdant Hamlet.jpg"
+			}
+		},
+		{
+			"name": "Voltaic City",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "565",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/565_Voltaic City.jpg"
+			}
+		},
+		{
+			"name": "Warrantee Tester",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "517",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/517_Warrantee Tester.jpg"
+			}
+		},
+		{
+			"name": "Watchpost",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "518",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/518_Watchpost.jpg"
+			}
+		},
+		{
+			"name": "Waxen Goods",
+			"rarity": "common",
+			"mana_cost": "{R}{G}",
+			"type": "Artifact",
+			"collector_number": "416",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/416_Waxen Goods.jpg"
+			}
+		},
+		{
+			"name": "Wings of Decay",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Creature — Zombie Dragon",
+			"collector_number": "419",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/419_Wings of Decay.jpg"
+			}
+		},
+		{
+			"name": "Withdrawn Warrior",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Orc Warrior",
+			"collector_number": "420",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/420_Withdrawn Warrior.jpg"
+			}
+		},
+		{
+			"name": "Withstand Peril",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Instant",
+			"collector_number": "421",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/421_Withstand Peril.jpg"
+			}
+		},
+		{
+			"name": "Worker's Orientation",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "519",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/519_Worker's Orientation.jpg"
+			}
+		},
+		{
+			"name": "Worker's Union",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "520",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/520_Worker's Union.jpg"
+			}
+		},
+		{
+			"name": "Workforce Trio",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Creature — Human Cook",
+			"collector_number": "422",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/422_Workforce Trio.jpg"
+			}
+		},
+		{
+			"name": "Workshop of Innovation",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Land",
+			"collector_number": "566",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/566_Workshop of Innovation.jpg"
+			}
+		},
+		{
+			"name": "Xaersis, Queen of Calamity",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "424",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/424_Xaersis, Queen of Calamity.jpg"
+			}
+		},
+		{
+			"name": "Xeras, Brutal Crusader",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Phyrexian Assassin",
+			"collector_number": "425",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/425_Xeras, Brutal Crusader.jpg"
+			}
+		},
+		{
+			"name": "Yevaath, Culling Blade",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}{B}",
+			"type": "Legendary Creature — Spirit Assassin",
+			"collector_number": "426",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/426_Yevaath, Culling Blade.jpg"
+			}
+		},
+		{
+			"name": "Zethair, the Impersonator",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary 3reature — Shapeshifter Assassin",
+			"collector_number": "427",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/427_Zethair, the Impersonator.jpg"
+			}
+		},
+		{
+			"name": "Zivana, Crimson Weaver",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Vampire Wizard",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/119_Zivana, Crimson Weaver.jpg"
+			}
+		},
+		{
+			"name": "Abhorrent Slaughter",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/7_Abhorrent Slaughter.jpg"
+			}
+		},
+		{
+			"name": "Absolute Incineration",
+			"rarity": "mythic",
+			"mana_cost": "{X}{R}{W}",
+			"type": "Instant",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/194_Absolute Incineration.jpg"
+			}
+		},
+		{
+			"name": "Abyssal Tutor",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/21_Abyssal Tutor.jpg"
+			}
+		},
+		{
+			"name": "Adri, the Tattered",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Creature — Harpy Assassin",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/195_Adri, the Tattered.jpg"
+			}
+		},
+		{
+			"name": "Adventurous Spore",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Fungus Rogue",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/151_Adventurous Spore.jpg"
+			}
+		},
+		{
+			"name": "Afnar, the Green Thumb",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Dwarf Druid",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/196_Afnar, the Green Thumb.jpg"
+			}
+		},
+		{
+			"name": "Ailos Marik, Hopeful Trainee",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Legendary Creature — Human Artificer",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/120_Ailos Marik, Hopeful Trainee.jpg"
+			}
+		},
+		{
+			"name": "Alond, Brilliant Hero",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/198_Alond, Brilliant Hero.jpg"
+			}
+		},
+		{
+			"name": "Alternate CEO Model",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Minion",
+			"collector_number": "431",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/431_Alternate CEO Model.jpg"
+			}
+		},
+		{
+			"name": "Angel of Resurrection",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}{W}",
+			"type": "Creature — Angel Knight",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/8_Angel of Resurrection.jpg"
+			}
+		},
+		{
+			"name": "Arbiter of the Old Ones",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Creature — Horror Avatar",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/1_Arbiter of the Old Ones.jpg"
+			}
+		},
+		{
+			"name": "Arcane Remnants",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Instant",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/200_Arcane Remnants.jpg"
+			}
+		},
+		{
+			"name": "Arcane Warlord",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Knight Wizard",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/22_Arcane Warlord.jpg"
+			}
+		},
+		{
+			"name": "Arquel, the Noble",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Goblin Knight",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/121_Arquel, the Noble.jpg"
+			}
+		},
+		{
+			"name": "Ashcatcher, the Spark",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "434",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/434_Ashcatcher, the Spark.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Bounty",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/44_Assassin's Bounty.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Duel",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/45_Assassin's Duel.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Infiltration",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/202_Assassin's Infiltration.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Performance",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/122_Assassin's Performance.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Recruitment",
+			"rarity": "common",
+			"mana_cost": "{W}{B}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/203_Assassin's Recruitment.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Regicide",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/46_Assassin's Regicide.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Scouting",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/204_Assassin's Scouting.jpg"
+			}
+		},
+		{
+			"name": "Assassin's Slaying",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/47_Assassin's Slaying.jpg"
+			}
+		},
+		{
+			"name": "Assembly Line",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "437",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/437_Assembly Line.jpg"
+			}
+		},
+		{
+			"name": "Axaminu, Eldritch Reaper",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Skeleton Demon",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/48_Axaminu, Eldritch Reaper.jpg"
+			}
+		},
+		{
+			"name": "Bag Man",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/213_Bag Man.jpg"
+			}
+		},
+		{
+			"name": "Become One",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/152_Become One.jpg"
+			}
+		},
+		{
+			"name": "Blazed Chef",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Halfling Cook",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/223_Blazed Chef.jpg"
+			}
+		},
+		{
+			"name": "Blood Money Cultivator",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/49_Blood Money Cultivator.jpg"
+			}
+		},
+		{
+			"name": "Blood Red Knight",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Human Knight",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/124_Blood Red Knight.jpg"
+			}
+		},
+		{
+			"name": "Blood Ruin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/50_Blood Ruin.jpg"
+			}
+		},
+		{
+			"name": "Blood Stitching",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/51_Blood Stitching.jpg"
+			}
+		},
+		{
+			"name": "Bogok, Clumsy Chef",
+			"rarity": "mythic",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Ogre Cook",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/229_Bogok, Clumsy Chef.jpg"
+			}
+		},
+		{
+			"name": "Bolts of Disdain",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/125_Bolts of Disdain.jpg"
+			}
+		},
+		{
+			"name": "Boronk, Kindly Barkeep",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Legendary Creature — Dwarf Citizen Cook",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/153_Boronk, Kindly Barkeep.jpg"
+			}
+		},
+		{
+			"name": "Brilliant White Knight",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/9_Brilliant White Knight.jpg"
+			}
+		},
+		{
+			"name": "Chef Conspirator",
+			"rarity": "common",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Orc Cook",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/239_Chef Conspirator.jpg"
+			}
+		},
+		{
+			"name": "Chef's Party",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "Tribal Instant — Cook",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/240_Chef's Party.jpg"
+			}
+		},
+		{
+			"name": "Clockwork Devastator",
+			"rarity": "mythic",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Dragon",
+			"collector_number": "443",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/443_Clockwork Devastator.jpg"
+			}
+		},
+		{
+			"name": "Clockwork Hulk",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "444",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/444_Clockwork Hulk.jpg"
+			}
+		},
+		{
+			"name": "Clockwork Watcher",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "445",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/445_Clockwork Watcher.jpg"
+			}
+		},
+		{
+			"name": "Colossal Shroom Beast",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Fungus Beast",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/154_Colossal Shroom Beast.jpg"
+			}
+		},
+		{
+			"name": "Commanding Leader",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/10_Commanding Leader.jpg"
+			}
+		},
+		{
+			"name": "Consign to Memory",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/52_Consign to Memory.jpg"
+			}
+		},
+		{
+			"name": "Constructor Mech",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "447",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/447_Constructor Mech.jpg"
+			}
+		},
+		{
+			"name": "Crazed Chef",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Orc Cook",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/127_Crazed Chef.jpg"
+			}
+		},
+		{
+			"name": "Cross Factory Transit",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "449",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/449_Cross Factory Transit.jpg"
+			}
+		},
+		{
+			"name": "Crusader of Hoards",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Knight",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/53_Crusader of Hoards.jpg"
+			}
+		},
+		{
+			"name": "Crusader of Knowledge",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Knight",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/23_Crusader of Knowledge.jpg"
+			}
+		},
+		{
+			"name": "Cultivation of Spores",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/155_Cultivation of Spores.jpg"
+			}
+		},
+		{
+			"name": "Curious Toadstool Behemoth",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus Beast",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/156_Curious Toadstool Behemoth.jpg"
+			}
+		},
+		{
+			"name": "Dabi, Endeavor's Shadow",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}",
+			"type": "Legendary Planeswalker — Dabi",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/55_Dabi, Endeavor's Shadow.jpg"
+			}
+		},
+		{
+			"name": "Daitorei, the Rotting Alpha",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Legendary Creature — Fungus Dragon",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/157_Daitorei, the Rotting Alpha.jpg"
+			}
+		},
+		{
+			"name": "David, Gleeful Chef",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Human Cook",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/158_David, Gleeful Chef.jpg"
+			}
+		},
+		{
+			"name": "Deep Blue Knight",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Human Knight",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/24_Deep Blue Knight.jpg"
+			}
+		},
+		{
+			"name": "Deep One's Fury",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/128_Deep One's Fury.jpg"
+			}
+		},
+		{
+			"name": "Deep One's Rage",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/26_Deep One's Rage.jpg"
+			}
+		},
+		{
+			"name": "Dematerializer",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "450",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/450_Dematerializer.jpg"
+			}
+		},
+		{
+			"name": "Dinner Rush",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/251_Dinner Rush.jpg"
+			}
+		},
+		{
+			"name": "Disassembler",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "452",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/452_Disassembler.jpg"
+			}
+		},
+		{
+			"name": "Drain the Earth",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/56_Drain the Earth.jpg"
+			}
+		},
+		{
+			"name": "Dredge the Rotten",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/57_Dredge the Rotten.jpg"
+			}
+		},
+		{
+			"name": "Dune Expeditioner",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Minion",
+			"collector_number": "454",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/454_Dune Expeditioner.jpg"
+			}
+		},
+		{
+			"name": "Edible Gift",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Food",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/129_Edible Gift.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Dismissal",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/27_Eldritch Dismissal.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Procession",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/59_Eldritch Procession.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Protection",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/29_Eldritch Protection.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Return",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/60_Eldritch Return.jpg"
+			}
+		},
+		{
+			"name": "Emeren, Resourceful Chef",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{G}{G}",
+			"type": "Legendary Creature — Dwarf Cook",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/263_Emeren, Resourceful Chef.jpg"
+			}
+		},
+		{
+			"name": "Emotionless Dread",
+			"rarity": "mythic",
+			"mana_cost": "{7}",
+			"type": "Artifact Creature — Assembly-Worker Horror",
+			"collector_number": "456",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/456_Emotionless Dread.jpg"
+			}
+		},
+		{
+			"name": "Endless Machinery",
+			"rarity": "rare",
+			"mana_cost": "{X}{1}",
+			"type": "Artifact",
+			"collector_number": "457",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/457_Endless Machinery.jpg"
+			}
+		},
+		{
+			"name": "Energy Array",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "458",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/458_Energy Array.jpg"
+			}
+		},
+		{
+			"name": "Energy Consuming Wurm",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Wurm",
+			"collector_number": "459",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/459_Energy Consuming Wurm.jpg"
+			}
+		},
+		{
+			"name": "Exandrethal, Lord of the Night",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Creature — Demon",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/63_Exandrethal, Lord of the Night.jpg"
+			}
+		},
+		{
+			"name": "Exiled Vampire",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Wizard",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/64_Exiled Vampire.jpg"
+			}
+		},
+		{
+			"name": "Factory in the Sky",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "460",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/460_Factory in the Sky.jpg"
+			}
+		},
+		{
+			"name": "Factory Scrap Guard",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "461",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/461_Factory Scrap Guard.jpg"
+			}
+		},
+		{
+			"name": "Feast for Friends",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/269_Feast for Friends.jpg"
+			}
+		},
+		{
+			"name": "Finally Wed",
+			"rarity": "common",
+			"mana_cost": "{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/11_Finally Wed.jpg"
+			}
+		},
+		{
+			"name": "Flamespreader Minion",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Minion",
+			"collector_number": "463",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/463_Flamespreader Minion.jpg"
+			}
+		},
+		{
+			"name": "Fleet Factory",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "464",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/464_Fleet Factory.jpg"
+			}
+		},
+		{
+			"name": "Fleeting Shadow",
+			"rarity": "mythic",
+			"mana_cost": "{R}{R}",
+			"type": "Instant",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/130_Fleeting Shadow.jpg"
+			}
+		},
+		{
+			"name": "Fleur, Scarlet Dancer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Planeswalker — Fleur",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/65_Fleur, Scarlet Dancer.jpg"
+			}
+		},
+		{
+			"name": "Flowering Footmen",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Plant Soldier",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/160_Flowering Footmen.jpg"
+			}
+		},
+		{
+			"name": "Foragus, Spore Shepherd",
+			"rarity": "mythic",
+			"mana_cost": "{G}{G}{G}",
+			"type": "Legendary Creature — Fungus Wizard",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/161_Foragus, Spore Shepherd.jpg"
+			}
+		},
+		{
+			"name": "Forever-Walker, the Undying",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Rat Shaman",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/66_Forever-Walker, the Undying.jpg"
+			}
+		},
+		{
+			"name": "Frost Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Knight",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/31_Frost Knight.jpg"
+			}
+		},
+		{
+			"name": "Fungal Control",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/67_Fungal Control.jpg"
+			}
+		},
+		{
+			"name": "Fungal Oasis",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/162_Fungal Oasis.jpg"
+			}
+		},
+		{
+			"name": "Fungi Scouts",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Fungus Zombie",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/69_Fungi Scouts.jpg"
+			}
+		},
+		{
+			"name": "Gautier, the Chainer",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/70_Gautier, the Chainer.jpg"
+			}
+		},
+		{
+			"name": "Genshi Otsuki, Bandit King",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}{G}",
+			"type": "Legendary Creature — Human Barbarian",
+			"collector_number": "284",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/284_Genshi Otsuki, Bandit King.jpg"
+			}
+		},
+		{
+			"name": "Gluttonous Chef",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Cook",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/165_Gluttonous Chef.jpg"
+			}
+		},
+		{
+			"name": "Grarg and Rarg, Brothers",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Legendary Creature — Orc Citizen",
+			"collector_number": "291",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/291_Grarg and Rarg, Brothers.jpg"
+			}
+		},
+		{
+			"name": "Grasp of Rot",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/71_Grasp of Rot.jpg"
+			}
+		},
+		{
+			"name": "Grasp Through Planes",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/32_Grasp Through Planes.jpg"
+			}
+		},
+		{
+			"name": "Green-Thumbed Chef",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Plant Cook",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/166_Green-Thumbed Chef.jpg"
+			}
+		},
+		{
+			"name": "Guardian of Nature",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elemental Knight",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/167_Guardian of Nature.jpg"
+			}
+		},
+		{
+			"name": "Handful of Deathfire",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/132_Handful of Deathfire.jpg"
+			}
+		},
+		{
+			"name": "Hired Company",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}",
+			"type": "Tribal Instant — Assassin",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/72_Hired Company.jpg"
+			}
+		},
+		{
+			"name": "Honored Dual",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/12_Honored Dual.jpg"
+			}
+		},
+		{
+			"name": "House of the Rising Sun",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Vehicle Avatar",
+			"collector_number": "475",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/475_House of the Rising Sun.jpg"
+			}
+		},
+		{
+			"name": "Ileus, Cruel Overseer",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Planeswalker — Ileus",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/74_Ileus, Cruel Overseer.jpg"
+			}
+		},
+		{
+			"name": "Intense Persuasion",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/75_Intense Persuasion.jpg"
+			}
+		},
+		{
+			"name": "Ivan Tesre, Grim Barber",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/76_Ivan Tesre, Grim Barber.jpg"
+			}
+		},
+		{
+			"name": "Jace, Reader of Lost Thoughts",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Planeswalker — Jace",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/33_Jace, Reader of Lost Thoughts.jpg"
+			}
+		},
+		{
+			"name": "Jace, Wielder of Memories",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Planeswalker — Jace",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/34_Jace, Wielder of Memories.jpg"
+			}
+		},
+		{
+			"name": "Lars Lavish of the Lavish Pirates",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/133_Lars Lavish of the Lavish Pirates.jpg"
+			}
+		},
+		{
+			"name": "Liliana, Lazotep Tyrant",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Planeswalker — Liliana",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/79_Liliana, Lazotep Tyrant.jpg"
+			}
+		},
+		{
+			"name": "Loyal Piercer",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Shade Warrior",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/80_Loyal Piercer.jpg"
+			}
+		},
+		{
+			"name": "Mass Dissipation Ritual",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/37_Mass Dissipation Ritual.jpg"
+			}
+		},
+		{
+			"name": "Morbid Tutor",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/81_Morbid Tutor.jpg"
+			}
+		},
+		{
+			"name": "Mourner's Tutor",
+			"rarity": "mythic",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/82_Mourner's Tutor.jpg"
+			}
+		},
+		{
+			"name": "Noble Green Benjamin Omnieye",
+			"rarity": "mythic",
+			"mana_cost": "{U}{U}{B}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "344",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/344_Noble Green Benjamin Omnieye.jpg"
+			}
+		},
+		{
+			"name": "Noble Papa Pyrus",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "346",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/346_Noble Papa Pyrus.jpg"
+			}
+		},
+		{
+			"name": "Noble Prin Tera",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "347",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/347_Noble Prin Tera.jpg"
+			}
+		},
+		{
+			"name": "Noble Signer Maximus",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "348",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/348_Noble Signer Maximus.jpg"
+			}
+		},
+		{
+			"name": "Noble Spender Feel-Good",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "349",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/349_Noble Spender Feel-Good.jpg"
+			}
+		},
+		{
+			"name": "Noxen, Shadow Walker",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Planeswalker — Noxen",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/84_Noxen, Shadow Walker.jpg"
+			}
+		},
+		{
+			"name": "Oblivious Cook",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Goblin Cook",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/175_Oblivious Cook.jpg"
+			}
+		},
+		{
+			"name": "Old One's Tutor",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/88_Old One's Tutor.jpg"
+			}
+		},
+		{
+			"name": "Overwhelming Decay",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/89_Overwhelming Decay.jpg"
+			}
+		},
+		{
+			"name": "Paradise Island, Island of Wealth",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "546",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/546_Paradise Island, Island of Wealth.jpg"
+			}
+		},
+		{
+			"name": "Paradise Lost",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/136_Paradise Lost.jpg"
+			}
+		},
+		{
+			"name": "Price of Bravery",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/91_Price of Bravery.jpg"
+			}
+		},
+		{
+			"name": "Quick Deal",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/137_Quick Deal.jpg"
+			}
+		},
+		{
+			"name": "Raging Flame Knight",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Elemental Knight",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/138_Raging Flame Knight.jpg"
+			}
+		},
+		{
+			"name": "Recursive Jailbird",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/93_Recursive Jailbird.jpg"
+			}
+		},
+		{
+			"name": "Rise from the Depths",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/95_Rise from the Depths.jpg"
+			}
+		},
+		{
+			"name": "Robotic Consultation",
+			"rarity": "common",
+			"mana_cost": "{C}{C}",
+			"type": "Instant",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/4_Robotic Consultation.jpg"
+			}
+		},
+		{
+			"name": "Rulnya, Arcane Genius",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Legendary Planeswalker — Rulnya",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/41_Rulnya, Arcane Genius.jpg"
+			}
+		},
+		{
+			"name": "Save From Eternity",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/96_Save From Eternity.jpg"
+			}
+		},
+		{
+			"name": "Shatter Apart",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Instant",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/97_Shatter Apart.jpg"
+			}
+		},
+		{
+			"name": "Sheoldred, Compleat",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Phyrexian Praetor",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/99_Sheoldred, Compleat.jpg"
+			}
+		},
+		{
+			"name": "Sheoldred's Whisper",
+			"rarity": "common",
+			"mana_cost": "{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/100_Sheoldred's Whisper.jpg"
+			}
+		},
+		{
+			"name": "Sikoss, Clan Mourner",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Planeswalker — Sikoss",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/101_Sikoss, Clan Mourner.jpg"
+			}
+		},
+		{
+			"name": "Slaughter Knight",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Orc Knight",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/102_Slaughter Knight.jpg"
+			}
+		},
+		{
+			"name": "Slow Roast",
+			"rarity": "rare",
+			"mana_cost": "{2/G}{2/G}{G}",
+			"type": "Enchantment",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/184_Slow Roast.jpg"
+			}
+		},
+		{
+			"name": "Sorin, Bloodthirsty Adversary",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Planeswalker — Sorin",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/104_Sorin, Bloodthirsty Adversary.jpg"
+			}
+		},
+		{
+			"name": "Spark Weaving",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/145_Spark Weaving.jpg"
+			}
+		},
+		{
+			"name": "Spender's Trap",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}",
+			"type": "Instant",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/146_Spender's Trap.jpg"
+			}
+		},
+		{
+			"name": "Spread Spores",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/107_Spread Spores.jpg"
+			}
+		},
+		{
+			"name": "Stoner Warlord",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Barbarian",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/147_Stoner Warlord.jpg"
+			}
+		},
+		{
+			"name": "Study the War Plan",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/187_Study the War Plan.jpg"
+			}
+		},
+		{
+			"name": "Surveyor of Meats",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Cook",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/108_Surveyor of Meats.jpg"
+			}
+		},
+		{
+			"name": "Swarm Lash",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{B}{B}",
+			"type": "Instant",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/109_Swarm Lash.jpg"
+			}
+		},
+		{
+			"name": "Tavern-Tail, Adept Gambler",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Rat Rogue",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/110_Tavern-Tail, Adept Gambler.jpg"
+			}
+		},
+		{
+			"name": "The Golden Bough",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "470",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/470_The Golden Bough.jpg"
+			}
+		},
+		{
+			"name": "Thrae Imbros, the Barrier",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Legendary Creature — Human Bandit",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/18_Thrae Imbros, the Barrier.jpg"
+			}
+		},
+		{
+			"name": "Torial, Ascended Lich",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Planeswalker — Torial",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/111_Torial, Ascended Lich.jpg"
+			}
+		},
+		{
+			"name": "Underdark Scrambler",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Fungus Horror",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/112_Underdark Scrambler.jpg"
+			}
+		},
+		{
+			"name": "Undergrowth Mongrel",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Fungus Horror",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/113_Undergrowth Mongrel.jpg"
+			}
+		},
+		{
+			"name": "Unflinching Spore",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Fungus Survivor",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/114_Unflinching Spore.jpg"
+			}
+		},
+		{
+			"name": "Unite Together",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/20_Unite Together.jpg"
+			}
+		},
+		{
+			"name": "Uratha, Deadly Mist",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Shade Assassin",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/116_Uratha, Deadly Mist.jpg"
+			}
+		},
+		{
+			"name": "Viridescent Green Knight",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Knight",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/192_Viridescent Green Knight.jpg"
+			}
+		},
+		{
+			"name": "Walk Among Life",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{C}",
+			"type": "Sorcery",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/5_Walk Among Life.jpg"
+			}
+		},
+		{
+			"name": "Watcher of Wastes",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Fungus Shaman",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/118_Watcher of Wastes.jpg"
+			}
+		},
+		{
+			"name": "Alvesvale, Harbor Kingdom",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "521",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/521_Alvesvale, Harbor Kingdom.jpg"
+			}
+		},
+		{
+			"name": "Arrowheads of Will",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "433",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/433_Arrowheads of Will.jpg"
+			}
+		},
+		{
+			"name": "Bandit King's Defeat",
+			"rarity": "common",
+			"mana_cost": "{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/215_Bandit King's Defeat.jpg"
+			}
+		},
+		{
+			"name": "Boobius, 'Master' Disguise",
+			"rarity": "mythic",
+			"mana_cost": "{R}{R}",
+			"type": "Legendary Creature — Shapeshifter Pirate",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/126_Boobius, 'Master' Disguise.jpg"
+			}
+		},
+		{
+			"name": "Borank's Ring",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact",
+			"collector_number": "440",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/440_Borank's Ring.jpg"
+			}
+		},
+		{
+			"name": "Break Stuff",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{R}",
+			"type": "Legendary Creature — Avatar",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/231_Break Stuff.jpg"
+			}
+		},
+		{
+			"name": "Caravan Portal",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "442",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/442_Caravan Portal.jpg"
+			}
+		},
+		{
+			"name": "Distraction!",
+			"rarity": "common",
+			"mana_cost": "{U}{R}",
+			"type": "Instant",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/252_Distraction!.jpg"
+			}
+		},
+		{
+			"name": "Entrance!",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/30_Entrance!.jpg"
+			}
+		},
+		{
+			"name": "Ere, City of Slate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Slate",
+			"collector_number": "529",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/529_Ere, City of Slate.jpg"
+			}
+		},
+		{
+			"name": "Erena, the Slate Capital",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Slate",
+			"collector_number": "530",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/530_Erena, the Slate Capital.jpg"
+			}
+		},
+		{
+			"name": "Erenarva, the Slate Isles",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Land — Slate",
+			"collector_number": "531",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/531_Erenarva, the Slate Isles.jpg"
+			}
+		},
+		{
+			"name": "Feel Good Inc.",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Avatar",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/270_Feel Good Inc..jpg"
+			}
+		},
+		{
+			"name": "Half-Pipe!",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "473",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/473_Half-Pipe!.jpg"
+			}
+		},
+		{
+			"name": "Interrogation!",
+			"rarity": "common",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "303",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/303_Interrogation!.jpg"
+			}
+		},
+		{
+			"name": "Lepregang",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Leprechaun Rogue",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/134_Lepregang.jpg"
+			}
+		},
+		{
+			"name": "Lose! Lose! Lose!",
+			"rarity": "mythic",
+			"mana_cost": "{U}{U}",
+			"type": "Legendary Creature — Avatar",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/36_Lose! Lose! Lose!.jpg"
+			}
+		},
+		{
+			"name": "Many Stolen Keys",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "482",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/482_Many Stolen Keys.jpg"
+			}
+		},
+		{
+			"name": "Narva, the Slate City",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Slate",
+			"collector_number": "544",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/544_Narva, the Slate City.jpg"
+			}
+		},
+		{
+			"name": "Parin's Contracts",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Tribal Artifact — Demon",
+			"collector_number": "489",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/489_Parin's Contracts.jpg"
+			}
+		},
+		{
+			"name": "Parin's Storage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "490",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/490_Parin's Storage.jpg"
+			}
+		},
+		{
+			"name": "Railed!",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "497",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/497_Railed!.jpg"
+			}
+		},
+		{
+			"name": "Ransacked!",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{X}{R}",
+			"type": "Instant",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/140_Ransacked!.jpg"
+			}
+		},
+		{
+			"name": "Renarva, Bastion of Slate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Slate",
+			"collector_number": "550",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/550_Renarva, Bastion of Slate.jpg"
+			}
+		},
+		{
+			"name": "Rubius' Lucky Coin",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact",
+			"collector_number": "503",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/503_Rubius' Lucky Coin.jpg"
+			}
+		},
+		{
+			"name": "Rubius' Trinket",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact",
+			"collector_number": "504",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/504_Rubius' Trinket.jpg"
+			}
+		},
+		{
+			"name": "Statuette of Will",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "511",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/511_Statuette of Will.jpg"
+			}
+		},
+		{
+			"name": "Stonehaven, the Foundation",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "559",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/559_Stonehaven, the Foundation.jpg"
+			}
+		},
+		{
+			"name": "Stop!",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Instant",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/16_Stop!.jpg"
+			}
+		},
+		{
+			"name": "The Blade Moses",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "439",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/439_The Blade Moses.jpg"
+			}
+		},
+		{
+			"name": "The Crashing Artery",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "448",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/448_The Crashing Artery.jpg"
+			}
+		},
+		{
+			"name": "The Mallorn Wood",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "540",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/540_The Mallorn Wood.jpg"
+			}
+		},
+		{
+			"name": "The Sacking of Hoffstead",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/143_The Sacking of Hoffstead.jpg"
+			}
+		},
+		{
+			"name": "The Serpents Who Wound Time",
+			"rarity": "mythic",
+			"mana_cost": "{G}{G}{G}",
+			"type": "Legendary Creature — Sepent God",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/183_The Serpents Who Wound Time.jpg"
+			}
+		},
+		{
+			"name": "The Slate Temple",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Slate",
+			"collector_number": "554",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/554_The Slate Temple.jpg"
+			}
+		},
+		{
+			"name": "Thrae and Jail Socks",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}{W}",
+			"type": "Legendary Creature — Avatar Human",
+			"collector_number": "400",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/400_Thrae and Jail Socks.jpg"
+			}
+		},
+		{
+			"name": "Tragedy!",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/149_Tragedy!.jpg"
+			}
+		},
+		{
+			"name": "Tragic Backstory",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/19_Tragic Backstory.jpg"
+			}
+		},
+		{
+			"name": "Why Not",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Sorcery",
+			"collector_number": "417",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/417_Why Not.jpg"
+			}
+		},
+		{
+			"name": "Hod, the Tragic",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — God",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/73_Hod, the Tragic.jpg"
+			}
+		},
+		{
+			"name": "Tyr, the Justice",
+			"rarity": "mythic",
+			"mana_cost": "{R}{R}{W}{W}",
+			"type": "Legendary Creature — God",
+			"collector_number": "406",
+			"image_uris": {
+				"en": "https://-CH4INS4WM4N-.github.io/sets/PS1-files/img/406_Tyr, the Justice.jpg"
+			}
+		},
+	]
+
+[rare(1)]
+	1 Thrice, Factory Heads
+	2 Worker Prime, Model Employee
+	1 Earth-Grinder, Iron Devastator
+	2 Clockwork City
+	2 Massive Energy Module
+	2 Assembly Nightmare
+	2 Demolition Mech
+	2 Apocalypse Mech
+	1 Flesh Imitator
+	2 Lobotomizer
+	2 Scrapyard Gravecrawler
+	1 'The Dude'
+	2 Illan, Dazzling Saucier
+	1 Baarbus Flamekin, Chef
+	2 Curse Dealer
+	2 Blazed
+	2 Burner Brigade
+	2 Loafing Barkskin
+	2 Monster Chef
+	2 Reckless Dealer
+	1 Cthulu, the Deep One
+	1 Narmenikan, the Archlich
+	1 Thrasis, Eldritch Lich
+	1 Lich's Phylactery
+	1 Gateway to the Beyond
+	1 Ormathrokel, God of the Void
+	1 Eldritch Force
+	2 Archdemon of Rites
+	2 Eldritch Tutor
+	2 Noxious Breath
+	2 Raging Horror
+	2 Shadow-Wreathed Lich
+	2 Fungal Wasteland
+	2 Spore Filled Swamp
+	2 The Spore That Shrouds All
+	2 Undergrowth Marsh
+	1 Fertamai, Rotten Queen
+	2 He Who Rots
+	2 Itnoai, the Cultivator
+	1 Mortal-Slayer, the Deadly
+	2 Spore Trapper
+	1 Nature's Revenge
+	1 Heinz' Lamp, Ketch
+	1 Heinz, Crazed Arcanist
+	1 Persephone, Queen of the Underworld
+	1 Sefera, the Silent Voice
+	1 Sereth, Sister of Body
+	1 Veris, Sister of Soul
+	1 He Who Walks Eternity
+	1 Liliana, Betrayer of Gods
+	2 Nyma, Eldritch Weaver
+	1 Vicne, Demon Half-Breed
+	1 Britel, King of Bones
+	1 Varai, Attendant of the Night
+	1 Itachi of the Sharingan
+	2 Kingslayer Jaime Lannister
+	1 King Avelot, Unchallenged
+	1 King Reynauld, Unmatched
+	2 Mace, Knight of the Outlands
+	1 Sir Baynard, Bold Guardian
+	2 Knight of the Fae
+	1 Somber Black Knight
+	2 Nature Bound Knight
+	2 Lord Tolrn of Old Keep
+	2 Master of the Battlefield
+	1 Prismatic Knight
+	2 War of Attrition
+	2 Lelaine, Voice of the Broken
+	2 Dryad of the Alliance
+	1 Baah, Who Demands Sacrifice
+	2 Unnatural Order
+	2 Parin's Post
+	2 Queen's Court
+	1 Marchesa, the Glistening Rose
+	1 Lordslayer Sael, the Merciless
+	1 Queen's Mox
+	2 Wresacs, the Unwavering
+	2 Lethanar, the Incinerator
+	1 Denji, Devil Hearted
+	1 Parin, Habitual Killer
+	2 Jasai, Queen's Thorn
+	1 Morasta Calitrex, Moonlit Thief
+	2 Ceri, Burning Confluence
+	1 Soul of the Dying Earth
+	2 Aoife the Wry
+	2 Ein, the Envoker
+	2 I-VI, First Through Sixth
+	1 Blaade Vast, Soul Thief
+	1 Rubius Sapwood, Shipwright
+	1 Calypso, Tattered Shifter
+	1 Silver-Beard Vax Caper
+	1 Felix Han, the Warrior
+	1 Battlefield
+	1 Moonwhisper, Shape Searching
+	1 Gnaw, Alone
+	1 Calypso, Golden Bough Captain
+	1 Naeris Galenodel, First Mate
+	2 Nox Nefarous, the Fog
+	1 Golden-Eye Axe Carter
+	1 Evelyn Lavish of the Lavish Pirates
+	2 Alani, the Swiftfoot
+	2 Artus, Lightning Rider
+	1 Assassin's Warning
+	2 Atop the Bodies
+	1 Avatar of Rot
+	2 Avatar of Weirding
+	2 Baldusax, Eternally Loyal
+	1 Barvros, Dominator of Peaks
+	1 Blazing Ritual
+	2 Blessed Fountainbed
+	2 Bloody Ritual
+	2 Cloudbreak Clock Tower
+	2 Cottage Kitchen
+	2 Dalahad, Who Lives in Filth
+	2 Dathe'er, the Blood Mist
+	2 Deflector Knight
+	1 Descent into the Impossible
+	2 Dominate the Powerful
+	2 Dreamscape Range
+	2 Drop of the Rose
+	1 Eki, Faceless Shifter
+	1 Ekika, the Multifaceted
+	1 Eldritch Awakening
+	2 Eldritch Rites
+	1 Eliana, Dusk's Executor
+	2 Eradicator Knight
+	1 Estromarex, He Who Dreams
+	2 Factory in the Dunes
+	1 Faeten, Who Brings Autumn
+	2 Fae's Disassembly
+	2 Fen, the Culling Blade
+	2 Fent, Born In Rot
+	2 Fight for Survival
+	2 Flash of Volatility
+	1 Forgotten Night
+	2 Foundry Defense War Mech
+	2 Gaichu, Swarm Incarnate
+	2 Gervan, Who Touches Clouds
+	1 Gevar, the Swift Slash
+	1 Glistening Mox
+	1 Gordon, the Master Chef
+	2 Harendar, Many-Tomed
+	2 Hazy Mire
+	1 Heloret, Returned from the Deep
+	1 Herses, Blazing Sand
+	2 Hoffstead, Community Effort
+	2 Implanted Personality
+	2 Impromptu Factory
+	1 Kaes, the Cowled
+	2 Karaway Greenwing
+	2 Katel, Huntress of the Tangle
+	1 Keita, Nature's Voice
+	2 Landscape Terraformer
+	2 Lazy Chef
+	2 Lonely Abode
+	2 Lorelet, Flower of Rot
+	1 Loryan, God of Contagion
+	1 Marafor, Undergrowth Queen
+	1 Masters of the Roast
+	2 Mines of Abandon
+	1 Mother Midday Meal
+	1 Nameless Spore
+	2 Nightmared Marsh
+	2 Observer of Species
+	1 Oko, Vain Trickster
+	1 Once, Imposing Overseer
+	1 Orfym, Exotic Dealer
+	2 Parin's Fury
+	2 Plague-Snout, Cloud of Death
+	2 Populated Barren
+	2 Power of the Old Ones
+	1 Powerstone Explosive
+	2 Prisoner Mech
+	1 Production Line Masterpiece, 97th
+	2 Ramsey, Huntsman Chef
+	2 Ravenous Hunger
+	2 Repurposed Shell
+	2 Rethia, Caller of Wisps
+	1 Roric, Plagued by Pests
+	2 Rotwood Deforester
+	2 Saa Elda, Who Swims Blind
+	1 Sakora, War's Alpha
+	1 Scrapyard Warlord
+	1 Secondary Provisions
+	2 Self-Producing City
+	2 Slaughter Brawl
+	1 Slyvash, Keen Trickster
+	2 Snareshadow Steal
+	1 Songs of Madness
+	2 Special Meal
+	2 Spirit Lich
+	2 Steam Powered Guardian
+	2 Stronghold Marrowfield
+	2 Submit to Eternities
+	2 Surveyor of Estates
+	1 Talavor, Undergrowth's Maw
+	2 Tavot, Dark Omen
+	1 Thaina, Queen of Decay
+	2 The Graveyard Shift
+	1 Thira, the Deadly Sting
+	2 Thornetai, Decaying Colossus
+	2 Toadstool Berserker
+	2 Towering Kingdom
+	2 Trading Route Landmark
+	2 Train of Spores
+	1 Traxita, God of the Rotten
+	1 Twice, Lifeless Reproduction
+	1 Twin Blades of the Queen
+	1 Ulak, 'Master' Chef
+	1 Ultimate Rites
+	2 Undergrowth Scout
+	1 Urakni, Midnight Occultist
+	1 Vacannabis, God of Festivity
+	1 Vaies, Mother of Leylines
+	1 Varin, the Slayer
+	2 Verdant Hamlet
+	2 Voltaic City
+	2 Wings of Decay
+	2 Withdrawn Warrior
+	2 Withstand Peril
+	2 Worker's Orientation
+	2 Workforce Trio
+	1 Xaersis, Queen of Calamity
+	2 Xeras, Brutal Crusader
+	2 Yevaath, Culling Blade
+	2 Zivana, Crimson Weaver
+	2 Abhorrent Slaughter
+	1 Absolute Incineration
+	2 Adri, the Tattered
+	2 Afnar, the Green Thumb
+	2 Ailos Marik, Hopeful Trainee
+	2 Alond, Brilliant Hero
+	1 Angel of Resurrection
+	2 Arbiter of the Old Ones
+	1 Arquel, the Noble
+	1 Ashcatcher, the Spark
+	2 Assassin's Performance
+	2 Assassin's Regicide
+	2 Assassin's Slaying
+	1 Axaminu, Eldritch Reaper
+	2 Blazed Chef
+	1 Blood Red Knight
+	1 Bogok, Clumsy Chef
+	2 Bolts of Disdain
+	1 Brilliant White Knight
+	2 Chef's Party
+	1 Clockwork Devastator
+	2 Clockwork Hulk
+	2 Colossal Shroom Beast
+	2 Commanding Leader
+	2 Constructor Mech
+	1 Crusader of Hoards
+	2 Dabi, Endeavor's Shadow
+	1 Daitorei, the Rotting Alpha
+	1 David, Gleeful Chef
+	1 Deep Blue Knight
+	2 Deep One's Fury
+	2 Deep One's Rage
+	2 Dematerializer
+	2 Dinner Rush
+	1 Drain the Earth
+	2 Eldritch Dismissal
+	2 Eldritch Protection
+	2 Eldritch Return
+	1 Emeren, Resourceful Chef
+	1 Emotionless Dread
+	2 Endless Machinery
+	1 Energy Consuming Wurm
+	1 Exandrethal, Lord of the Night
+	1 Factory in the Sky
+	2 Feast for Friends
+	1 Fleeting Shadow
+	2 Flowering Footmen
+	1 Foragus, Spore Shepherd
+	2 Fungal Oasis
+	1 Gautier, the Chainer
+	2 Green-Thumbed Chef
+	2 Handful of Deathfire
+	1 Hired Company
+	1 Ileus, Cruel Overseer
+	1 Jace, Reader of Lost Thoughts
+	1 Lars Lavish of the Lavish Pirates
+	1 Liliana, Lazotep Tyrant
+	2 Loyal Piercer
+	2 Mass Dissipation Ritual
+	2 Morbid Tutor
+	1 Mourner's Tutor
+	1 Noble Green Benjamin Omnieye
+	1 Noble Papa Pyrus
+	1 Noble Prin Tera
+	1 Noble Signer Maximus
+	1 Noble Spender Feel-Good
+	2 Noxen, Shadow Walker
+	2 Old One's Tutor
+	1 Paradise Island, Island of Wealth
+	2 Paradise Lost
+	2 Quick Deal
+	2 Raging Flame Knight
+	1 Rise from the Depths
+	1 Rulnya, Arcane Genius
+	2 Save From Eternity
+	1 Sheoldred, Compleat
+	1 Sikoss, Clan Mourner
+	1 Slaughter Knight
+	2 Slow Roast
+	2 Sorin, Bloodthirsty Adversary
+	2 Spread Spores
+	2 Stoner Warlord
+	2 Tavern-Tail, Adept Gambler
+	2 The Golden Bough
+	2 Undergrowth Mongrel
+	2 Unite Together
+	2 Uratha, Deadly Mist
+	1 Viridescent Green Knight
+	2 Watcher of Wastes
+	2 Alvesvale, Harbor Kingdom
+	1 Boobius, 'Master' Disguise
+	2 Borank's Ring
+	1 Break Stuff
+	2 Caravan Portal
+	2 Ere, City of Slate
+	2 Erena, the Slate Capital
+	1 Erenarva, the Slate Isles
+	2 Feel Good Inc.
+	1 Lose! Lose! Lose!
+	2 Narva, the Slate City
+	2 Parin's Contracts
+	2 Renarva, Bastion of Slate
+	2 Rubius' Lucky Coin
+	2 Rubius' Trinket
+	2 Stonehaven, the Foundation
+	2 The Blade Moses
+	2 The Crashing Artery
+	2 The Mallorn Wood
+	1 The Serpents Who Wound Time
+	2 The Slate Temple
+	1 Thrae and Jail Socks
+	2 Hod, the Tragic
+	1 Tyr, the Justice
+[uncommon(4)]
+	4 Brutalizer Mech
+	4 Generator Mech
+	4 Passing Grass
+	4 Multi-Tasker Chef
+	4 Favored Pipe
+	4 Rush Chef
+	4 Soup Chef
+	4 Deep One's Lashing
+	4 Persistent Murmors
+	4 Dark Dissipation
+	4 Eldritch Lightning
+	4 Fungal Rising
+	4 Spore Protector
+	4 Overtake With Fungus
+	4 Patient Spore
+	4 Decaying Toadstool
+	4 Infinite Decay
+	4 Skittering Toadstool
+	4 Ravenous Corpse
+	4 Odan, the Surging Storm
+	4 Rab, the Withering Host
+	4 Leyline Ritual
+	4 Blazing Halberdier
+	4 Berserker of the Ridge
+	4 Bloodthirsty Errant
+	4 Night-Veiled Valkyrie
+	4 Pastor of the Dead
+	4 Kinship Rift
+	4 Assassin's Dagger
+	4 Orb of Darkness
+	4 N'sark, the Brutalizer
+	4 Ofan, Nobleslayer
+	4 Terathan, the Bleeding Edge
+	4 Blood Fireball
+	4 Plowshares to Sword
+	4 Guarantee
+	4 A Knight's Watch
+	4 Astonishing Persistence
+	4 Blade Flash
+	4 Bloodfire Blast
+	4 Break Down
+	4 Brun, the Blazing
+	4 Clockwork Spires
+	4 Dominator Knight
+	4 Eldritch Ritual
+	4 Face Evil
+	4 Flippant Bakers
+	4 Foul Chef
+	4 Foul Meal
+	4 Fury of Spores
+	4 Gnarled Corpse
+	4 Growing Powerstone
+	4 Hunter of the Wilds
+	4 Kick Out
+	4 Life Honored Knight
+	4 Line Crash
+	4 Misted Wizard
+	4 Newborn Lich
+	4 Orabi of the Depths
+	4 Price of Ambition
+	4 Recycler Mech
+	4 Rotten Berserker
+	4 Scavenger Mech
+	4 Scrapyard Worker
+	4 Shattered Rain
+	4 Shrine to the Beyond
+	4 Survivor's Guilt
+	4 The Owl of Night's Watch
+	4 Unnatural Blast
+	4 Worker's Union
+	4 Zethair, the Impersonator
+	4 Abyssal Tutor
+	4 Adventurous Spore
+	4 Arcane Remnants
+	4 Assassin's Infiltration
+	4 Assassin's Scouting
+	4 Assembly Line
+	4 Bag Man
+	4 Become One
+	4 Blood Ruin
+	4 Blood Stitching
+	4 Cross Factory Transit
+	4 Crusader of Knowledge
+	4 Cultivation of Spores
+	4 Disassembler
+	4 Edible Gift
+	4 Eldritch Procession
+	4 Energy Array
+	4 Fleet Factory
+	4 Fleur, Scarlet Dancer
+	4 Forever-Walker, the Undying
+	4 Frost Knight
+	4 Fungal Control
+	4 Genshi Otsuki, Bandit King
+	4 Grarg and Rarg, Brothers
+	4 Grasp of Rot
+	4 Grasp Through Planes
+	4 Honored Dual
+	4 House of the Rising Sun
+	4 Intense Persuasion
+	4 Ivan Tesre, Grim Barber
+	4 Jace, Wielder of Memories
+	4 Overwhelming Decay
+	4 Recursive Jailbird
+	4 Shatter Apart
+	4 Spender's Trap
+	4 Surveyor of Meats
+	4 Swarm Lash
+	4 Thrae Imbros, the Barrier
+	4 Torial, Ascended Lich
+	4 Underdark Scrambler
+	4 Walk Among Life
+	4 Arrowheads of Will
+	4 Half-Pipe!
+	4 Lepregang
+	4 Parin's Storage
+	4 Railed!
+	4 Ransacked!
+	4 Stop!
+	4 Tragic Backstory
+	4 Why Not
+[common(7)]
+	8 Imposing Foundry
+	8 Skyway Transit
+	8 Mobile Sky Port
+	8 Cog Cleaner
+	8 Viscera Collector
+	8 Repurposed Crate Worker
+	8 Line Chef
+	8 High Elf
+	8 Stash Bag
+	8 Sous-Chef
+	8 Revel Poisoner
+	8 Overly Excited Taste Tester
+	8 Necrotic Touch
+	8 Shed Curses
+	8 Snapfire
+	8 Moonlit Occultist
+	8 Spore Hound
+	8 Undergrowth Minion
+	8 Eldritch Touch
+	8 Wildlands Exploration
+	8 Loyal Mystic
+	8 Strike Down
+	8 Assault on the Enemy
+	8 Swift Guardian
+	8 Wildlands Protector
+	8 Forbidden Rites
+	8 Quei-Sen, Venomous Gift
+	8 Grave Scrying
+	8 Obfuscate
+	8 Trip
+	8 Collective Ritual
+	8 Assassin's Slash
+	8 Battlefield Healer
+	8 Brutalizer Knight
+	8 Consumed By Nature
+	8 Crude Metal Factory
+	8 Draped Horror
+	8 Frostburn Knight
+	8 Fungal Raptor
+	8 Haze Maker
+	8 Horde of Cavaliers
+	8 Knight Surveyor
+	8 Knight's Duty
+	8 Landfill Worker
+	8 Mage Slayer Knight
+	8 Mech Powerstone Module
+	8 Midnight Worshipper
+	8 Mobile Crew
+	8 Mobilizer Thopter
+	8 Noble Guardian
+	8 Overtaken by Spores
+	8 Pathfinder Bolts
+	8 Perpetual Marcher
+	8 Prototype Collector
+	8 Quick-Play Bolts
+	8 Rampaging Lancer
+	8 Ravenous Spores
+	8 Rebuild Station
+	8 Reproduction Worker
+	8 Scour Dark Tomes
+	8 Solemn Clocktower
+	8 Spiteful Chef
+	8 Steamwork Foundry
+	8 Twilight Knight
+	8 Undergrowth Hunter
+	8 Warrantee Tester
+	8 Watchpost
+	8 Waxen Goods
+	8 Workshop of Innovation
+	8 Alternate CEO Model
+	8 Arcane Warlord
+	8 Assassin's Bounty
+	8 Assassin's Duel
+	8 Assassin's Recruitment
+	8 Blood Money Cultivator
+	8 Boronk, Kindly Barkeep
+	8 Chef Conspirator
+	8 Clockwork Watcher
+	8 Consign to Memory
+	8 Crazed Chef
+	8 Curious Toadstool Behemoth
+	8 Dredge the Rotten
+	8 Dune Expeditioner
+	8 Exiled Vampire
+	8 Factory Scrap Guard
+	8 Finally Wed
+	8 Flamespreader Minion
+	8 Fungi Scouts
+	8 Gluttonous Chef
+	8 Guardian of Nature
+	8 Oblivious Cook
+	8 Price of Bravery
+	8 Robotic Consultation
+	8 Sheoldred's Whisper
+	8 Spark Weaving
+	8 Study the War Plan
+	8 Unflinching Spore
+	8 Bandit King's Defeat
+	8 Distraction!
+	8 Entrance!
+	8 Interrogation!
+	8 Many Stolen Keys
+	8 Statuette of Will
+	8 The Sacking of Hoffstead
+	8 Tragedy!
+[wildcard(2)]
+	4 Thrice, Factory Heads
+	7 Worker Prime, Model Employee
+	4 Earth-Grinder, Iron Devastator
+	7 Clockwork City
+	7 Massive Energy Module
+	6 Imposing Foundry
+	6 Skyway Transit
+	6 Mobile Sky Port
+	7 Assembly Nightmare
+	6 Cog Cleaner
+	7 Demolition Mech
+	15 Brutalizer Mech
+	7 Apocalypse Mech
+	4 Flesh Imitator
+	15 Generator Mech
+	7 Lobotomizer
+	7 Scrapyard Gravecrawler
+	6 Viscera Collector
+	6 Repurposed Crate Worker
+	4 'The Dude'
+	7 Illan, Dazzling Saucier
+	4 Baarbus Flamekin, Chef
+	7 Curse Dealer
+	6 Line Chef
+	6 High Elf
+	15 Passing Grass
+	7 Blazed
+	15 Multi-Tasker Chef
+	7 Burner Brigade
+	7 Loafing Barkskin
+	7 Monster Chef
+	15 Favored Pipe
+	6 Stash Bag
+	6 Sous-Chef
+	6 Revel Poisoner
+	7 Reckless Dealer
+	15 Rush Chef
+	6 Overly Excited Taste Tester
+	15 Soup Chef
+	4 Cthulu, the Deep One
+	4 Narmenikan, the Archlich
+	4 Thrasis, Eldritch Lich
+	4 Lich's Phylactery
+	4 Gateway to the Beyond
+	4 Ormathrokel, God of the Void
+	15 Deep One's Lashing
+	4 Eldritch Force
+	15 Persistent Murmors
+	7 Archdemon of Rites
+	7 Eldritch Tutor
+	6 Necrotic Touch
+	6 Shed Curses
+	7 Noxious Breath
+	7 Raging Horror
+	6 Snapfire
+	15 Dark Dissipation
+	15 Eldritch Lightning
+	6 Moonlit Occultist
+	7 Shadow-Wreathed Lich
+	7 Fungal Wasteland
+	7 Spore Filled Swamp
+	7 The Spore That Shrouds All
+	7 Undergrowth Marsh
+	4 Fertamai, Rotten Queen
+	7 He Who Rots
+	7 Itnoai, the Cultivator
+	4 Mortal-Slayer, the Deadly
+	15 Fungal Rising
+	15 Spore Protector
+	7 Spore Trapper
+	15 Overtake With Fungus
+	4 Nature's Revenge
+	15 Patient Spore
+	6 Spore Hound
+	15 Decaying Toadstool
+	15 Infinite Decay
+	15 Skittering Toadstool
+	15 Ravenous Corpse
+	6 Undergrowth Minion
+	4 Heinz' Lamp, Ketch
+	4 Heinz, Crazed Arcanist
+	4 Persephone, Queen of the Underworld
+	4 Sefera, the Silent Voice
+	4 Sereth, Sister of Body
+	4 Veris, Sister of Soul
+	4 He Who Walks Eternity
+	15 Odan, the Surging Storm
+	6 Eldritch Touch
+	4 Liliana, Betrayer of Gods
+	7 Nyma, Eldritch Weaver
+	15 Rab, the Withering Host
+	4 Vicne, Demon Half-Breed
+	6 Wildlands Exploration
+	6 Loyal Mystic
+	4 Britel, King of Bones
+	4 Varai, Attendant of the Night
+	4 Itachi of the Sharingan
+	15 Leyline Ritual
+	7 Kingslayer Jaime Lannister
+	4 King Avelot, Unchallenged
+	4 King Reynauld, Unmatched
+	7 Mace, Knight of the Outlands
+	4 Sir Baynard, Bold Guardian
+	6 Strike Down
+	7 Knight of the Fae
+	4 Somber Black Knight
+	15 Blazing Halberdier
+	7 Nature Bound Knight
+	6 Assault on the Enemy
+	15 Berserker of the Ridge
+	15 Bloodthirsty Errant
+	7 Lord Tolrn of Old Keep
+	6 Swift Guardian
+	7 Master of the Battlefield
+	4 Prismatic Knight
+	15 Night-Veiled Valkyrie
+	6 Wildlands Protector
+	7 War of Attrition
+	7 Lelaine, Voice of the Broken
+	7 Dryad of the Alliance
+	15 Pastor of the Dead
+	4 Baah, Who Demands Sacrifice
+	7 Unnatural Order
+	15 Kinship Rift
+	7 Parin's Post
+	7 Queen's Court
+	4 Marchesa, the Glistening Rose
+	6 Forbidden Rites
+	4 Lordslayer Sael, the Merciless
+	4 Queen's Mox
+	15 Assassin's Dagger
+	15 Orb of Darkness
+	7 Wresacs, the Unwavering
+	15 N'sark, the Brutalizer
+	7 Lethanar, the Incinerator
+	4 Denji, Devil Hearted
+	4 Parin, Habitual Killer
+	15 Ofan, Nobleslayer
+	15 Terathan, the Bleeding Edge
+	15 Blood Fireball
+	6 Quei-Sen, Venomous Gift
+	7 Jasai, Queen's Thorn
+	6 Grave Scrying
+	4 Morasta Calitrex, Moonlit Thief
+	7 Ceri, Burning Confluence
+	15 Plowshares to Sword
+	4 Soul of the Dying Earth
+	7 Aoife the Wry
+	6 Obfuscate
+	6 Trip
+	6 Collective Ritual
+	7 Ein, the Envoker
+	15 Guarantee
+	7 I-VI, First Through Sixth
+	4 Blaade Vast, Soul Thief
+	4 Rubius Sapwood, Shipwright
+	4 Calypso, Tattered Shifter
+	4 Silver-Beard Vax Caper
+	4 Felix Han, the Warrior
+	4 Battlefield
+	4 Moonwhisper, Shape Searching
+	4 Gnaw, Alone
+	4 Calypso, Golden Bough Captain
+	4 Naeris Galenodel, First Mate
+	7 Nox Nefarous, the Fog
+	4 Golden-Eye Axe Carter
+	4 Evelyn Lavish of the Lavish Pirates
+	15 A Knight's Watch
+	7 Alani, the Swiftfoot
+	7 Artus, Lightning Rider
+	6 Assassin's Slash
+	4 Assassin's Warning
+	15 Astonishing Persistence
+	7 Atop the Bodies
+	4 Avatar of Rot
+	7 Avatar of Weirding
+	7 Baldusax, Eternally Loyal
+	4 Barvros, Dominator of Peaks
+	6 Battlefield Healer
+	15 Blade Flash
+	4 Blazing Ritual
+	7 Blessed Fountainbed
+	15 Bloodfire Blast
+	7 Bloody Ritual
+	15 Break Down
+	15 Brun, the Blazing
+	6 Brutalizer Knight
+	15 Clockwork Spires
+	7 Cloudbreak Clock Tower
+	6 Consumed By Nature
+	7 Cottage Kitchen
+	6 Crude Metal Factory
+	7 Dalahad, Who Lives in Filth
+	7 Dathe'er, the Blood Mist
+	7 Deflector Knight
+	4 Descent into the Impossible
+	7 Dominate the Powerful
+	15 Dominator Knight
+	6 Draped Horror
+	7 Dreamscape Range
+	7 Drop of the Rose
+	4 Eki, Faceless Shifter
+	4 Ekika, the Multifaceted
+	4 Eldritch Awakening
+	7 Eldritch Rites
+	15 Eldritch Ritual
+	4 Eliana, Dusk's Executor
+	7 Eradicator Knight
+	4 Estromarex, He Who Dreams
+	15 Face Evil
+	7 Factory in the Dunes
+	4 Faeten, Who Brings Autumn
+	7 Fae's Disassembly
+	7 Fen, the Culling Blade
+	7 Fent, Born In Rot
+	7 Fight for Survival
+	7 Flash of Volatility
+	15 Flippant Bakers
+	4 Forgotten Night
+	15 Foul Chef
+	15 Foul Meal
+	7 Foundry Defense War Mech
+	6 Frostburn Knight
+	6 Fungal Raptor
+	15 Fury of Spores
+	7 Gaichu, Swarm Incarnate
+	7 Gervan, Who Touches Clouds
+	4 Gevar, the Swift Slash
+	4 Glistening Mox
+	15 Gnarled Corpse
+	4 Gordon, the Master Chef
+	15 Growing Powerstone
+	7 Harendar, Many-Tomed
+	6 Haze Maker
+	7 Hazy Mire
+	4 Heloret, Returned from the Deep
+	4 Herses, Blazing Sand
+	7 Hoffstead, Community Effort
+	6 Horde of Cavaliers
+	15 Hunter of the Wilds
+	7 Implanted Personality
+	7 Impromptu Factory
+	4 Kaes, the Cowled
+	7 Karaway Greenwing
+	7 Katel, Huntress of the Tangle
+	4 Keita, Nature's Voice
+	15 Kick Out
+	6 Knight Surveyor
+	6 Knight's Duty
+	6 Landfill Worker
+	7 Landscape Terraformer
+	7 Lazy Chef
+	15 Life Honored Knight
+	15 Line Crash
+	7 Lonely Abode
+	7 Lorelet, Flower of Rot
+	4 Loryan, God of Contagion
+	6 Mage Slayer Knight
+	4 Marafor, Undergrowth Queen
+	4 Masters of the Roast
+	6 Mech Powerstone Module
+	6 Midnight Worshipper
+	7 Mines of Abandon
+	15 Misted Wizard
+	6 Mobile Crew
+	6 Mobilizer Thopter
+	4 Mother Midday Meal
+	4 Nameless Spore
+	15 Newborn Lich
+	7 Nightmared Marsh
+	6 Noble Guardian
+	7 Observer of Species
+	4 Oko, Vain Trickster
+	4 Once, Imposing Overseer
+	15 Orabi of the Depths
+	4 Orfym, Exotic Dealer
+	6 Overtaken by Spores
+	7 Parin's Fury
+	6 Pathfinder Bolts
+	6 Perpetual Marcher
+	7 Plague-Snout, Cloud of Death
+	7 Populated Barren
+	7 Power of the Old Ones
+	4 Powerstone Explosive
+	15 Price of Ambition
+	7 Prisoner Mech
+	4 Production Line Masterpiece, 97th
+	6 Prototype Collector
+	6 Quick-Play Bolts
+	6 Rampaging Lancer
+	7 Ramsey, Huntsman Chef
+	7 Ravenous Hunger
+	6 Ravenous Spores
+	6 Rebuild Station
+	15 Recycler Mech
+	6 Reproduction Worker
+	7 Repurposed Shell
+	7 Rethia, Caller of Wisps
+	4 Roric, Plagued by Pests
+	15 Rotten Berserker
+	7 Rotwood Deforester
+	7 Saa Elda, Who Swims Blind
+	4 Sakora, War's Alpha
+	15 Scavenger Mech
+	6 Scour Dark Tomes
+	4 Scrapyard Warlord
+	15 Scrapyard Worker
+	4 Secondary Provisions
+	7 Self-Producing City
+	15 Shattered Rain
+	15 Shrine to the Beyond
+	7 Slaughter Brawl
+	4 Slyvash, Keen Trickster
+	7 Snareshadow Steal
+	6 Solemn Clocktower
+	4 Songs of Madness
+	7 Special Meal
+	7 Spirit Lich
+	6 Spiteful Chef
+	7 Steam Powered Guardian
+	6 Steamwork Foundry
+	7 Stronghold Marrowfield
+	7 Submit to Eternities
+	7 Surveyor of Estates
+	15 Survivor's Guilt
+	4 Talavor, Undergrowth's Maw
+	7 Tavot, Dark Omen
+	4 Thaina, Queen of Decay
+	7 The Graveyard Shift
+	15 The Owl of Night's Watch
+	4 Thira, the Deadly Sting
+	7 Thornetai, Decaying Colossus
+	7 Toadstool Berserker
+	7 Towering Kingdom
+	7 Trading Route Landmark
+	7 Train of Spores
+	4 Traxita, God of the Rotten
+	4 Twice, Lifeless Reproduction
+	6 Twilight Knight
+	4 Twin Blades of the Queen
+	4 Ulak, 'Master' Chef
+	4 Ultimate Rites
+	6 Undergrowth Hunter
+	7 Undergrowth Scout
+	15 Unnatural Blast
+	4 Urakni, Midnight Occultist
+	4 Vacannabis, God of Festivity
+	4 Vaies, Mother of Leylines
+	4 Varin, the Slayer
+	7 Verdant Hamlet
+	7 Voltaic City
+	6 Warrantee Tester
+	6 Watchpost
+	6 Waxen Goods
+	7 Wings of Decay
+	7 Withdrawn Warrior
+	7 Withstand Peril
+	7 Worker's Orientation
+	15 Worker's Union
+	7 Workforce Trio
+	6 Workshop of Innovation
+	4 Xaersis, Queen of Calamity
+	7 Xeras, Brutal Crusader
+	7 Yevaath, Culling Blade
+	15 Zethair, the Impersonator
+	7 Zivana, Crimson Weaver
+	7 Abhorrent Slaughter
+	4 Absolute Incineration
+	15 Abyssal Tutor
+	7 Adri, the Tattered
+	15 Adventurous Spore
+	7 Afnar, the Green Thumb
+	7 Ailos Marik, Hopeful Trainee
+	7 Alond, Brilliant Hero
+	6 Alternate CEO Model
+	4 Angel of Resurrection
+	7 Arbiter of the Old Ones
+	15 Arcane Remnants
+	6 Arcane Warlord
+	4 Arquel, the Noble
+	4 Ashcatcher, the Spark
+	6 Assassin's Bounty
+	6 Assassin's Duel
+	15 Assassin's Infiltration
+	7 Assassin's Performance
+	6 Assassin's Recruitment
+	7 Assassin's Regicide
+	15 Assassin's Scouting
+	7 Assassin's Slaying
+	15 Assembly Line
+	4 Axaminu, Eldritch Reaper
+	15 Bag Man
+	15 Become One
+	7 Blazed Chef
+	6 Blood Money Cultivator
+	4 Blood Red Knight
+	15 Blood Ruin
+	15 Blood Stitching
+	4 Bogok, Clumsy Chef
+	7 Bolts of Disdain
+	6 Boronk, Kindly Barkeep
+	4 Brilliant White Knight
+	6 Chef Conspirator
+	7 Chef's Party
+	4 Clockwork Devastator
+	7 Clockwork Hulk
+	6 Clockwork Watcher
+	7 Colossal Shroom Beast
+	7 Commanding Leader
+	6 Consign to Memory
+	7 Constructor Mech
+	6 Crazed Chef
+	15 Cross Factory Transit
+	4 Crusader of Hoards
+	15 Crusader of Knowledge
+	15 Cultivation of Spores
+	6 Curious Toadstool Behemoth
+	7 Dabi, Endeavor's Shadow
+	4 Daitorei, the Rotting Alpha
+	4 David, Gleeful Chef
+	4 Deep Blue Knight
+	7 Deep One's Fury
+	7 Deep One's Rage
+	7 Dematerializer
+	7 Dinner Rush
+	15 Disassembler
+	4 Drain the Earth
+	6 Dredge the Rotten
+	6 Dune Expeditioner
+	15 Edible Gift
+	7 Eldritch Dismissal
+	15 Eldritch Procession
+	7 Eldritch Protection
+	7 Eldritch Return
+	4 Emeren, Resourceful Chef
+	4 Emotionless Dread
+	7 Endless Machinery
+	15 Energy Array
+	4 Energy Consuming Wurm
+	4 Exandrethal, Lord of the Night
+	6 Exiled Vampire
+	4 Factory in the Sky
+	6 Factory Scrap Guard
+	7 Feast for Friends
+	6 Finally Wed
+	6 Flamespreader Minion
+	15 Fleet Factory
+	4 Fleeting Shadow
+	15 Fleur, Scarlet Dancer
+	7 Flowering Footmen
+	4 Foragus, Spore Shepherd
+	15 Forever-Walker, the Undying
+	15 Frost Knight
+	15 Fungal Control
+	7 Fungal Oasis
+	6 Fungi Scouts
+	4 Gautier, the Chainer
+	15 Genshi Otsuki, Bandit King
+	6 Gluttonous Chef
+	15 Grarg and Rarg, Brothers
+	15 Grasp of Rot
+	15 Grasp Through Planes
+	7 Green-Thumbed Chef
+	6 Guardian of Nature
+	7 Handful of Deathfire
+	4 Hired Company
+	15 Honored Dual
+	15 House of the Rising Sun
+	4 Ileus, Cruel Overseer
+	15 Intense Persuasion
+	15 Ivan Tesre, Grim Barber
+	4 Jace, Reader of Lost Thoughts
+	15 Jace, Wielder of Memories
+	4 Lars Lavish of the Lavish Pirates
+	4 Liliana, Lazotep Tyrant
+	7 Loyal Piercer
+	7 Mass Dissipation Ritual
+	7 Morbid Tutor
+	4 Mourner's Tutor
+	4 Noble Green Benjamin Omnieye
+	4 Noble Papa Pyrus
+	4 Noble Prin Tera
+	4 Noble Signer Maximus
+	4 Noble Spender Feel-Good
+	7 Noxen, Shadow Walker
+	6 Oblivious Cook
+	7 Old One's Tutor
+	15 Overwhelming Decay
+	4 Paradise Island, Island of Wealth
+	7 Paradise Lost
+	6 Price of Bravery
+	7 Quick Deal
+	7 Raging Flame Knight
+	15 Recursive Jailbird
+	4 Rise from the Depths
+	6 Robotic Consultation
+	4 Rulnya, Arcane Genius
+	7 Save From Eternity
+	15 Shatter Apart
+	4 Sheoldred, Compleat
+	6 Sheoldred's Whisper
+	4 Sikoss, Clan Mourner
+	4 Slaughter Knight
+	7 Slow Roast
+	7 Sorin, Bloodthirsty Adversary
+	6 Spark Weaving
+	15 Spender's Trap
+	7 Spread Spores
+	7 Stoner Warlord
+	6 Study the War Plan
+	15 Surveyor of Meats
+	15 Swarm Lash
+	7 Tavern-Tail, Adept Gambler
+	7 The Golden Bough
+	15 Thrae Imbros, the Barrier
+	15 Torial, Ascended Lich
+	15 Underdark Scrambler
+	7 Undergrowth Mongrel
+	6 Unflinching Spore
+	7 Unite Together
+	7 Uratha, Deadly Mist
+	4 Viridescent Green Knight
+	15 Walk Among Life
+	7 Watcher of Wastes
+	7 Alvesvale, Harbor Kingdom
+	15 Arrowheads of Will
+	6 Bandit King's Defeat
+	4 Boobius, 'Master' Disguise
+	7 Borank's Ring
+	4 Break Stuff
+	7 Caravan Portal
+	6 Distraction!
+	6 Entrance!
+	7 Ere, City of Slate
+	7 Erena, the Slate Capital
+	4 Erenarva, the Slate Isles
+	7 Feel Good Inc.
+	15 Half-Pipe!
+	6 Interrogation!
+	15 Lepregang
+	4 Lose! Lose! Lose!
+	6 Many Stolen Keys
+	7 Narva, the Slate City
+	7 Parin's Contracts
+	15 Parin's Storage
+	15 Railed!
+	15 Ransacked!
+	7 Renarva, Bastion of Slate
+	7 Rubius' Lucky Coin
+	7 Rubius' Trinket
+	6 Statuette of Will
+	7 Stonehaven, the Foundation
+	15 Stop!
+	7 The Blade Moses
+	7 The Crashing Artery
+	7 The Mallorn Wood
+	6 The Sacking of Hoffstead
+	4 The Serpents Who Wound Time
+	7 The Slate Temple
+	4 Thrae and Jail Socks
+	6 Tragedy!
+	15 Tragic Backstory
+	15 Why Not
+	7 Hod, the Tragic
+	4 Tyr, the Justice

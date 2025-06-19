@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/PS1-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>PS1 visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/PS1-files/logo.png" />
+	<img class="preload-hidden" src="/sets/PS1-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="PS1"><img src="/sets/PS1-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/PS1-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\PS1-files\img\8_Angel of Resurrection.jpg" id="8_Angel of Resurrection" data-flag="@X" onclick="openSidebar('8_Angel of Resurrection',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\24_Deep Blue Knight.jpg" id="24_Deep Blue Knight" data-flag="@X" onclick="openSidebar('24_Deep Blue Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\48_Axaminu, Eldritch Reaper.jpg" id="48_Axaminu, Eldritch Reaper" data-flag="@X" onclick="openSidebar('48_Axaminu, Eldritch Reaper',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\121_Arquel, the Noble.jpg" id="121_Arquel, the Noble" data-flag="@X" onclick="openSidebar('121_Arquel, the Noble',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\157_Daitorei, the Rotting Alpha.jpg" id="157_Daitorei, the Rotting Alpha" data-flag="@X" onclick="openSidebar('157_Daitorei, the Rotting Alpha',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\9_Brilliant White Knight.jpg" id="9_Brilliant White Knight" data-flag="@X" onclick="openSidebar('9_Brilliant White Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\28_Eldritch Force.jpg" id="28_Eldritch Force" data-flag="@X" onclick="openSidebar('28_Eldritch Force',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\53_Crusader of Hoards.jpg" id="53_Crusader of Hoards" data-flag="@X" onclick="openSidebar('53_Crusader of Hoards',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\124_Blood Red Knight.jpg" id="124_Blood Red Knight" data-flag="@X" onclick="openSidebar('124_Blood Red Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\158_David, Gleeful Chef.jpg" id="158_David, Gleeful Chef" data-flag="@X" onclick="openSidebar('158_David, Gleeful Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\13_King Reynauld, Unmatched.jpg" id="13_King Reynauld, Unmatched" data-flag="@X" onclick="openSidebar('13_King Reynauld, Unmatched',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\33_Jace, Reader of Lost Thoughts.jpg" id="33_Jace, Reader of Lost Thoughts" data-flag="@X" onclick="openSidebar('33_Jace, Reader of Lost Thoughts',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\56_Drain the Earth.jpg" id="56_Drain the Earth" data-flag="@X" onclick="openSidebar('56_Drain the Earth',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\126_Boobius, 'Master' Disguise.jpg" id="126_Boobius, Master Disguise" data-flag="@X" onclick="openSidebar('126_Boobius, Master Disguise',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\159_Faeten, Who Brings Autumn.jpg" id="159_Faeten, Who Brings Autumn" data-flag="@X" onclick="openSidebar('159_Faeten, Who Brings Autumn',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\7_Abhorrent Slaughter.jpg" id="7_Abhorrent Slaughter" data-flag="@X" onclick="openSidebar('7_Abhorrent Slaughter',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\36_Lose! Lose! Lose!.jpg" id="36_Lose! Lose! Lose!" data-flag="@X" onclick="openSidebar('36_Lose! Lose! Lose!',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\63_Exandrethal, Lord of the Night.jpg" id="63_Exandrethal, Lord of the Night" data-flag="@X" onclick="openSidebar('63_Exandrethal, Lord of the Night',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\130_Fleeting Shadow.jpg" id="130_Fleeting Shadow" data-flag="@X" onclick="openSidebar('130_Fleeting Shadow',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\161_Foragus, Spore Shepherd.jpg" id="161_Foragus, Spore Shepherd" data-flag="@X" onclick="openSidebar('161_Foragus, Spore Shepherd',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\10_Commanding Leader.jpg" id="10_Commanding Leader" data-flag="@X" onclick="openSidebar('10_Commanding Leader',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\41_Rulnya, Arcane Genius.jpg" id="41_Rulnya, Arcane Genius" data-flag="@X" onclick="openSidebar('41_Rulnya, Arcane Genius',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\70_Gautier, the Chainer.jpg" id="70_Gautier, the Chainer" data-flag="@X" onclick="openSidebar('70_Gautier, the Chainer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\133_Lars Lavish of the Lavish Pirates.jpg" id="133_Lars Lavish of the Lavish Pirates" data-flag="@X" onclick="openSidebar('133_Lars Lavish of the Lavish Pirates',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\174_Nature's Revenge.jpg" id="174_Natures Revenge" data-flag="@X" onclick="openSidebar('174_Natures Revenge',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\14_Kingslayer Jaime Lannister.jpg" id="14_Kingslayer Jaime Lannister" data-flag="@X" onclick="openSidebar('14_Kingslayer Jaime Lannister',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\26_Deep One's Rage.jpg" id="26_Deep Ones Rage" data-flag="@X" onclick="openSidebar('26_Deep Ones Rage',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\72_Hired Company.jpg" id="72_Hired Company" data-flag="@X" onclick="openSidebar('72_Hired Company',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\120_Ailos Marik, Hopeful Trainee.jpg" id="120_Ailos Marik, Hopeful Trainee" data-flag="@X" onclick="openSidebar('120_Ailos Marik, Hopeful Trainee',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\183_The Serpents Who Wound Time.jpg" id="183_The Serpents Who Wound Time" data-flag="@X" onclick="openSidebar('183_The Serpents Who Wound Time',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\20_Unite Together.jpg" id="20_Unite Together" data-flag="@X" onclick="openSidebar('20_Unite Together',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\27_Eldritch Dismissal.jpg" id="27_Eldritch Dismissal" data-flag="@X" onclick="openSidebar('27_Eldritch Dismissal',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\74_Ileus, Cruel Overseer.jpg" id="74_Ileus, Cruel Overseer" data-flag="@X" onclick="openSidebar('74_Ileus, Cruel Overseer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\122_Assassin's Performance.jpg" id="122_Assassins Performance" data-flag="@X" onclick="openSidebar('122_Assassins Performance',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\191_Vaies, Mother of Leylines.jpg" id="191_Vaies, Mother of Leylines" data-flag="@X" onclick="openSidebar('191_Vaies, Mother of Leylines',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\12_Honored Dual.jpg" id="12_Honored Dual" data-flag="@X" onclick="openSidebar('12_Honored Dual',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\29_Eldritch Protection.jpg" id="29_Eldritch Protection" data-flag="@X" onclick="openSidebar('29_Eldritch Protection',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\77_King Avelot, Unchallenged.jpg" id="77_King Avelot, Unchallenged" data-flag="@X" onclick="openSidebar('77_King Avelot, Unchallenged',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\125_Bolts of Disdain.jpg" id="125_Bolts of Disdain" data-flag="@X" onclick="openSidebar('125_Bolts of Disdain',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\192_Viridescent Green Knight.jpg" id="192_Viridescent Green Knight" data-flag="@X" onclick="openSidebar('192_Viridescent Green Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\15_Plowshares to Sword.jpg" id="15_Plowshares to Sword" data-flag="@X" onclick="openSidebar('15_Plowshares to Sword',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\35_Knight of the Fae.jpg" id="35_Knight of the Fae" data-flag="@X" onclick="openSidebar('35_Knight of the Fae',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\78_Liliana, Betrayer of Gods.jpg" id="78_Liliana, Betrayer of Gods" data-flag="@X" onclick="openSidebar('78_Liliana, Betrayer of Gods',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\128_Deep One's Fury.jpg" id="128_Deep Ones Fury" data-flag="@X" onclick="openSidebar('128_Deep Ones Fury',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\154_Colossal Shroom Beast.jpg" id="154_Colossal Shroom Beast" data-flag="@X" onclick="openSidebar('154_Colossal Shroom Beast',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\16_Stop!.jpg" id="16_Stop!" data-flag="@X" onclick="openSidebar('16_Stop!',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\37_Mass Dissipation Ritual.jpg" id="37_Mass Dissipation Ritual" data-flag="@X" onclick="openSidebar('37_Mass Dissipation Ritual',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\79_Liliana, Lazotep Tyrant.jpg" id="79_Liliana, Lazotep Tyrant" data-flag="@X" onclick="openSidebar('79_Liliana, Lazotep Tyrant',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\132_Handful of Deathfire.jpg" id="132_Handful of Deathfire" data-flag="@X" onclick="openSidebar('132_Handful of Deathfire',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\160_Flowering Footmen.jpg" id="160_Flowering Footmen" data-flag="@X" onclick="openSidebar('160_Flowering Footmen',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\18_Thrae Imbros, the Barrier.jpg" id="18_Thrae Imbros, the Barrier" data-flag="@X" onclick="openSidebar('18_Thrae Imbros, the Barrier',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\21_Abyssal Tutor.jpg" id="21_Abyssal Tutor" data-flag="@X" onclick="openSidebar('21_Abyssal Tutor',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\82_Mourner's Tutor.jpg" id="82_Mourners Tutor" data-flag="@X" onclick="openSidebar('82_Mourners Tutor',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\136_Paradise Lost.jpg" id="136_Paradise Lost" data-flag="@X" onclick="openSidebar('136_Paradise Lost',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\162_Fungal Oasis.jpg" id="162_Fungal Oasis" data-flag="@X" onclick="openSidebar('162_Fungal Oasis',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\19_Tragic Backstory.jpg" id="19_Tragic Backstory" data-flag="@X" onclick="openSidebar('19_Tragic Backstory',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\23_Crusader of Knowledge.jpg" id="23_Crusader of Knowledge" data-flag="@X" onclick="openSidebar('23_Crusader of Knowledge',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\90_Parin, Habitual Killer.jpg" id="90_Parin, Habitual Killer" data-flag="@X" onclick="openSidebar('90_Parin, Habitual Killer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\137_Quick Deal.jpg" id="137_Quick Deal" data-flag="@X" onclick="openSidebar('137_Quick Deal',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\166_Green-Thumbed Chef.jpg" id="166_Green-Thumbed Chef" data-flag="@X" onclick="openSidebar('166_Green-Thumbed Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\11_Finally Wed.jpg" id="11_Finally Wed" data-flag="@X" onclick="openSidebar('11_Finally Wed',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\25_Deep One's Lashing.jpg" id="25_Deep Ones Lashing" data-flag="@X" onclick="openSidebar('25_Deep Ones Lashing',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\95_Rise from the Depths.jpg" id="95_Rise from the Depths" data-flag="@X" onclick="openSidebar('95_Rise from the Depths',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\138_Raging Flame Knight.jpg" id="138_Raging Flame Knight" data-flag="@X" onclick="openSidebar('138_Raging Flame Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\170_Katel, Huntress of the Tangle.jpg" id="170_Katel, Huntress of the Tangle" data-flag="@X" onclick="openSidebar('170_Katel, Huntress of the Tangle',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\17_Strike Down.jpg" id="17_Strike Down" data-flag="@X" onclick="openSidebar('17_Strike Down',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\31_Frost Knight.jpg" id="31_Frost Knight" data-flag="@X" onclick="openSidebar('31_Frost Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\99_Sheoldred, Compleat.jpg" id="99_Sheoldred, Compleat" data-flag="@X" onclick="openSidebar('99_Sheoldred, Compleat',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\139_Raging Horror.jpg" id="139_Raging Horror" data-flag="@X" onclick="openSidebar('139_Raging Horror',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\173_Nature Bound Knight.jpg" id="173_Nature Bound Knight" data-flag="@X" onclick="openSidebar('173_Nature Bound Knight',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\32_Grasp Through Planes.jpg" id="32_Grasp Through Planes" data-flag="@X" onclick="openSidebar('32_Grasp Through Planes',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\101_Sikoss, Clan Mourner.jpg" id="101_Sikoss, Clan Mourner" data-flag="@X" onclick="openSidebar('101_Sikoss, Clan Mourner',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\141_Reckless Dealer.jpg" id="141_Reckless Dealer" data-flag="@X" onclick="openSidebar('141_Reckless Dealer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\184_Slow Roast.jpg" id="184_Slow Roast" data-flag="@X" onclick="openSidebar('184_Slow Roast',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\34_Jace, Wielder of Memories.jpg" id="34_Jace, Wielder of Memories" data-flag="@X" onclick="openSidebar('34_Jace, Wielder of Memories',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\102_Slaughter Knight.jpg" id="102_Slaughter Knight" data-flag="@X" onclick="openSidebar('102_Slaughter Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\147_Stoner Warlord.jpg" id="147_Stoner Warlord" data-flag="@X" onclick="openSidebar('147_Stoner Warlord',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\188_Train of Spores.jpg" id="188_Train of Spores" data-flag="@X" onclick="openSidebar('188_Train of Spores',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\39_Odan, the Surging Storm.jpg" id="39_Odan, the Surging Storm" data-flag="@X" onclick="openSidebar('39_Odan, the Surging Storm',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\103_Somber Black Knight.jpg" id="103_Somber Black Knight" data-flag="@X" onclick="openSidebar('103_Somber Black Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\123_Blazing Halberdier.jpg" id="123_Blazing Halberdier" data-flag="@X" onclick="openSidebar('123_Blazing Halberdier',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\190_Undergrowth Scout.jpg" id="190_Undergrowth Scout" data-flag="@X" onclick="openSidebar('190_Undergrowth Scout',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\40_Persistent Murmors.jpg" id="40_Persistent Murmors" data-flag="@X" onclick="openSidebar('40_Persistent Murmors',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\115_Urakni, Midnight Occultist.jpg" id="115_Urakni, Midnight Occultist" data-flag="@X" onclick="openSidebar('115_Urakni, Midnight Occultist',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\129_Edible Gift.jpg" id="129_Edible Gift" data-flag="@X" onclick="openSidebar('129_Edible Gift',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\151_Adventurous Spore.jpg" id="151_Adventurous Spore" data-flag="@X" onclick="openSidebar('151_Adventurous Spore',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\22_Arcane Warlord.jpg" id="22_Arcane Warlord" data-flag="@X" onclick="openSidebar('22_Arcane Warlord',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\117_Vicne, Demon Half-Breed.jpg" id="117_Vicne, Demon Half-Breed" data-flag="@X" onclick="openSidebar('117_Vicne, Demon Half-Breed',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\131_Guarantee.jpg" id="131_Guarantee" data-flag="@X" onclick="openSidebar('131_Guarantee',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\152_Become One.jpg" id="152_Become One" data-flag="@X" onclick="openSidebar('152_Become One',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\30_Entrance!.jpg" id="30_Entrance!" data-flag="@X" onclick="openSidebar('30_Entrance!',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\43_Archdemon of Rites.jpg" id="43_Archdemon of Rites" data-flag="@X" onclick="openSidebar('43_Archdemon of Rites',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\134_Lepregang.jpg" id="134_Lepregang" data-flag="@X" onclick="openSidebar('134_Lepregang',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\155_Cultivation of Spores.jpg" id="155_Cultivation of Spores" data-flag="@X" onclick="openSidebar('155_Cultivation of Spores',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\38_Obfuscate.jpg" id="38_Obfuscate" data-flag="@X" onclick="openSidebar('38_Obfuscate',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\46_Assassin's Regicide.jpg" id="46_Assassins Regicide" data-flag="@X" onclick="openSidebar('46_Assassins Regicide',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\140_Ransacked!.jpg" id="140_Ransacked!" data-flag="@X" onclick="openSidebar('140_Ransacked!',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\164_Fury of Spores.jpg" id="164_Fury of Spores" data-flag="@X" onclick="openSidebar('164_Fury of Spores',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\42_Trip.jpg" id="42_Trip" data-flag="@X" onclick="openSidebar('42_Trip',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\47_Assassin's Slaying.jpg" id="47_Assassins Slaying" data-flag="@X" onclick="openSidebar('47_Assassins Slaying',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\142_Rush Chef.jpg" id="142_Rush Chef" data-flag="@X" onclick="openSidebar('142_Rush Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\172_Multi-Tasker Chef.jpg" id="172_Multi-Tasker Chef" data-flag="@X" onclick="openSidebar('172_Multi-Tasker Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\54_Curse Dealer.jpg" id="54_Curse Dealer" data-flag="@X" onclick="openSidebar('54_Curse Dealer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\146_Spender's Trap.jpg" id="146_Spenders Trap" data-flag="@X" onclick="openSidebar('146_Spenders Trap',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\177_Overtake With Fungus.jpg" id="177_Overtake With Fungus" data-flag="@X" onclick="openSidebar('177_Overtake With Fungus',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\55_Dabi, Endeavor's Shadow.jpg" id="55_Dabi, Endeavors Shadow" data-flag="@X" onclick="openSidebar('55_Dabi, Endeavors Shadow',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\148_Terathan, the Bleeding Edge.jpg" id="148_Terathan, the Bleeding Edge" data-flag="@X" onclick="openSidebar('148_Terathan, the Bleeding Edge',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\179_Passing Grass.jpg" id="179_Passing Grass" data-flag="@X" onclick="openSidebar('179_Passing Grass',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\58_Ein, the Envoker.jpg" id="58_Ein, the Envoker" data-flag="@X" onclick="openSidebar('58_Ein, the Envoker',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\150_Unnatural Blast.jpg" id="150_Unnatural Blast" data-flag="@X" onclick="openSidebar('150_Unnatural Blast',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\180_Patient Spore.jpg" id="180_Patient Spore" data-flag="@X" onclick="openSidebar('180_Patient Spore',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\60_Eldritch Return.jpg" id="60_Eldritch Return" data-flag="@X" onclick="openSidebar('60_Eldritch Return',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\127_Crazed Chef.jpg" id="127_Crazed Chef" data-flag="@X" onclick="openSidebar('127_Crazed Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\182_Rotten Berserker.jpg" id="182_Rotten Berserker" data-flag="@X" onclick="openSidebar('182_Rotten Berserker',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\62_Eldritch Tutor.jpg" id="62_Eldritch Tutor" data-flag="@X" onclick="openSidebar('62_Eldritch Tutor',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\135_Line Chef.jpg" id="135_Line Chef" data-flag="@X" onclick="openSidebar('135_Line Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\185_Soup Chef.jpg" id="185_Soup Chef" data-flag="@X" onclick="openSidebar('185_Soup Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\73_Hod, the Tragic.jpg" id="73_Hod, the Tragic" data-flag="@X" onclick="openSidebar('73_Hod, the Tragic',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\143_The Sacking of Hoffstead.jpg" id="143_The Sacking of Hoffstead" data-flag="@X" onclick="openSidebar('143_The Sacking of Hoffstead',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\153_Boronk, Kindly Barkeep.jpg" id="153_Boronk, Kindly Barkeep" data-flag="@X" onclick="openSidebar('153_Boronk, Kindly Barkeep',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\80_Loyal Piercer.jpg" id="80_Loyal Piercer" data-flag="@X" onclick="openSidebar('80_Loyal Piercer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\144_Snapfire.jpg" id="144_Snapfire" data-flag="@X" onclick="openSidebar('144_Snapfire',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\156_Curious Toadstool Behemoth.jpg" id="156_Curious Toadstool Behemoth" data-flag="@X" onclick="openSidebar('156_Curious Toadstool Behemoth',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\81_Morbid Tutor.jpg" id="81_Morbid Tutor" data-flag="@X" onclick="openSidebar('81_Morbid Tutor',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\145_Spark Weaving.jpg" id="145_Spark Weaving" data-flag="@X" onclick="openSidebar('145_Spark Weaving',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\163_Fungal Raptor.jpg" id="163_Fungal Raptor" data-flag="@X" onclick="openSidebar('163_Fungal Raptor',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\84_Noxen, Shadow Walker.jpg" id="84_Noxen, Shadow Walker" data-flag="@X" onclick="openSidebar('84_Noxen, Shadow Walker',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\149_Tragedy!.jpg" id="149_Tragedy!" data-flag="@X" onclick="openSidebar('149_Tragedy!',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\165_Gluttonous Chef.jpg" id="165_Gluttonous Chef" data-flag="@X" onclick="openSidebar('165_Gluttonous Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\85_Noxious Breath.jpg" id="85_Noxious Breath" data-flag="@X" onclick="openSidebar('85_Noxious Breath',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\167_Guardian of Nature.jpg" id="167_Guardian of Nature" data-flag="@X" onclick="openSidebar('167_Guardian of Nature',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\86_Nyma, Eldritch Weaver.jpg" id="86_Nyma, Eldritch Weaver" data-flag="@X" onclick="openSidebar('86_Nyma, Eldritch Weaver',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\168_Haze Maker.jpg" id="168_Haze Maker" data-flag="@X" onclick="openSidebar('168_Haze Maker',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\88_Old One's Tutor.jpg" id="88_Old Ones Tutor" data-flag="@X" onclick="openSidebar('88_Old Ones Tutor',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\169_High Elf.jpg" id="169_High Elf" data-flag="@X" onclick="openSidebar('169_High Elf',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\96_Save From Eternity.jpg" id="96_Save From Eternity" data-flag="@X" onclick="openSidebar('96_Save From Eternity',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\171_Loyal Mystic.jpg" id="171_Loyal Mystic" data-flag="@X" onclick="openSidebar('171_Loyal Mystic',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\104_Sorin, Bloodthirsty Adversary.jpg" id="104_Sorin, Bloodthirsty Adversary" data-flag="@X" onclick="openSidebar('104_Sorin, Bloodthirsty Adversary',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\175_Oblivious Cook.jpg" id="175_Oblivious Cook" data-flag="@X" onclick="openSidebar('175_Oblivious Cook',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\106_Spore Trapper.jpg" id="106_Spore Trapper" data-flag="@X" onclick="openSidebar('106_Spore Trapper',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\176_Overly Excited Taste Tester.jpg" id="176_Overly Excited Taste Tester" data-flag="@X" onclick="openSidebar('176_Overly Excited Taste Tester',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\107_Spread Spores.jpg" id="107_Spread Spores" data-flag="@X" onclick="openSidebar('107_Spread Spores',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\178_Overtaken by Spores.jpg" id="178_Overtaken by Spores" data-flag="@X" onclick="openSidebar('178_Overtaken by Spores',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\110_Tavern-Tail, Adept Gambler.jpg" id="110_Tavern-Tail, Adept Gambler" data-flag="@X" onclick="openSidebar('110_Tavern-Tail, Adept Gambler',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\181_Ravenous Spores.jpg" id="181_Ravenous Spores" data-flag="@X" onclick="openSidebar('181_Ravenous Spores',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\113_Undergrowth Mongrel.jpg" id="113_Undergrowth Mongrel" data-flag="@X" onclick="openSidebar('113_Undergrowth Mongrel',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\186_Spore Hound.jpg" id="186_Spore Hound" data-flag="@X" onclick="openSidebar('186_Spore Hound',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\116_Uratha, Deadly Mist.jpg" id="116_Uratha, Deadly Mist" data-flag="@X" onclick="openSidebar('116_Uratha, Deadly Mist',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\187_Study the War Plan.jpg" id="187_Study the War Plan" data-flag="@X" onclick="openSidebar('187_Study the War Plan',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\118_Watcher of Wastes.jpg" id="118_Watcher of Wastes" data-flag="@X" onclick="openSidebar('118_Watcher of Wastes',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\189_Undergrowth Hunter.jpg" id="189_Undergrowth Hunter" data-flag="@X" onclick="openSidebar('189_Undergrowth Hunter',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\119_Zivana, Crimson Weaver.jpg" id="119_Zivana, Crimson Weaver" data-flag="@X" onclick="openSidebar('119_Zivana, Crimson Weaver',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\193_Wildlands Exploration.jpg" id="193_Wildlands Exploration" data-flag="@X" onclick="openSidebar('193_Wildlands Exploration',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\50_Blood Ruin.jpg" id="50_Blood Ruin" data-flag="@X" onclick="openSidebar('50_Blood Ruin',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\51_Blood Stitching.jpg" id="51_Blood Stitching" data-flag="@X" onclick="openSidebar('51_Blood Stitching',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\59_Eldritch Procession.jpg" id="59_Eldritch Procession" data-flag="@X" onclick="openSidebar('59_Eldritch Procession',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\65_Fleur, Scarlet Dancer.jpg" id="65_Fleur, Scarlet Dancer" data-flag="@X" onclick="openSidebar('65_Fleur, Scarlet Dancer',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\66_Forever-Walker, the Undying.jpg" id="66_Forever-Walker, the Undying" data-flag="@X" onclick="openSidebar('66_Forever-Walker, the Undying',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\67_Fungal Control.jpg" id="67_Fungal Control" data-flag="@X" onclick="openSidebar('67_Fungal Control',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\68_Fungal Rising.jpg" id="68_Fungal Rising" data-flag="@X" onclick="openSidebar('68_Fungal Rising',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\71_Grasp of Rot.jpg" id="71_Grasp of Rot" data-flag="@X" onclick="openSidebar('71_Grasp of Rot',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\75_Intense Persuasion.jpg" id="75_Intense Persuasion" data-flag="@X" onclick="openSidebar('75_Intense Persuasion',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\76_Ivan Tesre, Grim Barber.jpg" id="76_Ivan Tesre, Grim Barber" data-flag="@X" onclick="openSidebar('76_Ivan Tesre, Grim Barber',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\87_Ofan, Nobleslayer.jpg" id="87_Ofan, Nobleslayer" data-flag="@X" onclick="openSidebar('87_Ofan, Nobleslayer',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\89_Overwhelming Decay.jpg" id="89_Overwhelming Decay" data-flag="@X" onclick="openSidebar('89_Overwhelming Decay',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\92_Rab, the Withering Host.jpg" id="92_Rab, the Withering Host" data-flag="@X" onclick="openSidebar('92_Rab, the Withering Host',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\93_Recursive Jailbird.jpg" id="93_Recursive Jailbird" data-flag="@X" onclick="openSidebar('93_Recursive Jailbird',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\97_Shatter Apart.jpg" id="97_Shatter Apart" data-flag="@X" onclick="openSidebar('97_Shatter Apart',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\105_Spore Protector.jpg" id="105_Spore Protector" data-flag="@X" onclick="openSidebar('105_Spore Protector',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\108_Surveyor of Meats.jpg" id="108_Surveyor of Meats" data-flag="@X" onclick="openSidebar('108_Surveyor of Meats',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\109_Swarm Lash.jpg" id="109_Swarm Lash" data-flag="@X" onclick="openSidebar('109_Swarm Lash',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\111_Torial, Ascended Lich.jpg" id="111_Torial, Ascended Lich" data-flag="@X" onclick="openSidebar('111_Torial, Ascended Lich',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\112_Underdark Scrambler.jpg" id="112_Underdark Scrambler" data-flag="@X" onclick="openSidebar('112_Underdark Scrambler',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\44_Assassin's Bounty.jpg" id="44_Assassins Bounty" data-flag="@X" onclick="openSidebar('44_Assassins Bounty',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\45_Assassin's Duel.jpg" id="45_Assassins Duel" data-flag="@X" onclick="openSidebar('45_Assassins Duel',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\49_Blood Money Cultivator.jpg" id="49_Blood Money Cultivator" data-flag="@X" onclick="openSidebar('49_Blood Money Cultivator',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\52_Consign to Memory.jpg" id="52_Consign to Memory" data-flag="@X" onclick="openSidebar('52_Consign to Memory',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\57_Dredge the Rotten.jpg" id="57_Dredge the Rotten" data-flag="@X" onclick="openSidebar('57_Dredge the Rotten',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\61_Eldritch Touch.jpg" id="61_Eldritch Touch" data-flag="@X" onclick="openSidebar('61_Eldritch Touch',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\64_Exiled Vampire.jpg" id="64_Exiled Vampire" data-flag="@X" onclick="openSidebar('64_Exiled Vampire',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\69_Fungi Scouts.jpg" id="69_Fungi Scouts" data-flag="@X" onclick="openSidebar('69_Fungi Scouts',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\83_Necrotic Touch.jpg" id="83_Necrotic Touch" data-flag="@X" onclick="openSidebar('83_Necrotic Touch',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\91_Price of Bravery.jpg" id="91_Price of Bravery" data-flag="@X" onclick="openSidebar('91_Price of Bravery',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\94_Revel Poisoner.jpg" id="94_Revel Poisoner" data-flag="@X" onclick="openSidebar('94_Revel Poisoner',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\98_Shed Curses.jpg" id="98_Shed Curses" data-flag="@X" onclick="openSidebar('98_Shed Curses',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\100_Sheoldred's Whisper.jpg" id="100_Sheoldreds Whisper" data-flag="@X" onclick="openSidebar('100_Sheoldreds Whisper',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\114_Unflinching Spore.jpg" id="114_Unflinching Spore" data-flag="@X" onclick="openSidebar('114_Unflinching Spore',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\198_Alond, Brilliant Hero.jpg" id="198_Alond, Brilliant Hero" data-flag="@X" onclick="openSidebar('198_Alond, Brilliant Hero',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\237_Calypso, Tattered Shifter.jpg" id="237_Calypso, Tattered Shifter" data-flag="@X" onclick="openSidebar('237_Calypso, Tattered Shifter',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\224_Blazing Ritual.jpg" id="224_Blazing Ritual" data-flag="@X" onclick="openSidebar('224_Blazing Ritual',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\263_Emeren, Resourceful Chef.jpg" id="263_Emeren, Resourceful Chef" data-flag="@X" onclick="openSidebar('263_Emeren, Resourceful Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\271_Felix Han, the Warrior.jpg" id="271_Felix Han, the Warrior" data-flag="@X" onclick="openSidebar('271_Felix Han, the Warrior',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\248_Deflector Knight.jpg" id="248_Deflector Knight" data-flag="@X" onclick="openSidebar('248_Deflector Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\257_Eki, Faceless Shifter.jpg" id="257_Eki, Faceless Shifter" data-flag="@X" onclick="openSidebar('257_Eki, Faceless Shifter',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\231_Break Stuff.jpg" id="231_Break Stuff" data-flag="@X" onclick="openSidebar('231_Break Stuff',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\370_Rubius Sapwood, Shipwright.jpg" id="370_Rubius Sapwood, Shipwright" data-flag="@X" onclick="openSidebar('370_Rubius Sapwood, Shipwright',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\256_Dryad of the Alliance.jpg" id="256_Dryad of the Alliance" data-flag="@X" onclick="openSidebar('256_Dryad of the Alliance',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\218_Battlefield Healer.jpg" id="218_Battlefield Healer" data-flag="@X" onclick="openSidebar('218_Battlefield Healer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\259_Eldritch Awakening.jpg" id="259_Eldritch Awakening" data-flag="@X" onclick="openSidebar('259_Eldritch Awakening',false)"></div>
+			<div class="container"><img data-alt_src="/sets\PS1-files\img\249_Denji, Devil Hearted_back.jpg" alt="/sets\PS1-files\img\249_Denji, Devil Hearted_front.jpg" id="249_Denji, Devil Hearted" data-flag="@XD" onclick="openSidebar('249_Denji, Devil Hearted',false)"><button class="flip-btn" onclick="imgFlip('249_Denji, Devil Hearted')"></button></div>
+			<div class="container"><img alt="/sets\PS1-files\img\223_Blazed Chef.jpg" id="223_Blazed Chef" data-flag="@X" onclick="openSidebar('223_Blazed Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\315_Lelaine, Voice of the Broken.jpg" id="315_Lelaine, Voice of the Broken" data-flag="@X" onclick="openSidebar('315_Lelaine, Voice of the Broken',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\345_Noble Guardian.jpg" id="345_Noble Guardian" data-flag="@X" onclick="openSidebar('345_Noble Guardian',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\262_Eliana, Dusk's Executor.jpg" id="262_Eliana, Dusks Executor" data-flag="@X" onclick="openSidebar('262_Eliana, Dusks Executor',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\279_Forgotten Night.jpg" id="279_Forgotten Night" data-flag="@X" onclick="openSidebar('279_Forgotten Night',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\240_Chef's Party.jpg" id="240_Chefs Party" data-flag="@X" onclick="openSidebar('240_Chefs Party',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\321_Lord Tolrn of Old Keep.jpg" id="321_Lord Tolrn of Old Keep" data-flag="@X" onclick="openSidebar('321_Lord Tolrn of Old Keep',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\393_Swift Guardian.jpg" id="393_Swift Guardian" data-flag="@X" onclick="openSidebar('393_Swift Guardian',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\295_Heinz, Crazed Arcanist.jpg" id="295_Heinz, Crazed Arcanist" data-flag="@X" onclick="openSidebar('295_Heinz, Crazed Arcanist',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\288_Gnaw, Alone.jpg" id="288_Gnaw, Alone" data-flag="@X" onclick="openSidebar('288_Gnaw, Alone',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\251_Dinner Rush.jpg" id="251_Dinner Rush" data-flag="@X" onclick="openSidebar('251_Dinner Rush',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\421_Withstand Peril.jpg" id="421_Withstand Peril" data-flag="@X" onclick="openSidebar('421_Withstand Peril',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\304_Itachi of the Sharingan.jpg" id="304_Itachi of the Sharingan" data-flag="@X" onclick="openSidebar('304_Itachi of the Sharingan',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\348_Noble Signer Maximus.jpg" id="348_Noble Signer Maximus" data-flag="@X" onclick="openSidebar('348_Noble Signer Maximus',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\269_Feast for Friends.jpg" id="269_Feast for Friends" data-flag="@X" onclick="openSidebar('269_Feast for Friends',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\417_Why Not.jpg" id="417_Why Not" data-flag="@X" onclick="openSidebar('417_Why Not',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\307_Kaes, the Cowled.jpg" id="307_Kaes, the Cowled" data-flag="@X" onclick="openSidebar('307_Kaes, the Cowled',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\349_Noble Spender Feel-Good.jpg" id="349_Noble Spender Feel-Good" data-flag="@X" onclick="openSidebar('349_Noble Spender Feel-Good',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\285_Gervan, Who Touches Clouds.jpg" id="285_Gervan, Who Touches Clouds" data-flag="@X" onclick="openSidebar('285_Gervan, Who Touches Clouds',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\311_Knight Surveyor.jpg" id="311_Knight Surveyor" data-flag="@X" onclick="openSidebar('311_Knight Surveyor',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\336_Morasta Calitrex, Moonlit Thief.jpg" id="336_Morasta Calitrex, Moonlit Thief" data-flag="@X" onclick="openSidebar('336_Morasta Calitrex, Moonlit Thief',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\208_Atop the Bodies.jpg" id="208_Atop the Bodies" data-flag="@X" onclick="openSidebar('208_Atop the Bodies',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\325_Mace, Knight of the Outlands.jpg" id="325_Mace, Knight of the Outlands" data-flag="@X" onclick="openSidebar('325_Mace, Knight of the Outlands',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\344_Noble Green Benjamin Omnieye.jpg" id="344_Noble Green Benjamin Omnieye" data-flag="@X" onclick="openSidebar('344_Noble Green Benjamin Omnieye',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\222_Blazed.jpg" id="222_Blazed" data-flag="@X" onclick="openSidebar('222_Blazed',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\333_Monster Chef.jpg" id="333_Monster Chef" data-flag="@X" onclick="openSidebar('333_Monster Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\383_Slyvash, Keen Trickster.jpg" id="383_Slyvash, Keen Trickster" data-flag="@X" onclick="openSidebar('383_Slyvash, Keen Trickster',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\228_Bloody Ritual.jpg" id="228_Bloody Ritual" data-flag="@X" onclick="openSidebar('228_Bloody Ritual',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\422_Workforce Trio.jpg" id="422_Workforce Trio" data-flag="@X" onclick="openSidebar('422_Workforce Trio',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\385_Songs of Madness.jpg" id="385_Songs of Madness" data-flag="@X" onclick="openSidebar('385_Songs of Madness',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\235_Burner Brigade.jpg" id="235_Burner Brigade" data-flag="@X" onclick="openSidebar('235_Burner Brigade',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\213_Bag Man.jpg" id="213_Bag Man" data-flag="@X" onclick="openSidebar('213_Bag Man',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\398_Thira, the Deadly Sting.jpg" id="398_Thira, the Deadly Sting" data-flag="@X" onclick="openSidebar('398_Thira, the Deadly Sting',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\246_Dathe'er, the Blood Mist.jpg" id="246_Datheer, the Blood Mist" data-flag="@X" onclick="openSidebar('246_Datheer, the Blood Mist',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\219_Berserker of the Ridge.jpg" id="219_Berserker of the Ridge" data-flag="@X" onclick="openSidebar('219_Berserker of the Ridge',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\412_Varai, Attendant of the Night.jpg" id="412_Varai, Attendant of the Night" data-flag="@X" onclick="openSidebar('412_Varai, Attendant of the Night',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\270_Feel Good Inc..jpg" id="270_Feel Good Inc." data-flag="@X" onclick="openSidebar('270_Feel Good Inc.',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\230_Break Down.jpg" id="230_Break Down" data-flag="@X" onclick="openSidebar('230_Break Down',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\414_Veris, Sister of Soul.jpg" id="414_Veris, Sister of Soul" data-flag="@X" onclick="openSidebar('414_Veris, Sister of Soul',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\314_Lazy Chef.jpg" id="314_Lazy Chef" data-flag="@X" onclick="openSidebar('314_Lazy Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\277_Flippant Bakers.jpg" id="277_Flippant Bakers" data-flag="@X" onclick="openSidebar('277_Flippant Bakers',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\424_Xaersis, Queen of Calamity.jpg" id="424_Xaersis, Queen of Calamity" data-flag="@X" onclick="openSidebar('424_Xaersis, Queen of Calamity',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\359_Power of the Old Ones.jpg" id="359_Power of the Old Ones" data-flag="@X" onclick="openSidebar('359_Power of the Old Ones',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\291_Grarg and Rarg, Brothers.jpg" id="291_Grarg and Rarg, Brothers" data-flag="@X" onclick="openSidebar('291_Grarg and Rarg, Brothers',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\195_Adri, the Tattered.jpg" id="195_Adri, the Tattered" data-flag="@X" onclick="openSidebar('195_Adri, the Tattered',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\367_Ravenous Hunger.jpg" id="367_Ravenous Hunger" data-flag="@X" onclick="openSidebar('367_Ravenous Hunger',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\310_Kick Out.jpg" id="310_Kick Out" data-flag="@X" onclick="openSidebar('310_Kick Out',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\197_Alani, the Swiftfoot.jpg" id="197_Alani, the Swiftfoot" data-flag="@X" onclick="openSidebar('197_Alani, the Swiftfoot',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\382_Slaughter Brawl.jpg" id="382_Slaughter Brawl" data-flag="@X" onclick="openSidebar('382_Slaughter Brawl',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\241_Collective Ritual.jpg" id="241_Collective Ritual" data-flag="@X" onclick="openSidebar('241_Collective Ritual',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\199_Aoife the Wry.jpg" id="199_Aoife the Wry" data-flag="@X" onclick="openSidebar('199_Aoife the Wry',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\420_Withdrawn Warrior.jpg" id="420_Withdrawn Warrior" data-flag="@X" onclick="openSidebar('420_Withdrawn Warrior',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\326_Mage Slayer Knight.jpg" id="326_Mage Slayer Knight" data-flag="@X" onclick="openSidebar('326_Mage Slayer Knight',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\268_Fae's Disassembly.jpg" id="268_Faes Disassembly" data-flag="@X" onclick="openSidebar('268_Faes Disassembly',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\425_Xeras, Brutal Crusader.jpg" id="425_Xeras, Brutal Crusader" data-flag="@X" onclick="openSidebar('425_Xeras, Brutal Crusader',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\387_Sous-Chef.jpg" id="387_Sous-Chef" data-flag="@X" onclick="openSidebar('387_Sous-Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\371_Saa Elda, Who Swims Blind.jpg" id="371_Saa Elda, Who Swims Blind" data-flag="@X" onclick="openSidebar('371_Saa Elda, Who Swims Blind',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\430_Parin's Fury.jpg" id="430_Parins Fury" data-flag="@X" onclick="openSidebar('430_Parins Fury',true)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\416_Waxen Goods.jpg" id="416_Waxen Goods" data-flag="@X" onclick="openSidebar('416_Waxen Goods',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\377_Shadow-Wreathed Lich.jpg" id="377_Shadow-Wreathed Lich" data-flag="@X" onclick="openSidebar('377_Shadow-Wreathed Lich',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\225_Blood Fireball.jpg" id="225_Blood Fireball" data-flag="@X" onclick="openSidebar('225_Blood Fireball',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\418_Wildlands Protector.jpg" id="418_Wildlands Protector" data-flag="@X" onclick="openSidebar('418_Wildlands Protector',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\384_Snareshadow Steal.jpg" id="384_Snareshadow Steal" data-flag="@X" onclick="openSidebar('384_Snareshadow Steal',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\226_Bloodfire Blast.jpg" id="226_Bloodfire Blast" data-flag="@X" onclick="openSidebar('226_Bloodfire Blast',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\391_Submit to Eternities.jpg" id="391_Submit to Eternities" data-flag="@X" onclick="openSidebar('391_Submit to Eternities',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\227_Bloodthirsty Errant.jpg" id="227_Bloodthirsty Errant" data-flag="@X" onclick="openSidebar('227_Bloodthirsty Errant',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\395_Tavot, Dark Omen.jpg" id="395_Tavot, Dark Omen" data-flag="@X" onclick="openSidebar('395_Tavot, Dark Omen',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\254_Dominator Knight.jpg" id="254_Dominator Knight" data-flag="@X" onclick="openSidebar('254_Dominator Knight',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\423_Wresacs, the Unwavering.jpg" id="423_Wresacs, the Unwavering" data-flag="@X" onclick="openSidebar('423_Wresacs, the Unwavering',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\260_Eldritch Lightning.jpg" id="260_Eldritch Lightning" data-flag="@X" onclick="openSidebar('260_Eldritch Lightning',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\200_Arcane Remnants.jpg" id="200_Arcane Remnants" data-flag="@X" onclick="openSidebar('200_Arcane Remnants',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\351_N'sark, the Brutalizer.jpg" id="351_Nsark, the Brutalizer" data-flag="@X" onclick="openSidebar('351_Nsark, the Brutalizer',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\202_Assassin's Infiltration.jpg" id="202_Assassins Infiltration" data-flag="@X" onclick="openSidebar('202_Assassins Infiltration',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\428_Eldritch Ritual.jpg" id="428_Eldritch Ritual" data-flag="@X" onclick="openSidebar('428_Eldritch Ritual',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\204_Assassin's Scouting.jpg" id="204_Assassins Scouting" data-flag="@X" onclick="openSidebar('204_Assassins Scouting',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\205_Assassin's Slash.jpg" id="205_Assassins Slash" data-flag="@X" onclick="openSidebar('205_Assassins Slash',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\245_Dark Dissipation.jpg" id="245_Dark Dissipation" data-flag="@X" onclick="openSidebar('245_Dark Dissipation',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\234_Brutalizer Knight.jpg" id="234_Brutalizer Knight" data-flag="@X" onclick="openSidebar('234_Brutalizer Knight',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\355_The Owl of Night's Watch.jpg" id="355_The Owl of Nights Watch" data-flag="@X" onclick="openSidebar('355_The Owl of Nights Watch',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\255_Draped Horror.jpg" id="255_Draped Horror" data-flag="@X" onclick="openSidebar('255_Draped Horror',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\392_Survivor's Guilt.jpg" id="392_Survivors Guilt" data-flag="@X" onclick="openSidebar('392_Survivors Guilt',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\390_Spiteful Chef.jpg" id="390_Spiteful Chef" data-flag="@X" onclick="openSidebar('390_Spiteful Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\427_Zethair, the Impersonator.jpg" id="427_Zethair, the Impersonator" data-flag="@X" onclick="openSidebar('427_Zethair, the Impersonator',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\278_Forbidden Rites.jpg" id="278_Forbidden Rites" data-flag="@X" onclick="openSidebar('278_Forbidden Rites',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\292_Grave Scrying.jpg" id="292_Grave Scrying" data-flag="@X" onclick="openSidebar('292_Grave Scrying',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\303_Interrogation!.jpg" id="303_Interrogation!" data-flag="@X" onclick="openSidebar('303_Interrogation!',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\331_Midnight Worshipper.jpg" id="331_Midnight Worshipper" data-flag="@X" onclick="openSidebar('331_Midnight Worshipper',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\334_Moonlit Occultist.jpg" id="334_Moonlit Occultist" data-flag="@X" onclick="openSidebar('334_Moonlit Occultist',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\362_Quei-Sen, Venomous Gift.jpg" id="362_Quei-Sen, Venomous Gift" data-flag="@X" onclick="openSidebar('362_Quei-Sen, Venomous Gift',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\373_Scour Dark Tomes.jpg" id="373_Scour Dark Tomes" data-flag="@X" onclick="openSidebar('373_Scour Dark Tomes',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\322_Lordslayer Sael, the Merciless.jpg" id="322_Lordslayer Sael, the Merciless" data-flag="@X" onclick="openSidebar('322_Lordslayer Sael, the Merciless',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\243_Cthulu, the Deep One.jpg" id="243_Cthulu, the Deep One" data-flag="@X" onclick="openSidebar('243_Cthulu, the Deep One',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\209_Avatar of Rot.jpg" id="209_Avatar of Rot" data-flag="@X" onclick="openSidebar('209_Avatar of Rot',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\194_Absolute Incineration.jpg" id="194_Absolute Incineration" data-flag="@X" onclick="openSidebar('194_Absolute Incineration',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\309_Keita, Nature's Voice.jpg" id="309_Keita, Natures Voice" data-flag="@X" onclick="openSidebar('309_Keita, Natures Voice',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\413_Varin, the Slayer.jpg" id="413_Varin, the Slayer" data-flag="@X" onclick="openSidebar('413_Varin, the Slayer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\296_Heloret, Returned from the Deep.jpg" id="296_Heloret, Returned from the Deep" data-flag="@X" onclick="openSidebar('296_Heloret, Returned from the Deep',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\229_Bogok, Clumsy Chef.jpg" id="229_Bogok, Clumsy Chef" data-flag="@X" onclick="openSidebar('229_Bogok, Clumsy Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\217_Battlefield.jpg" id="217_Battlefield" data-flag="@X" onclick="openSidebar('217_Battlefield',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\352_Oko, Vain Trickster.jpg" id="352_Oko, Vain Trickster" data-flag="@X" onclick="openSidebar('352_Oko, Vain Trickster',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\264_Eradicator Knight.jpg" id="264_Eradicator Knight" data-flag="@X" onclick="openSidebar('264_Eradicator Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\347_Noble Prin Tera.jpg" id="347_Noble Prin Tera" data-flag="@X" onclick="openSidebar('347_Noble Prin Tera',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\232_Britel, King of Bones.jpg" id="232_Britel, King of Bones" data-flag="@X" onclick="openSidebar('232_Britel, King of Bones',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\400_Thrae and Jail Socks.jpg" id="400_Thrae and Jail Socks" data-flag="@X" onclick="openSidebar('400_Thrae and Jail Socks',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\380_Sir Baynard, Bold Guardian.jpg" id="380_Sir Baynard, Bold Guardian" data-flag="@X" onclick="openSidebar('380_Sir Baynard, Bold Guardian',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\272_Fen, the Culling Blade.jpg" id="272_Fen, the Culling Blade" data-flag="@X" onclick="openSidebar('272_Fen, the Culling Blade',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\210_Avatar of Weirding.jpg" id="210_Avatar of Weirding" data-flag="@X" onclick="openSidebar('210_Avatar of Weirding',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\274_Fertamai, Rotten Queen.jpg" id="274_Fertamai, Rotten Queen" data-flag="@X" onclick="openSidebar('274_Fertamai, Rotten Queen',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\406_Tyr, the Justice.jpg" id="406_Tyr, the Justice" data-flag="@X" onclick="openSidebar('406_Tyr, the Justice',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\308_Karaway Greenwing.jpg" id="308_Karaway Greenwing" data-flag="@X" onclick="openSidebar('308_Karaway Greenwing',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\426_Yevaath, Culling Blade.jpg" id="426_Yevaath, Culling Blade" data-flag="@X" onclick="openSidebar('426_Yevaath, Culling Blade',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\238_Ceri, Burning Confluence.jpg" id="238_Ceri, Burning Confluence" data-flag="@X" onclick="openSidebar('238_Ceri, Burning Confluence',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\327_Marafor, Undergrowth Queen.jpg" id="327_Marafor, Undergrowth Queen" data-flag="@X" onclick="openSidebar('327_Marafor, Undergrowth Queen',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\201_Artus, Lightning Rider.jpg" id="201_Artus, Lightning Rider" data-flag="@X" onclick="openSidebar('201_Artus, Lightning Rider',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\317_Leyline Ritual.jpg" id="317_Leyline Ritual" data-flag="@X" onclick="openSidebar('317_Leyline Ritual',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\313_A Knight's Watch.jpg" id="313_A Knights Watch" data-flag="@X" onclick="openSidebar('313_A Knights Watch',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\253_Dominate the Powerful.jpg" id="253_Dominate the Powerful" data-flag="@X" onclick="openSidebar('253_Dominate the Powerful',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\337_Mortal-Slayer, the Deadly.jpg" id="337_Mortal-Slayer, the Deadly" data-flag="@X" onclick="openSidebar('337_Mortal-Slayer, the Deadly',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\316_Lethanar, the Incinerator.jpg" id="316_Lethanar, the Incinerator" data-flag="@X" onclick="openSidebar('316_Lethanar, the Incinerator',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\353_Orabi of the Depths.jpg" id="353_Orabi of the Depths" data-flag="@X" onclick="openSidebar('353_Orabi of the Depths',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\318_Life Honored Knight.jpg" id="318_Life Honored Knight" data-flag="@X" onclick="openSidebar('318_Life Honored Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\276_Flash of Volatility.jpg" id="276_Flash of Volatility" data-flag="@X" onclick="openSidebar('276_Flash of Volatility',false)"></div>
+			<div class="container"><img data-alt_src="/sets\PS1-files\img\340_Nameless Spore_back.jpg" alt="/sets\PS1-files\img\340_Nameless Spore_front.jpg" id="340_Nameless Spore" data-flag="@XD" onclick="openSidebar('340_Nameless Spore',false)"><button class="flip-btn" onclick="imgFlip('340_Nameless Spore')"></button></div>
+			<div class="container"><img alt="/sets\PS1-files\img\329_Master of the Battlefield.jpg" id="329_Master of the Battlefield" data-flag="@X" onclick="openSidebar('329_Master of the Battlefield',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\343_Night-Veiled Valkyrie.jpg" id="343_Night-Veiled Valkyrie" data-flag="@X" onclick="openSidebar('343_Night-Veiled Valkyrie',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\389_Spirit Lich.jpg" id="389_Spirit Lich" data-flag="@X" onclick="openSidebar('389_Spirit Lich',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\354_Orfym, Exotic Dealer.jpg" id="354_Orfym, Exotic Dealer" data-flag="@X" onclick="openSidebar('354_Orfym, Exotic Dealer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\221_Blade Flash.jpg" id="221_Blade Flash" data-flag="@X" onclick="openSidebar('221_Blade Flash',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\356_Pastor of the Dead.jpg" id="356_Pastor of the Dead" data-flag="@X" onclick="openSidebar('356_Pastor of the Dead',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\233_Brun, the Blazing.jpg" id="233_Brun, the Blazing" data-flag="@X" onclick="openSidebar('233_Brun, the Blazing',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\357_Persephone, Queen of the Underworld.jpg" id="357_Persephone, Queen of the Underworld" data-flag="@X" onclick="openSidebar('357_Persephone, Queen of the Underworld',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\206_Assault on the Enemy.jpg" id="206_Assault on the Enemy" data-flag="@X" onclick="openSidebar('206_Assault on the Enemy',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\203_Assassin's Recruitment.jpg" id="203_Assassins Recruitment" data-flag="@X" onclick="openSidebar('203_Assassins Recruitment',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\332_Misted Wizard.jpg" id="332_Misted Wizard" data-flag="@X" onclick="openSidebar('332_Misted Wizard',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\369_Roric, Plagued by Pests.jpg" id="369_Roric, Plagued by Pests" data-flag="@X" onclick="openSidebar('369_Roric, Plagued by Pests',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\298_Horde of Cavaliers.jpg" id="298_Horde of Cavaliers" data-flag="@X" onclick="openSidebar('298_Horde of Cavaliers',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\215_Bandit King's Defeat.jpg" id="215_Bandit Kings Defeat" data-flag="@X" onclick="openSidebar('215_Bandit Kings Defeat',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\378_Shattered Rain.jpg" id="378_Shattered Rain" data-flag="@X" onclick="openSidebar('378_Shattered Rain',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\372_Sakora, War's Alpha.jpg" id="372_Sakora, Wars Alpha" data-flag="@X" onclick="openSidebar('372_Sakora, Wars Alpha',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\364_Rampaging Lancer.jpg" id="364_Rampaging Lancer" data-flag="@X" onclick="openSidebar('364_Rampaging Lancer',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\312_Knight's Duty.jpg" id="312_Knights Duty" data-flag="@X" onclick="openSidebar('312_Knights Duty',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\252_Distraction!.jpg" id="252_Distraction!" data-flag="@X" onclick="openSidebar('252_Distraction!',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\376_Sereth, Sister of Body.jpg" id="376_Sereth, Sister of Body" data-flag="@X" onclick="openSidebar('376_Sereth, Sister of Body',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\282_Frostburn Knight.jpg" id="282_Frostburn Knight" data-flag="@X" onclick="openSidebar('282_Frostburn Knight',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\394_Talavor, Undergrowth's Maw.jpg" id="394_Talavor, Undergrowths Maw" data-flag="@X" onclick="openSidebar('394_Talavor, Undergrowths Maw',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\363_Quick-Play Bolts.jpg" id="363_Quick-Play Bolts" data-flag="@X" onclick="openSidebar('363_Quick-Play Bolts',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\396_Thaina, Queen of Decay.jpg" id="396_Thaina, Queen of Decay" data-flag="@X" onclick="openSidebar('396_Thaina, Queen of Decay',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\429_Pathfinder Bolts.jpg" id="429_Pathfinder Bolts" data-flag="@X" onclick="openSidebar('429_Pathfinder Bolts',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\403_Traxita, God of the Rotten.jpg" id="403_Traxita, God of the Rotten" data-flag="@X" onclick="openSidebar('403_Traxita, God of the Rotten',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\405_Twin Blades of the Queen.jpg" id="405_Twin Blades of the Queen" data-flag="@X" onclick="openSidebar('405_Twin Blades of the Queen',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\196_Afnar, the Green Thumb.jpg" id="196_Afnar, the Green Thumb" data-flag="@X" onclick="openSidebar('196_Afnar, the Green Thumb',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\214_Baldusax, Eternally Loyal.jpg" id="214_Baldusax, Eternally Loyal" data-flag="@X" onclick="openSidebar('214_Baldusax, Eternally Loyal',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\244_Dalahad, Who Lives in Filth.jpg" id="244_Dalahad, Who Lives in Filth" data-flag="@X" onclick="openSidebar('244_Dalahad, Who Lives in Filth',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\273_Fent, Born In Rot.jpg" id="273_Fent, Born In Rot" data-flag="@X" onclick="openSidebar('273_Fent, Born In Rot',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\275_Fight for Survival.jpg" id="275_Fight for Survival" data-flag="@X" onclick="openSidebar('275_Fight for Survival',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\283_Gaichu, Swarm Incarnate.jpg" id="283_Gaichu, Swarm Incarnate" data-flag="@X" onclick="openSidebar('283_Gaichu, Swarm Incarnate',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\294_He Who Rots.jpg" id="294_He Who Rots" data-flag="@X" onclick="openSidebar('294_He Who Rots',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\305_Itnoai, the Cultivator.jpg" id="305_Itnoai, the Cultivator" data-flag="@X" onclick="openSidebar('305_Itnoai, the Cultivator',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\320_Loafing Barkskin.jpg" id="320_Loafing Barkskin" data-flag="@X" onclick="openSidebar('320_Loafing Barkskin',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\323_Lorelet, Flower of Rot.jpg" id="323_Lorelet, Flower of Rot" data-flag="@X" onclick="openSidebar('323_Lorelet, Flower of Rot',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\358_Plague-Snout, Cloud of Death.jpg" id="358_Plague-Snout, Cloud of Death" data-flag="@X" onclick="openSidebar('358_Plague-Snout, Cloud of Death',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\365_Ramsey, Huntsman Chef.jpg" id="365_Ramsey, Huntsman Chef" data-flag="@X" onclick="openSidebar('365_Ramsey, Huntsman Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\388_Special Meal.jpg" id="388_Special Meal" data-flag="@X" onclick="openSidebar('388_Special Meal',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\399_Thornetai, Decaying Colossus.jpg" id="399_Thornetai, Decaying Colossus" data-flag="@X" onclick="openSidebar('399_Thornetai, Decaying Colossus',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\402_Toadstool Berserker.jpg" id="402_Toadstool Berserker" data-flag="@X" onclick="openSidebar('402_Toadstool Berserker',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\410_Unnatural Order.jpg" id="410_Unnatural Order" data-flag="@X" onclick="openSidebar('410_Unnatural Order',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\415_War of Attrition.jpg" id="415_War of Attrition" data-flag="@X" onclick="openSidebar('415_War of Attrition',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\419_Wings of Decay.jpg" id="419_Wings of Decay" data-flag="@X" onclick="openSidebar('419_Wings of Decay',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\207_Astonishing Persistence.jpg" id="207_Astonishing Persistence" data-flag="@X" onclick="openSidebar('207_Astonishing Persistence',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\247_Decaying Toadstool.jpg" id="247_Decaying Toadstool" data-flag="@X" onclick="openSidebar('247_Decaying Toadstool',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\280_Foul Chef.jpg" id="280_Foul Chef" data-flag="@X" onclick="openSidebar('280_Foul Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\281_Foul Meal.jpg" id="281_Foul Meal" data-flag="@X" onclick="openSidebar('281_Foul Meal',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\287_Gnarled Corpse.jpg" id="287_Gnarled Corpse" data-flag="@X" onclick="openSidebar('287_Gnarled Corpse',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\299_Hunter of the Wilds.jpg" id="299_Hunter of the Wilds" data-flag="@X" onclick="openSidebar('299_Hunter of the Wilds',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\302_Infinite Decay.jpg" id="302_Infinite Decay" data-flag="@X" onclick="openSidebar('302_Infinite Decay',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\319_Line Crash.jpg" id="319_Line Crash" data-flag="@X" onclick="openSidebar('319_Line Crash',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\366_Ravenous Corpse.jpg" id="366_Ravenous Corpse" data-flag="@X" onclick="openSidebar('366_Ravenous Corpse',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\381_Skittering Toadstool.jpg" id="381_Skittering Toadstool" data-flag="@X" onclick="openSidebar('381_Skittering Toadstool',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\239_Chef Conspirator.jpg" id="239_Chef Conspirator" data-flag="@X" onclick="openSidebar('239_Chef Conspirator',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\242_Consumed By Nature.jpg" id="242_Consumed By Nature" data-flag="@X" onclick="openSidebar('242_Consumed By Nature',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\404_Twilight Knight.jpg" id="404_Twilight Knight" data-flag="@X" onclick="openSidebar('404_Twilight Knight',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\409_Undergrowth Minion.jpg" id="409_Undergrowth Minion" data-flag="@X" onclick="openSidebar('409_Undergrowth Minion',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\368_Rethia, Caller of Wisps.jpg" id="368_Rethia, Caller of Wisps" data-flag="@X" onclick="openSidebar('368_Rethia, Caller of Wisps',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\220_Blaade Vast, Soul Thief.jpg" id="220_Blaade Vast, Soul Thief" data-flag="@X" onclick="openSidebar('220_Blaade Vast, Soul Thief',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\212_Baarbus Flamekin, Chef.jpg" id="212_Baarbus Flamekin, Chef" data-flag="@X" onclick="openSidebar('212_Baarbus Flamekin, Chef',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\339_Naeris Galenodel, First Mate.jpg" id="339_Naeris Galenodel, First Mate" data-flag="@X" onclick="openSidebar('339_Naeris Galenodel, First Mate',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\300_I-VI, First Through Sixth.jpg" id="300_I-VI, First Through Sixth" data-flag="@X" onclick="openSidebar('300_I-VI, First Through Sixth',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\236_Calypso, Golden Bough Captain.jpg" id="236_Calypso, Golden Bough Captain" data-flag="@X" onclick="openSidebar('236_Calypso, Golden Bough Captain',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\216_Barvros, Dominator of Peaks.jpg" id="216_Barvros, Dominator of Peaks" data-flag="@X" onclick="openSidebar('216_Barvros, Dominator of Peaks',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\267_Face Evil.jpg" id="267_Face Evil" data-flag="@X" onclick="openSidebar('267_Face Evil',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\250_Descent into the Impossible.jpg" id="250_Descent into the Impossible" data-flag="@X" onclick="openSidebar('250_Descent into the Impossible',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\290_Gordon, the Master Chef.jpg" id="290_Gordon, the Master Chef" data-flag="@X" onclick="openSidebar('290_Gordon, the Master Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\258_Ekika, the Multifaceted.jpg" id="258_Ekika, the Multifaceted" data-flag="@X" onclick="openSidebar('258_Ekika, the Multifaceted',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\330_Masters of the Roast.jpg" id="330_Masters of the Roast" data-flag="@X" onclick="openSidebar('330_Masters of the Roast',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\265_Estromarex, He Who Dreams.jpg" id="265_Estromarex, He Who Dreams" data-flag="@X" onclick="openSidebar('265_Estromarex, He Who Dreams',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\338_Mother Midday Meal.jpg" id="338_Mother Midday Meal" data-flag="@X" onclick="openSidebar('338_Mother Midday Meal',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\289_Golden-Eye Axe Carter.jpg" id="289_Golden-Eye Axe Carter" data-flag="@X" onclick="openSidebar('289_Golden-Eye Axe Carter',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\374_Secondary Provisions.jpg" id="374_Secondary Provisions" data-flag="@X" onclick="openSidebar('374_Secondary Provisions',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\341_Narmenikan, the Archlich.jpg" id="341_Narmenikan, the Archlich" data-flag="@X" onclick="openSidebar('341_Narmenikan, the Archlich',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\397_'The Dude'.jpg" id="397_The Dude" data-flag="@X" onclick="openSidebar('397_The Dude',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\346_Noble Papa Pyrus.jpg" id="346_Noble Papa Pyrus" data-flag="@X" onclick="openSidebar('346_Noble Papa Pyrus',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\407_Ulak, 'Master' Chef.jpg" id="407_Ulak, Master Chef" data-flag="@X" onclick="openSidebar('407_Ulak, Master Chef',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\379_Silver-Beard Vax Caper.jpg" id="379_Silver-Beard Vax Caper" data-flag="@X" onclick="openSidebar('379_Silver-Beard Vax Caper',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\411_Vacannabis, God of Festivity.jpg" id="411_Vacannabis, God of Festivity" data-flag="@X" onclick="openSidebar('411_Vacannabis, God of Festivity',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\401_Thrasis, Eldritch Lich.jpg" id="401_Thrasis, Eldritch Lich" data-flag="@X" onclick="openSidebar('401_Thrasis, Eldritch Lich',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\301_Illan, Dazzling Saucier.jpg" id="301_Illan, Dazzling Saucier" data-flag="@X" onclick="openSidebar('301_Illan, Dazzling Saucier',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\408_Ultimate Rites.jpg" id="408_Ultimate Rites" data-flag="@X" onclick="openSidebar('408_Ultimate Rites',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\284_Genshi Otsuki, Bandit King.jpg" id="284_Genshi Otsuki, Bandit King" data-flag="@X" onclick="openSidebar('284_Genshi Otsuki, Bandit King',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\261_Eldritch Rites.jpg" id="261_Eldritch Rites" data-flag="@X" onclick="openSidebar('261_Eldritch Rites',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\293_Harendar, Many-Tomed.jpg" id="293_Harendar, Many-Tomed" data-flag="@X" onclick="openSidebar('293_Harendar, Many-Tomed',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\342_Newborn Lich.jpg" id="342_Newborn Lich" data-flag="@X" onclick="openSidebar('342_Newborn Lich',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\360_Price of Ambition.jpg" id="360_Price of Ambition" data-flag="@X" onclick="openSidebar('360_Price of Ambition',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\266_Evelyn Lavish of the Lavish Pirates.jpg" id="266_Evelyn Lavish of the Lavish Pirates" data-flag="@X" onclick="openSidebar('266_Evelyn Lavish of the Lavish Pirates',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\335_Moonwhisper, Shape Searching.jpg" id="335_Moonwhisper, Shape Searching" data-flag="@X" onclick="openSidebar('335_Moonwhisper, Shape Searching',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\211_Baah, Who Demands Sacrifice.jpg" id="211_Baah, Who Demands Sacrifice" data-flag="@X" onclick="openSidebar('211_Baah, Who Demands Sacrifice',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\324_Loryan, God of Contagion.jpg" id="324_Loryan, God of Contagion" data-flag="@X" onclick="openSidebar('324_Loryan, God of Contagion',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\286_Gevar, the Swift Slash.jpg" id="286_Gevar, the Swift Slash" data-flag="@X" onclick="openSidebar('286_Gevar, the Swift Slash',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\375_Sefera, the Silent Voice.jpg" id="375_Sefera, the Silent Voice" data-flag="@X" onclick="openSidebar('375_Sefera, the Silent Voice',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\297_Herses, Blazing Sand.jpg" id="297_Herses, Blazing Sand" data-flag="@X" onclick="openSidebar('297_Herses, Blazing Sand',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\350_Nox Nefarous, the Fog.jpg" id="350_Nox Nefarous, the Fog" data-flag="@X" onclick="openSidebar('350_Nox Nefarous, the Fog',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\306_Jasai, Queen's Thorn.jpg" id="306_Jasai, Queens Thorn" data-flag="@X" onclick="openSidebar('306_Jasai, Queens Thorn',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\328_Marchesa, the Glistening Rose.jpg" id="328_Marchesa, the Glistening Rose" data-flag="@X" onclick="openSidebar('328_Marchesa, the Glistening Rose',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\386_Soul of the Dying Earth.jpg" id="386_Soul of the Dying Earth" data-flag="@X" onclick="openSidebar('386_Soul of the Dying Earth',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\361_Prismatic Knight.jpg" id="361_Prismatic Knight" data-flag="@X" onclick="openSidebar('361_Prismatic Knight',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\2_He Who Walks Eternity.jpg" id="2_He Who Walks Eternity" data-flag="@X" onclick="openSidebar('2_He Who Walks Eternity',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\434_Ashcatcher, the Spark.jpg" id="434_Ashcatcher, the Spark" data-flag="@X" onclick="openSidebar('434_Ashcatcher, the Spark',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\436_Assassin's Warning.jpg" id="436_Assassins Warning" data-flag="@X" onclick="openSidebar('436_Assassins Warning',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\443_Clockwork Devastator.jpg" id="443_Clockwork Devastator" data-flag="@X" onclick="openSidebar('443_Clockwork Devastator',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\455_Earth-Grinder, Iron Devastator.jpg" id="455_Earth-Grinder, Iron Devastator" data-flag="@X" onclick="openSidebar('455_Earth-Grinder, Iron Devastator',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\456_Emotionless Dread.jpg" id="456_Emotionless Dread" data-flag="@X" onclick="openSidebar('456_Emotionless Dread',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\459_Energy Consuming Wurm.jpg" id="459_Energy Consuming Wurm" data-flag="@X" onclick="openSidebar('459_Energy Consuming Wurm',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\460_Factory in the Sky.jpg" id="460_Factory in the Sky" data-flag="@X" onclick="openSidebar('460_Factory in the Sky',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\465_Flesh Imitator.jpg" id="465_Flesh Imitator" data-flag="@X" onclick="openSidebar('465_Flesh Imitator',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\467_Gateway to the Beyond.jpg" id="467_Gateway to the Beyond" data-flag="@X" onclick="openSidebar('467_Gateway to the Beyond',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\469_Glistening Mox.jpg" id="469_Glistening Mox" data-flag="@X" onclick="openSidebar('469_Glistening Mox',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\474_Heinz' Lamp, Ketch.jpg" id="474_Heinz Lamp, Ketch" data-flag="@X" onclick="openSidebar('474_Heinz Lamp, Ketch',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\480_Lich's Phylactery.jpg" id="480_Lichs Phylactery" data-flag="@X" onclick="openSidebar('480_Lichs Phylactery',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\487_Once, Imposing Overseer.jpg" id="487_Once, Imposing Overseer" data-flag="@X" onclick="openSidebar('487_Once, Imposing Overseer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\492_Powerstone Explosive.jpg" id="492_Powerstone Explosive" data-flag="@X" onclick="openSidebar('492_Powerstone Explosive',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\494_Production Line Masterpiece, 97th.jpg" id="494_Production Line Masterpiece, 97th" data-flag="@X" onclick="openSidebar('494_Production Line Masterpiece, 97th',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\496_Queen's Mox.jpg" id="496_Queens Mox" data-flag="@X" onclick="openSidebar('496_Queens Mox',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\507_Scrapyard Warlord.jpg" id="507_Scrapyard Warlord" data-flag="@X" onclick="openSidebar('507_Scrapyard Warlord',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\514_Thrice, Factory Heads.jpg" id="514_Thrice, Factory Heads" data-flag="@X" onclick="openSidebar('514_Thrice, Factory Heads',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\515_Twice, Lifeless Reproduction.jpg" id="515_Twice, Lifeless Reproduction" data-flag="@X" onclick="openSidebar('515_Twice, Lifeless Reproduction',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\1_Arbiter of the Old Ones.jpg" id="1_Arbiter of the Old Ones" data-flag="@X" onclick="openSidebar('1_Arbiter of the Old Ones',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\6_Worker Prime, Model Employee.jpg" id="6_Worker Prime, Model Employee" data-flag="@X" onclick="openSidebar('6_Worker Prime, Model Employee',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\432_Apocalypse Mech.jpg" id="432_Apocalypse Mech" data-flag="@X" onclick="openSidebar('432_Apocalypse Mech',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\438_Assembly Nightmare.jpg" id="438_Assembly Nightmare" data-flag="@X" onclick="openSidebar('438_Assembly Nightmare',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\439_The Blade Moses.jpg" id="439_The Blade Moses" data-flag="@X" onclick="openSidebar('439_The Blade Moses',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\440_Borank's Ring.jpg" id="440_Boranks Ring" data-flag="@X" onclick="openSidebar('440_Boranks Ring',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\442_Caravan Portal.jpg" id="442_Caravan Portal" data-flag="@X" onclick="openSidebar('442_Caravan Portal',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\444_Clockwork Hulk.jpg" id="444_Clockwork Hulk" data-flag="@X" onclick="openSidebar('444_Clockwork Hulk',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\447_Constructor Mech.jpg" id="447_Constructor Mech" data-flag="@X" onclick="openSidebar('447_Constructor Mech',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\448_The Crashing Artery.jpg" id="448_The Crashing Artery" data-flag="@X" onclick="openSidebar('448_The Crashing Artery',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\450_Dematerializer.jpg" id="450_Dematerializer" data-flag="@X" onclick="openSidebar('450_Dematerializer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\451_Demolition Mech.jpg" id="451_Demolition Mech" data-flag="@X" onclick="openSidebar('451_Demolition Mech',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\453_Drop of the Rose.jpg" id="453_Drop of the Rose" data-flag="@X" onclick="openSidebar('453_Drop of the Rose',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\457_Endless Machinery.jpg" id="457_Endless Machinery" data-flag="@X" onclick="openSidebar('457_Endless Machinery',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\466_Foundry Defense War Mech.jpg" id="466_Foundry Defense War Mech" data-flag="@X" onclick="openSidebar('466_Foundry Defense War Mech',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\470_The Golden Bough.jpg" id="470_The Golden Bough" data-flag="@X" onclick="openSidebar('470_The Golden Bough',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\471_The Graveyard Shift.jpg" id="471_The Graveyard Shift" data-flag="@X" onclick="openSidebar('471_The Graveyard Shift',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\476_Implanted Personality.jpg" id="476_Implanted Personality" data-flag="@X" onclick="openSidebar('476_Implanted Personality',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\479_Landscape Terraformer.jpg" id="479_Landscape Terraformer" data-flag="@X" onclick="openSidebar('479_Landscape Terraformer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\481_Lobotomizer.jpg" id="481_Lobotomizer" data-flag="@X" onclick="openSidebar('481_Lobotomizer',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\486_Observer of Species.jpg" id="486_Observer of Species" data-flag="@X" onclick="openSidebar('486_Observer of Species',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\489_Parin's Contracts.jpg" id="489_Parins Contracts" data-flag="@X" onclick="openSidebar('489_Parins Contracts',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\493_Prisoner Mech.jpg" id="493_Prisoner Mech" data-flag="@X" onclick="openSidebar('493_Prisoner Mech',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\502_Rotwood Deforester.jpg" id="502_Rotwood Deforester" data-flag="@X" onclick="openSidebar('502_Rotwood Deforester',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\503_Rubius' Lucky Coin.jpg" id="503_Rubius Lucky Coin" data-flag="@X" onclick="openSidebar('503_Rubius Lucky Coin',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\504_Rubius' Trinket.jpg" id="504_Rubius Trinket" data-flag="@X" onclick="openSidebar('504_Rubius Trinket',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\506_Scrapyard Gravecrawler.jpg" id="506_Scrapyard Gravecrawler" data-flag="@X" onclick="openSidebar('506_Scrapyard Gravecrawler',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\512_Steam Powered Guardian.jpg" id="512_Steam Powered Guardian" data-flag="@X" onclick="openSidebar('512_Steam Powered Guardian',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\513_Surveyor of Estates.jpg" id="513_Surveyor of Estates" data-flag="@X" onclick="openSidebar('513_Surveyor of Estates',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\519_Worker's Orientation.jpg" id="519_Workers Orientation" data-flag="@X" onclick="openSidebar('519_Workers Orientation',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\5_Walk Among Life.jpg" id="5_Walk Among Life" data-flag="@X" onclick="openSidebar('5_Walk Among Life',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\433_Arrowheads of Will.jpg" id="433_Arrowheads of Will" data-flag="@X" onclick="openSidebar('433_Arrowheads of Will',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\435_Assassin's Dagger.jpg" id="435_Assassins Dagger" data-flag="@X" onclick="openSidebar('435_Assassins Dagger',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\437_Assembly Line.jpg" id="437_Assembly Line" data-flag="@X" onclick="openSidebar('437_Assembly Line',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\441_Brutalizer Mech.jpg" id="441_Brutalizer Mech" data-flag="@X" onclick="openSidebar('441_Brutalizer Mech',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\449_Cross Factory Transit.jpg" id="449_Cross Factory Transit" data-flag="@X" onclick="openSidebar('449_Cross Factory Transit',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\452_Disassembler.jpg" id="452_Disassembler" data-flag="@X" onclick="openSidebar('452_Disassembler',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\458_Energy Array.jpg" id="458_Energy Array" data-flag="@X" onclick="openSidebar('458_Energy Array',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\462_Favored Pipe.jpg" id="462_Favored Pipe" data-flag="@X" onclick="openSidebar('462_Favored Pipe',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\464_Fleet Factory.jpg" id="464_Fleet Factory" data-flag="@X" onclick="openSidebar('464_Fleet Factory',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\468_Generator Mech.jpg" id="468_Generator Mech" data-flag="@X" onclick="openSidebar('468_Generator Mech',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\472_Growing Powerstone.jpg" id="472_Growing Powerstone" data-flag="@X" onclick="openSidebar('472_Growing Powerstone',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\473_Half-Pipe!.jpg" id="473_Half-Pipe!" data-flag="@X" onclick="openSidebar('473_Half-Pipe!',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\475_House of the Rising Sun.jpg" id="475_House of the Rising Sun" data-flag="@X" onclick="openSidebar('475_House of the Rising Sun',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\477_Kinship Rift.jpg" id="477_Kinship Rift" data-flag="@X" onclick="openSidebar('477_Kinship Rift',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\488_Orb of Darkness.jpg" id="488_Orb of Darkness" data-flag="@X" onclick="openSidebar('488_Orb of Darkness',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\490_Parin's Storage.jpg" id="490_Parins Storage" data-flag="@X" onclick="openSidebar('490_Parins Storage',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\497_Railed!.jpg" id="497_Railed!" data-flag="@X" onclick="openSidebar('497_Railed!',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\499_Recycler Mech.jpg" id="499_Recycler Mech" data-flag="@X" onclick="openSidebar('499_Recycler Mech',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\505_Scavenger Mech.jpg" id="505_Scavenger Mech" data-flag="@X" onclick="openSidebar('505_Scavenger Mech',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\508_Scrapyard Worker.jpg" id="508_Scrapyard Worker" data-flag="@X" onclick="openSidebar('508_Scrapyard Worker',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\509_Shrine to the Beyond.jpg" id="509_Shrine to the Beyond" data-flag="@X" onclick="openSidebar('509_Shrine to the Beyond',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\520_Worker's Union.jpg" id="520_Workers Union" data-flag="@X" onclick="openSidebar('520_Workers Union',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\4_Robotic Consultation.jpg" id="4_Robotic Consultation" data-flag="@X" onclick="openSidebar('4_Robotic Consultation',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\431_Alternate CEO Model.jpg" id="431_Alternate CEO Model" data-flag="@X" onclick="openSidebar('431_Alternate CEO Model',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\445_Clockwork Watcher.jpg" id="445_Clockwork Watcher" data-flag="@X" onclick="openSidebar('445_Clockwork Watcher',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\446_Cog Cleaner.jpg" id="446_Cog Cleaner" data-flag="@X" onclick="openSidebar('446_Cog Cleaner',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\454_Dune Expeditioner.jpg" id="454_Dune Expeditioner" data-flag="@X" onclick="openSidebar('454_Dune Expeditioner',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\461_Factory Scrap Guard.jpg" id="461_Factory Scrap Guard" data-flag="@X" onclick="openSidebar('461_Factory Scrap Guard',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\463_Flamespreader Minion.jpg" id="463_Flamespreader Minion" data-flag="@X" onclick="openSidebar('463_Flamespreader Minion',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\478_Landfill Worker.jpg" id="478_Landfill Worker" data-flag="@X" onclick="openSidebar('478_Landfill Worker',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\482_Many Stolen Keys.jpg" id="482_Many Stolen Keys" data-flag="@X" onclick="openSidebar('482_Many Stolen Keys',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\483_Mech Powerstone Module.jpg" id="483_Mech Powerstone Module" data-flag="@X" onclick="openSidebar('483_Mech Powerstone Module',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\484_Mobile Crew.jpg" id="484_Mobile Crew" data-flag="@X" onclick="openSidebar('484_Mobile Crew',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\485_Mobilizer Thopter.jpg" id="485_Mobilizer Thopter" data-flag="@X" onclick="openSidebar('485_Mobilizer Thopter',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\491_Perpetual Marcher.jpg" id="491_Perpetual Marcher" data-flag="@X" onclick="openSidebar('491_Perpetual Marcher',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\495_Prototype Collector.jpg" id="495_Prototype Collector" data-flag="@X" onclick="openSidebar('495_Prototype Collector',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\498_Rebuild Station.jpg" id="498_Rebuild Station" data-flag="@X" onclick="openSidebar('498_Rebuild Station',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\500_Reproduction Worker.jpg" id="500_Reproduction Worker" data-flag="@X" onclick="openSidebar('500_Reproduction Worker',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\501_Repurposed Crate Worker.jpg" id="501_Repurposed Crate Worker" data-flag="@X" onclick="openSidebar('501_Repurposed Crate Worker',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\510_Stash Bag.jpg" id="510_Stash Bag" data-flag="@X" onclick="openSidebar('510_Stash Bag',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\511_Statuette of Will.jpg" id="511_Statuette of Will" data-flag="@X" onclick="openSidebar('511_Statuette of Will',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\516_Viscera Collector.jpg" id="516_Viscera Collector" data-flag="@X" onclick="openSidebar('516_Viscera Collector',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\517_Warrantee Tester.jpg" id="517_Warrantee Tester" data-flag="@X" onclick="openSidebar('517_Warrantee Tester',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\518_Watchpost.jpg" id="518_Watchpost" data-flag="@X" onclick="openSidebar('518_Watchpost',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="land" class="anchor"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\547_Parin's Post.jpg" id="547_Parins Post" data-flag="@X" onclick="openSidebar('547_Parins Post',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\559_Stonehaven, the Foundation.jpg" id="559_Stonehaven, the Foundation" data-flag="@X" onclick="openSidebar('559_Stonehaven, the Foundation',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\540_The Mallorn Wood.jpg" id="540_The Mallorn Wood" data-flag="@X" onclick="openSidebar('540_The Mallorn Wood',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\549_Queen's Court.jpg" id="549_Queens Court" data-flag="@X" onclick="openSidebar('549_Queens Court',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\522_Blessed Fountainbed.jpg" id="522_Blessed Fountainbed" data-flag="@X" onclick="openSidebar('522_Blessed Fountainbed',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\545_Nightmared Marsh.jpg" id="545_Nightmared Marsh" data-flag="@X" onclick="openSidebar('545_Nightmared Marsh',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\560_Stronghold Marrowfield.jpg" id="560_Stronghold Marrowfield" data-flag="@X" onclick="openSidebar('560_Stronghold Marrowfield',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\526_Cottage Kitchen.jpg" id="526_Cottage Kitchen" data-flag="@X" onclick="openSidebar('526_Cottage Kitchen',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\561_Towering Kingdom.jpg" id="561_Towering Kingdom" data-flag="@X" onclick="openSidebar('561_Towering Kingdom',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\539_Lonely Abode.jpg" id="539_Lonely Abode" data-flag="@X" onclick="openSidebar('539_Lonely Abode',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\528_Dreamscape Range.jpg" id="528_Dreamscape Range" data-flag="@X" onclick="openSidebar('528_Dreamscape Range',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\534_Fungal Wasteland.jpg" id="534_Fungal Wasteland" data-flag="@X" onclick="openSidebar('534_Fungal Wasteland',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\548_Populated Barren.jpg" id="548_Populated Barren" data-flag="@X" onclick="openSidebar('548_Populated Barren',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\564_Verdant Hamlet.jpg" id="564_Verdant Hamlet" data-flag="@X" onclick="openSidebar('564_Verdant Hamlet',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\535_Hazy Mire.jpg" id="535_Hazy Mire" data-flag="@X" onclick="openSidebar('535_Hazy Mire',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\556_Spore Filled Swamp.jpg" id="556_Spore Filled Swamp" data-flag="@X" onclick="openSidebar('556_Spore Filled Swamp',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\563_Undergrowth Marsh.jpg" id="563_Undergrowth Marsh" data-flag="@X" onclick="openSidebar('563_Undergrowth Marsh',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\531_Erenarva, the Slate Isles.jpg" id="531_Erenarva, the Slate Isles" data-flag="@X" onclick="openSidebar('531_Erenarva, the Slate Isles',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\546_Paradise Island, Island of Wealth.jpg" id="546_Paradise Island, Island of Wealth" data-flag="@X" onclick="openSidebar('546_Paradise Island, Island of Wealth',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\521_Alvesvale, Harbor Kingdom.jpg" id="521_Alvesvale, Harbor Kingdom" data-flag="@X" onclick="openSidebar('521_Alvesvale, Harbor Kingdom',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\523_Clockwork City.jpg" id="523_Clockwork City" data-flag="@X" onclick="openSidebar('523_Clockwork City',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\525_Cloudbreak Clock Tower.jpg" id="525_Cloudbreak Clock Tower" data-flag="@X" onclick="openSidebar('525_Cloudbreak Clock Tower',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\529_Ere, City of Slate.jpg" id="529_Ere, City of Slate" data-flag="@X" onclick="openSidebar('529_Ere, City of Slate',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\530_Erena, the Slate Capital.jpg" id="530_Erena, the Slate Capital" data-flag="@X" onclick="openSidebar('530_Erena, the Slate Capital',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\533_Factory in the Dunes.jpg" id="533_Factory in the Dunes" data-flag="@X" onclick="openSidebar('533_Factory in the Dunes',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\536_Hoffstead, Community Effort.jpg" id="536_Hoffstead, Community Effort" data-flag="@X" onclick="openSidebar('536_Hoffstead, Community Effort',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\538_Impromptu Factory.jpg" id="538_Impromptu Factory" data-flag="@X" onclick="openSidebar('538_Impromptu Factory',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\541_Massive Energy Module.jpg" id="541_Massive Energy Module" data-flag="@X" onclick="openSidebar('541_Massive Energy Module',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\542_Mines of Abandon.jpg" id="542_Mines of Abandon" data-flag="@X" onclick="openSidebar('542_Mines of Abandon',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\544_Narva, the Slate City.jpg" id="544_Narva, the Slate City" data-flag="@X" onclick="openSidebar('544_Narva, the Slate City',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\550_Renarva, Bastion of Slate.jpg" id="550_Renarva, Bastion of Slate" data-flag="@X" onclick="openSidebar('550_Renarva, Bastion of Slate',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\551_Repurposed Shell.jpg" id="551_Repurposed Shell" data-flag="@X" onclick="openSidebar('551_Repurposed Shell',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\552_Self-Producing City.jpg" id="552_Self-Producing City" data-flag="@X" onclick="openSidebar('552_Self-Producing City',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\554_The Slate Temple.jpg" id="554_The Slate Temple" data-flag="@X" onclick="openSidebar('554_The Slate Temple',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\557_The Spore That Shrouds All.jpg" id="557_The Spore That Shrouds All" data-flag="@X" onclick="openSidebar('557_The Spore That Shrouds All',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\562_Trading Route Landmark.jpg" id="562_Trading Route Landmark" data-flag="@X" onclick="openSidebar('562_Trading Route Landmark',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\565_Voltaic City.jpg" id="565_Voltaic City" data-flag="@X" onclick="openSidebar('565_Voltaic City',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\524_Clockwork Spires.jpg" id="524_Clockwork Spires" data-flag="@X" onclick="openSidebar('524_Clockwork Spires',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\527_Crude Metal Factory.jpg" id="527_Crude Metal Factory" data-flag="@X" onclick="openSidebar('527_Crude Metal Factory',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\537_Imposing Foundry.jpg" id="537_Imposing Foundry" data-flag="@X" onclick="openSidebar('537_Imposing Foundry',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\543_Mobile Sky Port.jpg" id="543_Mobile Sky Port" data-flag="@X" onclick="openSidebar('543_Mobile Sky Port',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\553_Skyway Transit.jpg" id="553_Skyway Transit" data-flag="@X" onclick="openSidebar('553_Skyway Transit',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\555_Solemn Clocktower.jpg" id="555_Solemn Clocktower" data-flag="@X" onclick="openSidebar('555_Solemn Clocktower',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\558_Steamwork Foundry.jpg" id="558_Steamwork Foundry" data-flag="@X" onclick="openSidebar('558_Steamwork Foundry',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\566_Workshop of Innovation.jpg" id="566_Workshop of Innovation" data-flag="@X" onclick="openSidebar('566_Workshop of Innovation',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\PS1-files\img\532_Factory.jpg" id="532_Factory" data-flag="@X" onclick="openSidebar('532_Factory',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
